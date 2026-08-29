@@ -1,0 +1,30 @@
+# Node dependencies
+backend/node_modules/
+frontend/node_modules/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+frontend/.env
+frontend/.env.*
+
+# Logs
+*.log
+logs/
+
+# Coverage
+coverage/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
