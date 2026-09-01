@@ -117,7 +117,9 @@ To prevent Full Collection Scans (`COLLSCAN`) under heavy loads, native schema i
 - **Swagger Documentation**: Accessible at `/api-docs` when the server is running.
 - **Postman Collection**: A comprehensive Postman collection (`postman_collection.json`) is included in the repository for local testing.
 
-## Backend Workflow Example
+## Project Workflow
+
+### 1. API Request Workflow
 1. User logs in via `/api/v1/academic-master/auth/login`.
 2. Server validates credentials using `bcrypt`.
 3. A JWT is generated and returned to the client.
@@ -129,6 +131,14 @@ To prevent Full Collection Scans (`COLLSCAN`) under heavy loads, native schema i
 9. The Service processes the request using the Mongoose Models.
 10. MongoDB executes the query efficiently using schema indexes.
 11. The API sends the secured, scoped response back to the client.
+
+### 2. Results & Data Import Workflow
+1. Authorized personnel (Admin/HOD) upload JNTUK Result PDFs or structured CSV files.
+2. The `pdfImport.service` invokes the Python extraction pipeline (`extract_jntuk.py`).
+3. The Python script parses the PDF, extracting student marks and subjects.
+4. The `import.service` maps the extracted data to existing `Student` records.
+5. New `Result` records are created, and `Backlog` computations are dynamically updated.
+6. `RiskProfile` metrics are automatically recalculated based on the new results.
 
 ## Testing
 The repository contains comprehensive, automated integration scripts to test authorization and security scopes. These scripts verify that the multi-tier role-based filtering (HOD, CTPO, Student, etc.) works flawlessly.
