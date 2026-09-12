@@ -1,0 +1,11 @@
+{
+  "name": "academic-engagement-system",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npx concurrently -n \"BACKEND,FRONTEND\" -c \"bgBlue.bold,bgGreen.bold\" \"npm start --prefix backend\" \"npm run dev --prefix frontend\"",
+    "dev": "npx concurrently -n \"BACKEND,FRONTEND\" -c \"bgBlue.bold,bgGreen.bold\" \"npm start --prefix backend\" \"npm run dev --prefix frontend\"",
+    "backend": "npm start --prefix backend",
+    "frontend": "npm run dev --prefix frontend"
+  }
+}

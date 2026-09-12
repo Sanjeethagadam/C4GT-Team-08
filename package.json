@@ -1,0 +1,15 @@
+{
+  "name": "academic-engagement-system-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "concurrently -n \"BACKEND,FRONTEND\" -c \"bgBlue.bold,bgGreen.bold\" \"npm start --prefix academic-engagement-system/backend\" \"npm run dev --prefix academic-engagement-system/frontend\"",
+    "dev": "concurrently -n \"BACKEND,FRONTEND\" -c \"bgBlue.bold,bgGreen.bold\" \"npm start --prefix academic-engagement-system/backend\" \"npm run dev --prefix academic-engagement-system/frontend\"",
+    "backend": "npm start --prefix academic-engagement-system/backend",
+    "frontend": "npm run dev --prefix academic-engagement-system/frontend",
+    "install:all": "npm install && npm install --prefix academic-engagement-system/backend && npm install --prefix academic-engagement-system/frontend"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

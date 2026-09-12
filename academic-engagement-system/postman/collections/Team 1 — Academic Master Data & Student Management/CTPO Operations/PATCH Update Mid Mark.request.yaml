@@ -1,0 +1,13 @@
+$kind: http-request
+url: http://localhost:5000/api/mid-marks/{{mid_mark_id}}
+method: PATCH
+headers:
+  Content-Type: application/json
+  Authorization: Bearer {{ctpo_token}}
+body:
+  type: text
+  content: |-
+    {
+      "marks": 22
+    }
+order: 5000

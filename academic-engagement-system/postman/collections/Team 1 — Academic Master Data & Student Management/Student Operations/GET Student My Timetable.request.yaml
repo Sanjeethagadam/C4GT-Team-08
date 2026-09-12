@@ -1,0 +1,6 @@
+$kind: http-request
+url: http://localhost:5000/api/timetables/my-timetable
+method: GET
+headers:
+  Authorization: Bearer {{student_token}}
+order: 4000

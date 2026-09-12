@@ -1,0 +1,6 @@
+$kind: http-request
+url: http://localhost:5000/api/users
+method: GET
+headers:
+  Authorization: Bearer {{token}}
+order: 5000

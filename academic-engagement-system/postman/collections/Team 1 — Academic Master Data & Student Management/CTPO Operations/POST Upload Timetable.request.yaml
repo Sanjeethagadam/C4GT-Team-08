@@ -1,0 +1,6 @@
+$kind: http-request
+url: http://localhost:5000/api/timetables/upload
+method: POST
+headers:
+  Authorization: Bearer {{ctpo_token}}
+order: 7000
