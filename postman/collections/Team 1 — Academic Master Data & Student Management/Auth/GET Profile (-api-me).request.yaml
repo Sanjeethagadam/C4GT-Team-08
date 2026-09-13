@@ -1,0 +1,7 @@
+$kind: http-request
+name: GET Profile (/api/me)
+url: http://localhost:5000/api/me
+method: GET
+headers:
+  Authorization: Bearer {{token}}
+order: 11000
