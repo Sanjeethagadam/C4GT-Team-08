@@ -1,0 +1,8 @@
+$kind: http-request
+url: http://localhost:5000/api/internal/students/:id
+method: GET
+headers:
+  Authorization: Bearer {{token}}
+pathVariables:
+  id: STUDENT_OBJECT_ID_HERE
+order: 6000
