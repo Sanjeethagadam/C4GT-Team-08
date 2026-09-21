@@ -890,7 +890,7 @@ export const DrillDown = () => {
                             />
                             <Bar
                               dataKey="averageMarks"
-                              fill="#6366f1"
+                              fill="#7C3AED"
                               radius={[4, 4, 0, 0]}
                               name="Average Marks"
                             />
@@ -907,7 +907,7 @@ export const DrillDown = () => {
                 </div>
 
                 {/* Student Roster */}
-                <div className="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden">
+                <div className="bg-white rounded-xl shadow-xs border border-[#E5E0F5] overflow-hidden">
                   <div className="p-6 border-b border-slate-100 flex items-center justify-between">
                     <h3 className="text-lg font-semibold text-slate-800">
                       Student Roster

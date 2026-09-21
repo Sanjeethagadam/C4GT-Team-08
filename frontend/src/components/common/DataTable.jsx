@@ -9,6 +9,7 @@ import {
 } from "@/components/ui/table";
 import { Skeleton } from "@/components/ui/skeleton";
 import { EmptyState } from "./EmptyState";
+import { cn } from "@/utils";
 
 export function DataTable({
   data = [],
@@ -47,19 +48,19 @@ export function DataTable({
 
   if (data.length === 0) {
     return (
-      <div className="border rounded-md p-8">
+      <div className="border border-[#E9D5FF] rounded-2xl p-8 bg-white shadow-sm">
         <EmptyState title="No Data" message={emptyMessage} />
       </div>
     );
   }
 
   return (
-    <div className="border rounded-md bg-white">
+    <div className="border border-[#E9D5FF] rounded-2xl overflow-hidden bg-white shadow-sm">
       <Table>
-        <TableHeader className="bg-slate-50">
-          <TableRow>
+        <TableHeader className="bg-gradient-to-r from-[#F5F3FF] via-[#FAF8FF] to-[#F5F3FF] border-b border-[#E9D5FF]">
+          <TableRow className="border-b border-[#E9D5FF] hover:bg-transparent">
             {columns.map((col, i) => (
-              <TableHead key={i} className={col.className}>
+              <TableHead key={i} className={cn("text-xs font-bold uppercase tracking-wider text-[#5B21B6] h-11 px-4", col.className)}>
                 {col.header}
               </TableHead>
             ))}
@@ -67,9 +68,9 @@ export function DataTable({
         </TableHeader>
         <TableBody>
           {data.map((item, rowIndex) => (
-            <TableRow key={rowIndex} className="hover:bg-slate-50/50">
+            <TableRow key={rowIndex} className="hover:bg-[#FAF8FF] transition-colors border-b border-[#F5F3FF] last:border-b-0">
               {columns.map((col, colIndex) => (
-                <TableCell key={colIndex} className={col.className}>
+                <TableCell key={colIndex} className={cn("px-4 py-3.5 text-[#1F1B2D] text-sm", col.className)}>
                   {col.cell
                     ? col.cell(item, rowIndex)
                     : String(item[col.accessorKey])}

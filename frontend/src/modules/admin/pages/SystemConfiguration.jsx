@@ -91,10 +91,10 @@ export const SystemConfiguration = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {/* Rules Card */}
-        <Card className="border-slate-200 shadow-sm">
-          <CardHeader className="bg-slate-50 border-b border-slate-200">
-            <CardTitle className="text-lg font-semibold flex items-center gap-2">
-              <ShieldAlert className="w-5 h-5 text-indigo-600" />
+        <Card className="border-slate-200/80 shadow-xs bg-white">
+          <CardHeader className="bg-slate-50/80 border-b border-slate-200/80">
+            <CardTitle className="text-lg font-bold flex items-center gap-2 text-slate-900">
+              <ShieldAlert className="w-5 h-5 text-[#7C3AED]" />
               Active Backlog Risk Thresholds
             </CardTitle>
           </CardHeader>
@@ -143,10 +143,10 @@ export const SystemConfiguration = () => {
         </Card>
 
         {/* Summary Cards */}
-        <Card className="border-slate-200 shadow-sm">
-          <CardHeader className="bg-slate-50 border-b border-slate-200">
-            <CardTitle className="text-lg font-semibold flex items-center gap-2">
-              <Activity className="w-5 h-5 text-indigo-600" />
+        <Card className="border-slate-200/80 shadow-xs bg-white">
+          <CardHeader className="bg-slate-50/80 border-b border-slate-200/80">
+            <CardTitle className="text-lg font-bold flex items-center gap-2 text-slate-900">
+              <Activity className="w-5 h-5 text-[#7C3AED]" />
               Institution Risk Summary
             </CardTitle>
           </CardHeader>
@@ -199,16 +199,16 @@ export const SystemConfiguration = () => {
                     {highRisk.toLocaleString()}
                   </span>
                 </div>
-                <div className="bg-indigo-50 rounded-lg p-4 border border-indigo-100 flex flex-col justify-center">
+                <div className="bg-[#EDE9FE] rounded-lg p-4 border border-[#DDD6FE] flex flex-col justify-center">
                   <div className="flex justify-between items-center mb-1">
-                    <span className="text-indigo-700 font-semibold text-sm">
+                    <span className="text-[#5B21B6] font-semibold text-sm">
                       AT-RISK
                     </span>
-                    <span className="text-indigo-600 font-medium text-xs bg-indigo-100 px-2 py-0.5 rounded">
+                    <span className="text-[#7C3AED] font-medium text-xs bg-white px-2 py-0.5 rounded border border-[#DDD6FE]">
                       {getPercentage(atRiskTotal)}
                     </span>
                   </div>
-                  <span className="text-3xl font-bold text-indigo-900">
+                  <span className="text-3xl font-bold text-[#4C1D95]">
                     {atRiskTotal.toLocaleString()}
                   </span>
                 </div>
@@ -219,10 +219,10 @@ export const SystemConfiguration = () => {
       </div>
 
       {/* Grouped Bar Chart Card */}
-      <Card className="border-slate-200 shadow-sm mt-6">
-        <CardHeader className="bg-slate-50 border-b border-slate-200">
-          <CardTitle className="text-lg font-semibold flex items-center gap-2">
-            <Activity className="w-5 h-5 text-indigo-600" />
+      <Card className="border-slate-200/80 shadow-xs bg-white mt-6">
+        <CardHeader className="bg-slate-50/80 border-b border-slate-200/80">
+          <CardTitle className="text-lg font-bold flex items-center gap-2 text-slate-900">
+            <Activity className="w-5 h-5 text-[#7C3AED]" />
             Risk Distribution by Academic Year
           </CardTitle>
         </CardHeader>

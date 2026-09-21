@@ -125,7 +125,7 @@ export const ResultImport = () => {
 
       {/* Step 1: Upload */}
       {step === 1 && (
-        <div className="bg-white p-8 rounded-xl border border-slate-200 shadow-sm">
+        <div className="bg-white p-8 rounded-xl border border-[#E5E0F5] shadow-xs">
           <div className="max-w-xl mx-auto text-center">
             <div className="mb-6 inline-flex p-4 rounded-full bg-primary/10 text-primary">
               <UploadCloud className="w-10 h-10" />
@@ -207,7 +207,7 @@ export const ResultImport = () => {
       {/* Step 2: Preview */}
       {step === 2 && previewData && (
         <div className="space-y-6">
-          <div className="flex items-center justify-between bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+          <div className="flex items-center justify-between bg-white p-4 rounded-xl border border-[#E5E0F5] shadow-xs">
             <div>
               <h3 className="font-semibold text-slate-900">
                 Extraction Preview

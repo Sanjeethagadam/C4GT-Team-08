@@ -196,7 +196,7 @@ export const ImageCropper = ({ imageSrc, onCropComplete, onCancel }) => {
         </Button>
         <Button
           onClick={handleSave}
-          className="flex-1 bg-indigo-600 hover:bg-indigo-700 text-white"
+          className="flex-1 bg-[#7C3AED] hover:bg-[#6D28D9] text-white font-semibold shadow-sm"
         >
           <Check className="w-4 h-4 mr-2" /> Apply
         </Button>

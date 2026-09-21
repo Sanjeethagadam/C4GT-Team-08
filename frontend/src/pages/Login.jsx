@@ -124,30 +124,30 @@ export const Login = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-slate-50 py-12 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen flex items-center justify-center bg-[#F5F3FF] py-12 px-4 sm:px-6 lg:px-8">
       <div className="w-full max-w-md space-y-8">
         <div className="text-center mb-8">
-          <div className="inline-flex items-center justify-center p-3 bg-indigo-50 rounded-2xl mb-4 text-indigo-600 ring-1 ring-indigo-100">
+          <div className="inline-flex items-center justify-center p-3.5 bg-[#EDE9FE] rounded-2xl mb-4 text-[#7C3AED] ring-1 ring-[#DDD6FE] shadow-xs">
             <GraduationCap className="h-8 w-8" />
           </div>
-          <h2 className="text-2xl font-bold tracking-tight text-slate-900 mb-1">
+          <h2 className="text-2xl font-extrabold tracking-tight text-[#1F1B2D] mb-1">
             SAMS Portal
           </h2>
-          <p className="text-sm font-medium text-slate-500">
+          <p className="text-sm font-medium text-[#6B6480]">
             Student Academic Management System
           </p>
         </div>
 
-        <Card className="shadow-lg border-slate-200">
+        <Card className="shadow-xl shadow-[#7C3AED]/5 border border-[#E5E0F5] bg-white rounded-2xl">
           <CardHeader className="space-y-1 pb-6 pt-8 px-8">
-            <CardTitle className="text-xl text-center text-slate-800 font-bold">
+            <CardTitle className="text-xl text-center text-[#1F1B2D] font-bold">
               {view === "register"
                 ? "Create Your Account"
                 : view === "forgot_password"
                   ? "Forgot Password"
                   : "Sign in to your account"}
             </CardTitle>
-            <CardDescription className="text-center font-medium text-slate-500">
+            <CardDescription className="text-center font-medium text-[#6B6480]">
               {view === "register"
                 ? "Fill in the details below to register"
                 : view === "forgot_password"
@@ -347,7 +347,7 @@ export const Login = () => {
                           setError(null);
                           setSuccessMessage(null);
                         }}
-                        className="text-sm text-indigo-600 hover:text-indigo-800 hover:underline font-semibold"
+                        className="text-sm text-[#7C3AED] hover:text-[#6D28D9] hover:underline font-semibold"
                         tabIndex={-1}
                       >
                         Forgot password?
@@ -387,7 +387,7 @@ export const Login = () => {
             <CardFooter className="flex flex-col gap-4 px-8 pb-8">
               <Button
                 type="submit"
-                className="w-full h-11 text-base font-semibold rounded-lg bg-indigo-600 hover:bg-indigo-700 text-white"
+                className="w-full h-11 text-base font-semibold rounded-lg bg-[#7C3AED] hover:bg-[#6D28D9] text-white shadow-md shadow-[#7C3AED]/20 transition-all duration-200"
                 disabled={isLoading}
               >
                 {isLoading ? (
@@ -418,7 +418,7 @@ export const Login = () => {
                         setError(null);
                         setSuccessMessage(null);
                       }}
-                      className="text-indigo-600 hover:text-indigo-800 hover:underline font-semibold"
+                      className="text-[#7C3AED] hover:text-[#6D28D9] hover:underline font-semibold"
                     >
                       Sign in
                     </button>
@@ -433,7 +433,7 @@ export const Login = () => {
                         setError(null);
                         setSuccessMessage(null);
                       }}
-                      className="text-indigo-600 hover:text-indigo-800 hover:underline font-semibold"
+                      className="text-[#7C3AED] hover:text-[#6D28D9] hover:underline font-semibold"
                     >
                       Back to Login
                     </button>
@@ -448,7 +448,7 @@ export const Login = () => {
                         setError(null);
                         setSuccessMessage(null);
                       }}
-                      className="text-indigo-600 hover:text-indigo-800 hover:underline font-semibold"
+                      className="text-[#7C3AED] hover:text-[#6D28D9] hover:underline font-semibold"
                     >
                       Register here
                     </button>

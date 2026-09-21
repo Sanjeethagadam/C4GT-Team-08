@@ -67,9 +67,9 @@ export const Performance = () => {
   const availableSemesters = performanceData?.availableSemesters || [];
 
   const DIST_COLORS = {
-    "0-39": "#ef4444",
+    "0-39": "#f43f5e",
     "40-59": "#f59e0b",
-    "60-74": "#3b82f6",
+    "60-74": "#0ea5e9",
     "75-89": "#8b5cf6",
     "90-100": "#10b981",
   };
@@ -83,10 +83,10 @@ export const Performance = () => {
 
       <HODFilterBar onFilterChange={setFilters} />
 
-      <div className="bg-white p-4 rounded-xl border border-slate-200 shadow-sm flex items-center gap-4 mb-6">
-        <label className="text-sm font-medium text-slate-700">Semester:</label>
+      <div className="bg-white p-4 rounded-xl border border-[#E5E0F5] shadow-card flex items-center gap-4 mb-6">
+        <label className="text-sm font-medium text-[#1F1B2D]">Semester:</label>
         <select
-          className="border-slate-300 rounded-md shadow-sm focus:ring-primary focus:border-primary p-1.5 border text-sm disabled:bg-slate-100"
+          className="border-[#E5E0F5] rounded-md shadow-xs focus:ring-2 focus:ring-[#7C3AED] focus:border-[#7C3AED] px-3 py-1.5 border text-sm disabled:bg-slate-100"
           value={selectedSemester}
           onChange={handleSemesterChange}
           disabled={availableSemesters.length === 0}
@@ -217,7 +217,7 @@ export const Performance = () => {
                     <CartesianGrid
                       strokeDasharray="3 3"
                       vertical={false}
-                      stroke="#e2e8f0"
+                      stroke="#F1EDF9"
                     />
                     <XAxis
                       dataKey="name"
@@ -242,7 +242,7 @@ export const Performance = () => {
                     <Legend />
                     <Bar
                       dataKey="averageMarks"
-                      fill="#3b82f6"
+                      fill="#7C3AED"
                       radius={[4, 4, 0, 0]}
                       name="Average Marks"
                     />

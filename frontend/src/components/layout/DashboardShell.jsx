@@ -14,13 +14,13 @@ export const DashboardShell = ({ children, title }) => {
   }, [location.pathname]);
 
   return (
-    <div className="flex min-h-screen w-full flex-col bg-slate-50/50">
+    <div className="flex min-h-screen w-full flex-col bg-[#F5F3FF]">
       {/* Desktop Sidebar */}
       <Sidebar className="hidden md:flex md:w-64 md:flex-col md:fixed md:inset-y-0 z-40" />
 
       {/* Mobile Sidebar via Sheet */}
       <Sheet open={isMobileMenuOpen} onOpenChange={setIsMobileMenuOpen}>
-        <SheetContent side="left" className="p-0 w-64 border-r-0">
+        <SheetContent side="left" className="p-0 w-64 border-r-0 bg-[#4C1D95]">
           <Sidebar />
         </SheetContent>
       </Sheet>

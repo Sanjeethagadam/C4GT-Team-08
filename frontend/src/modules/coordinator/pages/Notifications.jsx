@@ -24,7 +24,7 @@ const getNotificationDetails = (type) => {
       };
     case "RESULT_IMPORT":
       return {
-        color: "bg-indigo-100 text-indigo-600",
+        color: "bg-[#EDE9FE] text-[#7C3AED]",
         path: "/coordinator/dashboard",
       };
     default:

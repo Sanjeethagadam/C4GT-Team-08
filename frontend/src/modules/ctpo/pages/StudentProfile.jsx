@@ -457,7 +457,7 @@ export const StudentProfile = () => {
                           <CheckCircle className="w-4 h-4 text-emerald-500" />
                         )}
                         {event.type === "NOTIFICATION" && (
-                          <Bell className="w-4 h-4 text-indigo-500" />
+                          <Bell className="w-4 h-4 text-[#7C3AED]" />
                         )}
                       </div>
                       <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] p-4 rounded border border-slate-100 bg-white shadow-sm">

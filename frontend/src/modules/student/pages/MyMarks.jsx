@@ -235,13 +235,13 @@ export const MyMarks = () => {
                       />
                       <Bar
                         dataKey="Mid 1"
-                        fill="#3b82f6"
+                        fill="#7C3AED"
                         radius={[4, 4, 0, 0]}
                         maxBarSize={40}
                       />
                       <Bar
                         dataKey="Mid 2"
-                        fill="#10b981"
+                        fill="#A78BFA"
                         radius={[4, 4, 0, 0]}
                         maxBarSize={40}
                       />
@@ -252,7 +252,7 @@ export const MyMarks = () => {
             </Card>
           )}
 
-          <div className="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden mt-6">
+          <div className="bg-white rounded-xl shadow-xs border border-[#E5E0F5] overflow-hidden mt-6">
             <DataTable
               data={marks}
               columns={columns}

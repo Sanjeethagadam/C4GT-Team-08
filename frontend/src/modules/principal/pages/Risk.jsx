@@ -122,16 +122,16 @@ export const Risk = () => {
             </div>
           </div>
 
-          <div className="bg-orange-50 border border-orange-200 p-6 rounded-xl shadow-sm flex items-center justify-between">
+          <div className="bg-[#EDE9FE] border border-[#DDD6FE] p-6 rounded-xl shadow-xs flex items-center justify-between">
             <div>
-              <h3 className="text-lg font-bold text-orange-800">
+              <h3 className="text-lg font-bold text-[#4C1D95]">
                 Total At-Risk Students
               </h3>
-              <p className="text-sm text-orange-700 mt-1">
+              <p className="text-sm text-[#5B21B6] mt-1">
                 Students with Medium or High Risk (2 or more active backlogs)
               </p>
             </div>
-            <div className="text-4xl font-black text-orange-600">
+            <div className="text-4xl font-black text-[#7C3AED]">
               {data.atRisk}
             </div>
           </div>

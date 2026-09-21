@@ -25,22 +25,22 @@ import {
 const getRiskColor = (risk) => {
   switch (risk) {
     case "LOW":
-      return "bg-emerald-100 text-emerald-800 border-emerald-200";
+      return "bg-emerald-50 text-emerald-700 border-emerald-200";
     case "MEDIUM":
-      return "bg-amber-100 text-amber-800 border-amber-200";
+      return "bg-amber-50 text-amber-700 border-amber-200";
     case "HIGH":
-      return "bg-orange-100 text-orange-800 border-orange-200";
     case "AT-RISK":
-      return "bg-red-100 text-red-800 border-red-200";
+      return "bg-rose-50 text-rose-700 border-rose-200";
     default:
-      return "bg-slate-100 text-slate-800 border-slate-200";
+      return "bg-slate-50 text-slate-700 border-slate-200";
   }
 };
 
 const RISK_COLORS = {
   LOW: "#10b981",
   MEDIUM: "#f59e0b",
-  HIGH: "#ef4444",
+  HIGH: "#f43f5e",
+  "AT-RISK": "#f43f5e",
 };
 
 export const Backlogs = () => {
@@ -179,7 +179,7 @@ export const Backlogs = () => {
                 />
                 <Bar
                   dataKey="count"
-                  fill="#3b82f6"
+                  fill="#7C3AED"
                   radius={[4, 4, 0, 0]}
                   maxBarSize={40}
                 />
@@ -264,7 +264,7 @@ export const Backlogs = () => {
         </div>
       )}
 
-      <div className="bg-white p-6 rounded-lg shadow-sm border border-slate-200">
+      <div className="bg-white p-6 rounded-xl shadow-card border border-[#E5E0F5]">
         <DataTable
           columns={columns}
           data={students}

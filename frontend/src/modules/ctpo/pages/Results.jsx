@@ -20,8 +20,8 @@ const getAvailableSemesters = (year) => {
   const y = String(year);
   if (y === "4") return ["1-1", "1-2", "2-1", "2-2", "3-1", "3-2"];
   if (y === "3") return ["1-1", "1-2", "2-1", "2-2"];
-  if (y === "2") return ["1-1"];
-  return ["1-1", "1-2"]; // default for year 1 or fallback
+  if (y === "2") return ["1-1", "1-2"];
+  return ["1-1"]; // default for year 1 or fallback
 };
 
 export const Results = () => {
@@ -175,10 +175,10 @@ export const Results = () => {
         description="Official university semester results for your class."
       />
 
-      <div className="bg-white p-4 rounded-xl shadow-sm border border-slate-200 flex items-center justify-between">
-        <h3 className="font-medium text-slate-800">Select Semester</h3>
+      <div className="bg-white p-4 rounded-xl shadow-xs border border-[#E5E0F5] flex items-center justify-between">
+        <h3 className="font-medium text-[#1F1B2D]">Select Semester</h3>
         <select
-          className="border border-slate-300 rounded-md px-4 py-2 bg-white text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"
+          className="border border-[#E5E0F5] rounded-md px-4 py-2 bg-white text-sm focus:outline-none focus:ring-2 focus:ring-[#7C3AED]"
           value={selectedSemester}
           onChange={(e) => setSelectedSemester(e.target.value)}
         >
@@ -190,7 +190,7 @@ export const Results = () => {
         </select>
       </div>
 
-      <div className="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden">
+      <div className="bg-white rounded-xl shadow-xs border border-[#E5E0F5] overflow-hidden">
         {groupedResults.length === 0 ? (
           <div className="p-8 text-center text-slate-500">
             No official university result data available for this semester.

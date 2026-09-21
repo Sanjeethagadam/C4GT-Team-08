@@ -92,12 +92,14 @@ export const Dashboard = () => {
               title="Total Students"
               value={kpis?.totalStudents || 0}
               icon={Users}
+              colorVariant="purple"
             />
 
             <StatCard
               title="Active Backlog Students"
               value={kpis?.studentsWithActiveBacklogs || 0}
               icon={AlertTriangle}
+              colorVariant="amber"
               contextType={
                 (kpis?.studentsWithActiveBacklogs || 0) > 0
                   ? "warning"
@@ -109,6 +111,7 @@ export const Dashboard = () => {
               title="Active Backlog Subjects"
               value={kpis?.activeBacklogSubjects || 0}
               icon={AlertTriangle}
+              colorVariant="amber"
               contextType={
                 (kpis?.activeBacklogSubjects || 0) > 0 ? "warning" : "success"
               }
@@ -118,12 +121,14 @@ export const Dashboard = () => {
               title="Scheduled Remedial Classes"
               value={getCountByStatus(remedialStats, "SCHEDULED")}
               icon={AlertTriangle}
+              colorVariant="sky"
             />
 
             <StatCard
               title="Scheduled Guest Lectures"
               value={getCountByStatus(guestStats, "SCHEDULED")}
               icon={AlertTriangle}
+              colorVariant="cyan"
             />
           </div>
 

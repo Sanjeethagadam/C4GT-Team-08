@@ -169,7 +169,7 @@ export const Years = () => {
                   <Legend />
                   <Bar
                     dataKey={metric}
-                    fill="#6366f1"
+                    fill="#7C3AED"
                     radius={[4, 4, 0, 0]}
                     name={metric}
                   />

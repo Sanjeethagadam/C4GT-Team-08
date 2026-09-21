@@ -276,36 +276,57 @@ export const Sidebar = ({ className }) => {
 
   return (
     <aside
-      className={`w-64 bg-slate-900 text-slate-300 flex-shrink-0 flex flex-col h-full border-r border-slate-800 ${className || ""}`}
+      className={`w-64 bg-gradient-to-b from-[#4C1D95] via-[#461A8A] to-[#3B1277] text-purple-100 flex-shrink-0 flex flex-col h-full border-r border-[#5B21B6]/50 select-none shadow-lg ${className || ""}`}
     >
-      <div className="p-4 py-6">
-        <h2 className="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-4 px-3">
+      {/* Sidebar Top Brand */}
+      <div className="h-16 flex items-center gap-3 px-5 border-b border-white/10 bg-black/10">
+        <div className="h-9 w-9 rounded-xl bg-white/15 border border-white/20 flex items-center justify-center text-white shadow-sm shrink-0">
+          <GraduationCap className="h-5 w-5" />
+        </div>
+        <div className="flex flex-col min-w-0">
+          <span className="text-sm font-bold tracking-tight text-white flex items-center gap-1.5">
+            SAMS Portal
+            <span className="h-2 w-2 rounded-full bg-purple-300 shadow-[0_0_8px_rgba(216,180,254,0.8)]"></span>
+          </span>
+          <span className="text-[11px] font-medium text-purple-200 truncate">
+            Digital Permission System
+          </span>
+        </div>
+      </div>
+
+      <div className="p-4 py-5 flex-1 overflow-y-auto">
+        <h2 className="text-[11px] font-bold text-purple-200/70 uppercase tracking-wider mb-3 px-3">
           Main Menu
         </h2>
-        <nav className="space-y-1">
+        <nav className="space-y-1.5">
           {currentNavItems.map((item) => (
             <NavLink
               key={item.name}
               to={item.path}
               className={({ isActive }) =>
-                `flex items-center gap-3 px-3 py-2 rounded-md transition-colors text-sm font-medium ${
+                `flex items-center gap-3 px-3 py-2.5 rounded-lg transition-all text-sm font-medium ${
                   isActive
-                    ? "bg-primary/10 text-primary"
-                    : "hover:bg-slate-800 hover:text-white"
+                    ? "bg-white/20 text-white font-bold border-l-[4px] border-purple-200 pl-[8px] shadow-sm backdrop-blur-xs"
+                    : "text-purple-200 hover:text-white hover:bg-white/10"
                 }`
               }
             >
-              {item.icon}
-              {item.name}
+              <span className="shrink-0 text-white">{item.icon}</span>
+              <span className="truncate">{item.name}</span>
             </NavLink>
           ))}
         </nav>
       </div>
 
-      <div className="mt-auto p-4 border-t border-slate-800">
-        <div className="bg-slate-800 rounded-lg p-3 text-sm">
-          <p className="text-slate-400 text-xs mb-1">Current Term</p>
-          <p className="text-white font-medium">Fall Semester 2026</p>
+      <div className="mt-auto p-4 border-t border-white/10 bg-black/15">
+        <div className="bg-white/10 border border-white/15 rounded-xl p-3 text-sm backdrop-blur-xs shadow-xs">
+          <div className="flex items-center justify-between mb-1">
+            <p className="text-purple-200 text-xs font-medium">Current Term</p>
+            <span className="inline-flex h-2 w-2 rounded-full bg-emerald-400 shadow-[0_0_6px_rgba(52,211,153,0.8)]"></span>
+          </div>
+          <p className="text-white font-bold text-xs tracking-wide">
+            Fall Semester 2026
+          </p>
         </div>
       </div>
     </aside>

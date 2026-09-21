@@ -223,7 +223,7 @@ export const MyBacklogs = () => {
                         />
                         <Bar
                           dataKey="count"
-                          fill="#6366f1"
+                          fill="#7C3AED"
                           radius={[4, 4, 0, 0]}
                           barSize={40}
                         />
@@ -235,9 +235,9 @@ export const MyBacklogs = () => {
             </div>
           )}
 
-          <div className="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden mt-6">
-            <div className="px-6 py-4 border-b border-slate-200 bg-slate-50">
-              <h3 className="font-semibold text-slate-800">Backlog Records</h3>
+          <div className="bg-white rounded-xl shadow-xs border border-[#E5E0F5] overflow-hidden mt-6">
+            <div className="px-6 py-4 border-b border-[#E5E0F5] bg-[#F5F3FF]">
+              <h3 className="font-semibold text-[#1F1B2D]">Backlog Records</h3>
             </div>
             <DataTable
               data={backlogs}

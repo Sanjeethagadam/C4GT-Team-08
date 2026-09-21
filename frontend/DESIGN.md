@@ -3,8 +3,12 @@
 This document outlines the core design tokens for the Academic Engagement, Student Risk & Academic Support Management System.
 
 ## Colors
-- **Primary:** Deep Indigo (`indigo-600` / `#4f46e5`). Conveys a professional, trustworthy, and academic feel.
-- **Neutral:** Slate scale (`slate-50` to `slate-900`). Used for backgrounds, text, and borders.
+- **Sidebar (Deep Purple):** Deep Royal Purple (`#4C1D95` to `#5B21B6`). Modern, premium, and well-organized.
+- **Background (Light Purple):** Soft canvas (`#F5F3FF` / `purple-50`). Low eye strain and clean modern look.
+- **Cards (White):** Pure White (`#FFFFFF`) with subtle purple border (`#E5E0F5`) and soft micro-elevation.
+- **Primary Purple:** Academic Purple (`#7C3AED` / `purple-600`). Used for active navigation, primary action buttons, key metrics, and focus rings.
+- **Secondary Purple:** Vibrant Violet (`#8B5CF6` / `purple-500`) and Soft Purple (`#EDE9FE` / `purple-100`).
+- **Dark Text:** `#1F1B2D` (for headings and primary readability) and `#6B6480` (for secondary labels).
 - **Semantic:**
   - **Success:** Emerald (`emerald-500` / `#10b981`). Used for passing grades, completed tasks.
   - **Warning:** Amber (`amber-500` / `#f59e0b`). Used for mid-risk, pending actions.

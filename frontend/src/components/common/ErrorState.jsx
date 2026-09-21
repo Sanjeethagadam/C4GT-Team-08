@@ -9,14 +9,14 @@ export const ErrorState = ({
   onRetry,
 }) => {
   return (
-    <Card className="flex flex-col items-center justify-center p-8 text-center min-h-[300px] border-dashed shadow-none bg-slate-50">
-      <div className="rounded-full bg-rose-100 p-3 mb-4">
+    <Card className="flex flex-col items-center justify-center p-8 text-center min-h-[300px] border-dashed border-rose-200/80 shadow-none bg-white rounded-xl">
+      <div className="rounded-2xl bg-rose-50 p-3.5 mb-4 border border-rose-100 shadow-xs">
         <AlertCircle className="h-6 w-6 text-rose-600" />
       </div>
-      <h3 className="text-lg font-semibold text-slate-900 mb-2">{title}</h3>
-      <p className="text-sm text-slate-500 max-w-sm mb-6">{message}</p>
+      <h3 className="text-lg font-extrabold text-[#1F1B2D] mb-1">{title}</h3>
+      <p className="text-sm font-medium text-[#6B6480] max-w-sm mb-6">{message}</p>
       {onRetry && (
-        <Button onClick={onRetry} variant="outline" className="min-w-[120px]">
+        <Button onClick={onRetry} variant="outline" className="min-w-[120px] bg-white border-[#E5E0F5] hover:border-[#DDD6FE] hover:bg-[#F5F3FF] hover:text-[#7C3AED] font-semibold shadow-xs">
           Try Again
         </Button>
       )}

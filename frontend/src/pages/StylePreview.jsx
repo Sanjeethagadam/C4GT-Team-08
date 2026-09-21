@@ -55,7 +55,7 @@ export const StylePreview = () => {
       <div className="space-y-12 pb-12">
         {/* KPI Cards */}
         <section>
-          <h3 className="text-lg font-medium mb-4">KPI Cards</h3>
+          <h3 className="text-lg font-bold text-slate-900 mb-4 tracking-tight">KPI Cards</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
             <StatCard
               title="Total Students"
@@ -63,6 +63,7 @@ export const StylePreview = () => {
               icon={Users}
               contextLine="+12% from last month"
               contextType="success"
+              colorVariant="purple"
             />
             <StatCard
               title="Overall Pass %"
@@ -70,6 +71,7 @@ export const StylePreview = () => {
               icon={GraduationCap}
               contextLine="-2.1% from last semester"
               contextType="warning"
+              colorVariant="mint"
             />
             <StatCard
               title="High Risk Students"
@@ -77,6 +79,7 @@ export const StylePreview = () => {
               icon={AlertTriangle}
               contextLine="Requires immediate action"
               contextType="danger"
+              colorVariant="rose"
             />
             <StatCard
               title="Avg Attendance"
@@ -84,13 +87,14 @@ export const StylePreview = () => {
               icon={TrendingUp}
               contextLine="Consistently good"
               contextType="neutral"
+              colorVariant="sky"
             />
           </div>
         </section>
 
         {/* Badges */}
         <section>
-          <h3 className="text-lg font-medium mb-4">Status & Risk Badges</h3>
+          <h3 className="text-lg font-bold text-slate-900 mb-4 tracking-tight">Status & Risk Badges</h3>
           <div className="flex flex-wrap gap-4">
             <StatusBadge status="success" label="Passed" />
             <StatusBadge status="warning" label="Pending" />
@@ -106,13 +110,13 @@ export const StylePreview = () => {
 
         {/* Search & Filter */}
         <section>
-          <h3 className="text-lg font-medium mb-4">Search & Filter Bar</h3>
+          <h3 className="text-lg font-bold text-slate-900 mb-4 tracking-tight">Search & Filter Bar</h3>
           <SearchFilterBar onFilterClick={() => {}} />
         </section>
 
         {/* Data Tables */}
         <section>
-          <h3 className="text-lg font-medium mb-4">Data Table</h3>
+          <h3 className="text-lg font-bold text-slate-900 mb-4 tracking-tight">Data Table</h3>
           <DataTable data={sampleData} columns={sampleColumns} />
 
           <h4 className="text-md font-medium mt-6 mb-2">Loading State</h4>
@@ -121,7 +125,7 @@ export const StylePreview = () => {
 
         {/* Empty & Error States */}
         <section>
-          <h3 className="text-lg font-medium mb-4">States</h3>
+          <h3 className="text-lg font-bold text-slate-900 mb-4 tracking-tight">States</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <EmptyState
               title="No Students Found"
@@ -136,7 +140,7 @@ export const StylePreview = () => {
 
         {/* Skeletons */}
         <section>
-          <h3 className="text-lg font-medium mb-4">Loading Skeletons</h3>
+          <h3 className="text-lg font-bold text-slate-900 mb-4 tracking-tight">Loading Skeletons</h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <LoadingSkeleton type="card" />
             <LoadingSkeleton type="card" />
@@ -146,7 +150,7 @@ export const StylePreview = () => {
 
         {/* Notifications */}
         <section>
-          <h3 className="text-lg font-medium mb-4">Notifications Panel</h3>
+          <h3 className="text-lg font-bold text-slate-900 mb-4 tracking-tight">Notifications Panel</h3>
           <div className="max-w-md">
             <NotificationPanel
               notifications={[

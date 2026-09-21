@@ -201,7 +201,7 @@ export const ProfileModal = ({ isOpen, onClose, user, studentProfile }) => {
       <DialogContent className="sm:max-w-md bg-white overflow-hidden p-0 gap-0">
         <DialogHeader className="px-6 py-4 border-b border-slate-100 flex flex-row items-center justify-between sticky top-0 bg-white z-10">
           <DialogTitle className="text-lg font-bold flex items-center gap-2 text-slate-800">
-            <UserIcon className="h-5 w-5 text-indigo-600" />
+            <UserIcon className="h-5 w-5 text-[#7C3AED]" />
             User Profile
           </DialogTitle>
           <div className="flex items-center gap-2">
@@ -210,7 +210,7 @@ export const ProfileModal = ({ isOpen, onClose, user, studentProfile }) => {
                 variant="outline"
                 size="sm"
                 onClick={() => setIsEditing(true)}
-                className="h-8 gap-1.5 rounded-full px-4 border-indigo-200 text-indigo-700 hover:bg-indigo-50 hover:text-indigo-800 transition-colors"
+                className="h-8 gap-1.5 rounded-full px-4 border-[#DDD6FE] text-[#7C3AED] hover:bg-[#EDE9FE] hover:text-[#6D28D9] transition-colors"
               >
                 <Edit2 className="w-3.5 h-3.5" />
                 Edit Profile
@@ -248,19 +248,19 @@ export const ProfileModal = ({ isOpen, onClose, user, studentProfile }) => {
               {/* Avatar and Basic Info */}
               <div className="flex flex-col items-center gap-4 bg-slate-50 p-6 rounded-xl border border-slate-100">
                 <div className="relative group">
-                  <Avatar className="h-24 w-24 rounded-full bg-indigo-100 border-4 border-white shadow-md text-indigo-600 text-4xl font-bold overflow-hidden">
+                  <Avatar className="h-24 w-24 rounded-full bg-[#5B21B6] border-4 border-white shadow-md text-white text-4xl font-bold overflow-hidden">
                     <AvatarImage
                       src={getAvatarUrl(formData.avatar)}
                       alt="Profile"
                     />
-                    <AvatarFallback className="bg-transparent text-indigo-600">
+                    <AvatarFallback className="bg-transparent text-white">
                       {currentDisplayName?.charAt(0)?.toUpperCase() || "U"}
                     </AvatarFallback>
                   </Avatar>
                   {isEditing && (
                     <button
                       onClick={() => fileInputRef.current?.click()}
-                      className="absolute bottom-0 right-0 bg-indigo-600 border-2 border-white shadow-sm p-2 rounded-full text-white hover:bg-indigo-700 transition-colors"
+                      className="absolute bottom-0 right-0 bg-[#7C3AED] border-2 border-white shadow-sm p-2 rounded-full text-white hover:bg-[#6D28D9] transition-colors"
                       title="Change Photo"
                     >
                       <Camera className="w-4 h-4" />
@@ -313,7 +313,7 @@ export const ProfileModal = ({ isOpen, onClose, user, studentProfile }) => {
                       <h3 className="text-xl font-bold text-slate-900 leading-tight">
                         {currentDisplayName}
                       </h3>
-                      <p className="text-xs font-medium text-indigo-700 bg-indigo-50 border border-indigo-100 px-2.5 py-1 rounded-md inline-flex items-center mt-2 shadow-sm">
+                      <p className="text-xs font-semibold text-[#5B21B6] bg-[#EDE9FE] border border-[#DDD6FE] px-2.5 py-1 rounded-md inline-flex items-center mt-2 shadow-xs">
                         <Shield className="w-3.5 h-3.5 mr-1.5" />
                         {humanRole}
                       </p>
@@ -519,7 +519,7 @@ export const ProfileModal = ({ isOpen, onClose, user, studentProfile }) => {
             <Button
               onClick={handleSave}
               disabled={isSaving}
-              className="bg-indigo-600 hover:bg-indigo-700 text-white min-w-[120px]"
+              className="bg-[#7C3AED] hover:bg-[#6D28D9] text-white min-w-[120px] shadow-sm font-semibold"
             >
               {isSaving ? (
                 <div className="flex items-center">

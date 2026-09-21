@@ -48,7 +48,7 @@ const BranchTooltip = ({ active, payload, label }) => {
     return (
       <div className="bg-white p-3 border border-slate-200 shadow-md rounded-lg z-50">
         <p className="font-semibold text-slate-800 mb-1">{label}</p>
-        <p className="text-sm text-blue-600">
+        <p className="text-sm text-[#7C3AED]">
           Active Backlogs:{" "}
           <span className="font-medium">{payload[0].value}</span>
         </p>
@@ -336,7 +336,7 @@ export const Backlogs = () => {
                     />
                     <Bar
                       dataKey="count"
-                      fill="#3b82f6"
+                      fill="#7C3AED"
                       radius={[4, 4, 0, 0]}
                       name="Active Backlogs"
                     >

@@ -98,42 +98,35 @@ export const Topbar = ({ onMenuToggle, title = "Dashboard" }) => {
   };
 
   return (
-    <header className="sticky top-0 z-30 flex h-16 items-center gap-4 border-b bg-background px-4 sm:px-6 shadow-sm">
+    <header className="sticky top-0 z-30 flex h-16 items-center gap-4 border-b border-[#E5E0F5] bg-white/95 backdrop-blur-sm px-4 sm:px-6 shadow-[0_1px_3px_rgba(124,58,237,0.03)]">
       <Button
         variant="ghost"
         size="icon"
-        className="md:hidden"
+        className="md:hidden text-[#6B6480] hover:text-[#1F1B2D] hover:bg-purple-50"
         onClick={onMenuToggle}
       >
         <Menu className="h-5 w-5" />
         <span className="sr-only">Toggle menu</span>
       </Button>
 
-      <div className="flex-1 flex flex-col md:flex-row md:items-center gap-4">
-        <h1 className="text-lg font-semibold md:text-xl shrink-0">{title}</h1>
-        <div className="hidden md:block border-l h-6 mx-2 border-slate-200"></div>
-        <div className="hidden md:block">
-          <DynamicBreadcrumb />
-        </div>
+      <div className="flex-1 flex items-center">
+        <DynamicBreadcrumb />
       </div>
 
-      <div className="flex items-center gap-4">
+      <div className="flex items-center gap-3">
         {/* Notifications */}
         {user?.role !== "PRINCIPAL" && user?.role !== "HOD" && (
           <Button
             variant="ghost"
             size="icon"
-            className="relative"
+            className="relative text-[#6B6480] hover:text-[#7C3AED] hover:bg-purple-50 transition-colors"
             onClick={goToNotifications}
           >
-            <Bell className="h-5 w-5 text-muted-foreground" />
+            <Bell className="h-5 w-5" />
             {unreadCount > 0 && (
-              <Badge
-                className="absolute -top-1 -right-1 h-5 w-5 flex items-center justify-center p-0 rounded-full"
-                variant="destructive"
-              >
+              <span className="absolute -top-0.5 -right-0.5 h-4 min-w-[16px] px-1 flex items-center justify-center rounded-full bg-[#7C3AED] text-white text-[10px] font-bold shadow-xs">
                 {unreadCount > 99 ? "99+" : unreadCount}
-              </Badge>
+              </span>
             )}
             <span className="sr-only">Notifications</span>
           </Button>
@@ -141,13 +134,13 @@ export const Topbar = ({ onMenuToggle, title = "Dashboard" }) => {
 
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
-            <Button variant="ghost" className="relative h-8 w-8 rounded-full">
-              <Avatar className="h-8 w-8">
+            <Button variant="ghost" className="relative h-9 w-9 rounded-full ring-2 ring-purple-200 hover:ring-[#7C3AED] transition-all p-0">
+              <Avatar className="h-9 w-9">
                 <AvatarImage
                   src={getAvatarUrl(user?.avatarFileId || user?.avatar)}
                   alt="@user"
                 />
-                <AvatarFallback className="bg-primary text-primary-foreground">
+                <AvatarFallback className="bg-[#5B21B6] text-white text-xs font-bold">
                   {(
                     user?.firstName?.charAt(0) ||
                     user?.username?.charAt(0) ||

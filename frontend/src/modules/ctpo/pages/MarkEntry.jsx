@@ -318,7 +318,7 @@ export const MarkEntry = () => {
                 <Button
                   onClick={() => saveMarks(true)}
                   disabled={isSaving}
-                  className="bg-indigo-600 hover:bg-indigo-700 text-white"
+                  className="bg-[#7C3AED] hover:bg-[#6D28D9] text-white font-semibold shadow-sm"
                 >
                   <CheckCircle className="w-4 h-4 mr-2" />
                   Submit Marks

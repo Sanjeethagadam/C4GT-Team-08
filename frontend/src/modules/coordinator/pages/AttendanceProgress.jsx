@@ -289,7 +289,7 @@ export const AttendanceProgress = () => {
                 <div className="text-slate-700">Total: {histTotal}</div>
                 <div className="text-emerald-600">Present: {histPresent}</div>
                 <div className="text-rose-600">Absent: {histAbsent}</div>
-                <div className="text-indigo-600">Attendance: {histPct}%</div>
+                <div className="text-[#7C3AED] font-semibold">Attendance: {histPct}%</div>
               </div>
             </div>
 

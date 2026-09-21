@@ -120,6 +120,7 @@ export const Dashboard = () => {
                 value={data.totalStudents.toString()}
                 icon={Users}
                 contextLine="Institution Wide"
+                colorVariant="purple"
               />
             </div>
             <div>
@@ -129,6 +130,7 @@ export const Dashboard = () => {
                 icon={Users}
                 contextType="success"
                 contextLine="Currently Online"
+                colorVariant="mint"
               />
             </div>
             <div
@@ -141,6 +143,7 @@ export const Dashboard = () => {
                 icon={AlertCircle}
                 contextType="danger"
                 contextLine="Institution Wide"
+                colorVariant="amber"
               />
             </div>
             <div
@@ -153,6 +156,7 @@ export const Dashboard = () => {
                 icon={AlertTriangle}
                 contextType="warning"
                 contextLine="Institution Wide"
+                colorVariant="rose"
               />
             </div>
           </div>
@@ -203,7 +207,7 @@ export const Dashboard = () => {
                       />
                       <Bar
                         dataKey="value"
-                        fill="#3b82f6"
+                        fill="#7C3AED"
                         radius={[4, 4, 0, 0]}
                         name="Students"
                       />
@@ -258,7 +262,7 @@ export const Dashboard = () => {
                       />
                       <Bar
                         dataKey="value"
-                        fill="#6366f1"
+                        fill="#8B5CF6"
                         radius={[4, 4, 0, 0]}
                         name="Students"
                       />

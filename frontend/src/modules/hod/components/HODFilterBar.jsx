@@ -71,13 +71,13 @@ export const HODFilterBar = ({ onFilterChange }) => {
   };
 
   return (
-    <div className="bg-white p-4 rounded-xl border border-slate-200 shadow-sm flex flex-wrap gap-4 items-center mb-6">
+    <div className="bg-white p-4 rounded-xl border border-[#E5E0F5] shadow-card flex flex-wrap gap-4 items-center mb-6">
       <div className="flex items-center gap-2">
-        <label className="text-sm font-medium text-slate-700">
+        <label className="text-sm font-medium text-[#1F1B2D]">
           Year of Study:
         </label>
         <select
-          className="border-slate-300 rounded-md shadow-sm focus:ring-primary focus:border-primary p-1.5 border text-sm disabled:bg-slate-100"
+          className="border-[#E5E0F5] rounded-md shadow-xs focus:ring-2 focus:ring-[#7C3AED] focus:border-[#7C3AED] px-3 py-1.5 border text-sm disabled:bg-slate-100"
           value={selectedYear}
           onChange={handleYearChange}
           disabled={years.length <= 1}
@@ -92,9 +92,9 @@ export const HODFilterBar = ({ onFilterChange }) => {
       </div>
 
       <div className="flex items-center gap-2">
-        <label className="text-sm font-medium text-slate-700">Branch:</label>
+        <label className="text-sm font-medium text-[#1F1B2D]">Branch:</label>
         <select
-          className="border-slate-300 rounded-md shadow-sm focus:ring-primary focus:border-primary p-1.5 border text-sm disabled:bg-slate-100"
+          className="border-[#E5E0F5] rounded-md shadow-xs focus:ring-2 focus:ring-[#7C3AED] focus:border-[#7C3AED] px-3 py-1.5 border text-sm disabled:bg-slate-100"
           value={selectedBranch}
           onChange={handleBranchChange}
           disabled={branches.length <= 1}

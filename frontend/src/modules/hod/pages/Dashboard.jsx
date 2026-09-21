@@ -105,6 +105,7 @@ export const Dashboard = () => {
               title="Total Students"
               value={kpis?.totalStudents || 0}
               icon={Users}
+              colorVariant="purple"
             />
 
             <StatCard
@@ -118,6 +119,7 @@ export const Dashboard = () => {
                   : "N/A"
               }
               icon={BookOpen}
+              colorVariant="sky"
             />
 
             <StatCard

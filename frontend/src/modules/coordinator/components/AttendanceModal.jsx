@@ -131,7 +131,7 @@ export const AttendanceModal = ({
       head: [["S.No", "Roll Number", "Name", "Branch", "Status"]],
       body: tableData,
       theme: "grid",
-      headStyles: { fillColor: [41, 128, 185] },
+      headStyles: { fillColor: [124, 58, 237] },
     });
 
     doc.save(`Attendance_${title.replace(/\s+/g, "_")}.pdf`);
@@ -147,10 +147,10 @@ export const AttendanceModal = ({
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4">
-      <div className="bg-white rounded-xl shadow-xl w-full max-w-4xl flex flex-col max-h-[90vh]">
-        <div className="p-4 border-b flex justify-between items-center shrink-0">
+      <div className="bg-white rounded-2xl shadow-xl w-full max-w-4xl flex flex-col max-h-[90vh] border border-[#E5E0F5] overflow-hidden">
+        <div className="p-5 border-b border-[#E5E0F5] flex justify-between items-center shrink-0 bg-gradient-to-r from-[#F5F3FF] via-white to-white">
           <div>
-            <h2 className="text-xl font-bold">{title}</h2>
+            <h2 className="text-xl font-bold text-[#1F1B2D]">{title}</h2>
             <p className="text-sm text-slate-500">
               Record attendance for scheduled students
             </p>
@@ -159,23 +159,23 @@ export const AttendanceModal = ({
             <button
               onClick={downloadPdf}
               disabled={loading || !session}
-              className="flex items-center gap-2 px-3 py-1.5 text-sm bg-slate-100 text-slate-700 hover:bg-slate-200 rounded disabled:opacity-50"
+              className="flex items-center gap-2 px-3.5 py-1.5 text-sm font-medium bg-[#EDE9FE] text-[#7C3AED] hover:bg-[#DDD6FE] rounded-lg transition-colors border border-[#E5E0F5] disabled:opacity-50"
             >
               <FileDown className="w-4 h-4" /> Export PDF
             </button>
             <button
               onClick={onClose}
-              className="text-slate-400 hover:text-slate-600"
+              className="text-slate-400 hover:text-slate-600 transition-colors"
             >
               <X className="w-5 h-5" />
             </button>
           </div>
         </div>
 
-        <div className="px-6 py-3 bg-white border-b flex justify-between items-center shrink-0">
+        <div className="px-6 py-3 bg-white border-b border-[#E5E0F5] flex justify-between items-center shrink-0">
           <div className="flex gap-4 text-sm">
             <div className="font-medium text-slate-700">
-              Total: <span className="text-primary">{totalCount}</span>
+              Total: <span className="text-[#7C3AED] font-semibold">{totalCount}</span>
             </div>
             <div className="font-medium text-slate-700">
               Present: <span className="text-emerald-600">{presentCount}</span>
@@ -184,7 +184,7 @@ export const AttendanceModal = ({
               Absent: <span className="text-rose-600">{absentCount}</span>
             </div>
             <div className="font-medium text-slate-700">
-              Attendance: <span className="text-indigo-600">{percentage}%</span>
+              Attendance: <span className="text-[#7C3AED] font-bold">{percentage}%</span>
             </div>
           </div>
           <div className="flex gap-2">

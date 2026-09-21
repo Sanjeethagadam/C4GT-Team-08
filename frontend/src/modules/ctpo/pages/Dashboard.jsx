@@ -117,6 +117,7 @@ export const CtpoDashboard = () => {
             title="Total Students"
             value={metrics.totalStudents}
             icon={Users}
+            colorVariant="purple"
           />
         </div>
         <div
@@ -127,6 +128,7 @@ export const CtpoDashboard = () => {
             title="Students With Active Backlogs"
             value={metrics.studentsWithActiveBacklogs}
             icon={BookOpen}
+            colorVariant="amber"
             contextType={
               metrics.studentsWithActiveBacklogs > 0 ? "warning" : "success"
             }
@@ -136,6 +138,7 @@ export const CtpoDashboard = () => {
           title="Active Backlog Subjects"
           value={metrics.activeBacklogSubjects}
           icon={AlertTriangle}
+          colorVariant="rose"
           contextType={metrics.activeBacklogSubjects > 0 ? "danger" : "success"}
         />
 
@@ -147,6 +150,7 @@ export const CtpoDashboard = () => {
             title="At-Risk Students"
             value={metrics.riskDistribution.atRisk}
             icon={GraduationCap}
+            colorVariant="rose"
             contextType={
               metrics.riskDistribution.atRisk > 0 ? "danger" : "success"
             }
@@ -155,11 +159,11 @@ export const CtpoDashboard = () => {
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-6">
-        <Card>
-          <CardHeader>
-            <CardTitle className="text-base">Risk Distribution</CardTitle>
+        <Card className="relative overflow-hidden group rounded-2xl border border-[#E9D5FF] shadow-[0_1px_3px_rgba(124,58,237,0.04)] hover:shadow-[0_8px_24px_rgba(124,58,237,0.10)] transition-all duration-200">
+          <CardHeader className="px-6 py-4 bg-gradient-to-r from-[#F5F3FF] via-[#FAF8FF] to-white border-b border-[#E9D5FF]/70">
+            <CardTitle className="text-base font-bold text-[#0F172A] tracking-tight">Risk Distribution</CardTitle>
           </CardHeader>
-          <CardContent>
+          <CardContent className="p-6">
             {riskPieData.length === 0 ? (
               <div className="h-64 flex items-center justify-center text-slate-500">
                 No risk data available
@@ -190,11 +194,11 @@ export const CtpoDashboard = () => {
           </CardContent>
         </Card>
 
-        <Card>
-          <CardHeader>
-            <CardTitle className="text-base">Risk by Category</CardTitle>
+        <Card className="relative overflow-hidden group rounded-2xl border border-[#E9D5FF] shadow-[0_1px_3px_rgba(124,58,237,0.04)] hover:shadow-[0_8px_24px_rgba(124,58,237,0.10)] transition-all duration-200">
+          <CardHeader className="px-6 py-4 bg-gradient-to-r from-[#F5F3FF] via-[#FAF8FF] to-white border-b border-[#E9D5FF]/70">
+            <CardTitle className="text-base font-bold text-[#0F172A] tracking-tight">Risk by Category</CardTitle>
           </CardHeader>
-          <CardContent>
+          <CardContent className="p-6">
             <div className="h-64">
               <ResponsiveContainer width="100%" height="100%">
                 <BarChart

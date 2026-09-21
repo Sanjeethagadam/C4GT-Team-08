@@ -21,12 +21,12 @@ const getNotificationDetails = (type) => {
       };
     case "RISK":
       return {
-        color: "bg-orange-100 text-orange-600",
+        color: "bg-[#EDE9FE] text-[#7C3AED]",
         path: "/student/dashboard",
       };
     case "SYSTEM":
       return {
-        color: "bg-indigo-100 text-indigo-600",
+        color: "bg-[#EDE9FE] text-[#6D28D9]",
         path: "/student/dashboard",
       };
     default:
@@ -174,7 +174,7 @@ export const Notifications = () => {
                 className={`cursor-pointer bg-white rounded-xl border p-5 sm:p-6 transition-all hover:bg-slate-50 ${
                   isRead
                     ? "border-slate-200 shadow-sm opacity-75 hover:opacity-100"
-                    : "border-indigo-300 shadow-md ring-1 ring-indigo-50"
+                    : "border-[#DDD6FE] shadow-md shadow-[#7C3AED]/10 ring-1 ring-[#7C3AED]/20"
                 }`}
               >
                 <div className="flex items-start gap-4">
@@ -219,7 +219,7 @@ export const Notifications = () => {
                             onClick={(e) =>
                               handleDownloadNotice(e, notification.referenceId)
                             }
-                            className="flex items-center gap-1.5 px-3 py-1.5 text-sm font-medium bg-indigo-50 text-indigo-700 rounded-md hover:bg-indigo-100 transition-colors"
+                            className="flex items-center gap-1.5 px-3 py-1.5 text-sm font-medium bg-[#EDE9FE] text-[#7C3AED] rounded-md hover:bg-[#DDD6FE] transition-colors"
                           >
                             <Download className="w-4 h-4" /> Download PDF
                           </button>
