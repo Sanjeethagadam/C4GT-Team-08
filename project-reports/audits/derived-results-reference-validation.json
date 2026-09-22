@@ -1,0 +1,1622 @@
+{
+  "CAI": {
+    "1-1": [
+      {
+        "official subject name": "LINEAR ALGEBRA & CALCULUS",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-LINEARALGE-1"
+      },
+      {
+        "official subject name": "INTRODUCTION TO PROGRAMMING",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-INTRODUCTI-2"
+      },
+      {
+        "official subject name": "ENGINEERING PHYSICS",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-ENGINEERIN-3"
+      },
+      {
+        "official subject name": "BASIC ELECTRICAL & ELECTRONICS ENGINEERING",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-BASICELECT-4"
+      },
+      {
+        "official subject name": "ENGINEERING GRAPHICS",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-ENGINEERIN-5"
+      }
+    ],
+    "1-2": [
+      {
+        "official subject name": "DIFFERENTIAL EQUATIONS & VECTOR CALCULUS",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-DIFFERENTI-6"
+      },
+      {
+        "official subject name": "DATA STRUCTURES",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-DATASTRUCT-7"
+      },
+      {
+        "official subject name": "CHEMISTRY",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-CHEMISTRY-8"
+      },
+      {
+        "official subject name": "COMMUNICATIVE ENGLISH",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-COMMUNICAT-9"
+      },
+      {
+        "official subject name": "BASIC CIVIL & MECHANICAL ENGINEERING",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-BASICCIVIL-10"
+      }
+    ],
+    "2-1": [
+      {
+        "official subject name": "DISCRETE MATHEMATICS & GRAPH THEORY",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-DISCRETEMA-11"
+      },
+      {
+        "official subject name": "UNIVERSAL HUMAN VALUES",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-UNIVERSALH-12"
+      },
+      {
+        "official subject name": "ADVANCED DATA STRUCTURES & ALGORITHMS",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-ADVANCEDDA-13"
+      },
+      {
+        "official subject name": "OBJECT ORIENTED PROGRAMMING THROUGH JAVA",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-OBJECTORIE-14"
+      },
+      {
+        "official subject name": "ARTIFICIAL INTELLIGENCE",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-ARTIFICIAL-15"
+      }
+    ],
+    "2-2": [
+      {
+        "official subject name": "PROBABILITY & STATISTICS",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-PROBABILIT-20"
+      },
+      {
+        "official subject name": "DATABASE MANAGEMENT SYSTEMS",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-DATABASEMA-18"
+      },
+      {
+        "official subject name": "DIGITAL LOGIC AND COMPUTER ORGANIZATION",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-DIGITALLOG-21"
+      },
+      {
+        "official subject name": "MACHINE LEARNING",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-MACHINELEA-22"
+      },
+      {
+        "official subject name": "OPTIMIZATION TECHNIQUES",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-OPTIMIZATI-23"
+      }
+    ],
+    "3-1": [
+      {
+        "official subject name": "OPERATING SYSTEMS",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-OPERATINGS-27"
+      },
+      {
+        "official subject name": "COMPUTER NETWORKS",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-COMPUTERNE-31"
+      },
+      {
+        "official subject name": "INTERNET OF THINGS",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-INTERNETOF-32"
+      },
+      {
+        "official subject name": "DEEP LEARNING",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-DEEPLEARNI-33, DL-8549"
+      },
+      {
+        "official subject name": "ENTREPRENEURSHIP DEVELOPMENT & VENTURE CREATION",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-ENTREPRENE-34"
+      }
+    ],
+    "3-2": [
+      {
+        "official subject name": "SOFTWARE ENGINEERING",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-SOFTWAREEN-28"
+      },
+      {
+        "official subject name": "GENERATIVE A.I.",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-GENERATIVE-39"
+      },
+      {
+        "official subject name": "DATA VISUALIZATION",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-DATAVISUAL-40"
+      },
+      {
+        "official subject name": "SOFTWARE TESTING METHODOLOGIES",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-SOFTWARETE-41"
+      },
+      {
+        "official subject name": "CLOUD COMPUTING",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-CLOUDCOMPU-36"
+      },
+      {
+        "official subject name": "DISASTER MANAGEMENT",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-DISASTERMA-42"
+      }
+    ]
+  },
+  "CSM": {
+    "1-1": [
+      {
+        "official subject name": "LINEAR ALGEBRA & CALCULUS",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-LINEARALGE-1"
+      },
+      {
+        "official subject name": "INTRODUCTION TO PROGRAMMING",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-INTRODUCTI-2"
+      },
+      {
+        "official subject name": "ENGINEERING PHYSICS",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-ENGINEERIN-3"
+      },
+      {
+        "official subject name": "BASIC ELECTRICAL & ELECTRONICS ENGINEERING",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-BASICELECT-4"
+      },
+      {
+        "official subject name": "ENGINEERING GRAPHICS",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-ENGINEERIN-5"
+      }
+    ],
+    "1-2": [
+      {
+        "official subject name": "DIFFERENTIAL EQUATIONS&VECTOR CALCULUS",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-DIFFERENTI-6"
+      },
+      {
+        "official subject name": "DATA STRUCTURES",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-DATASTRUCT-7"
+      },
+      {
+        "official subject name": "CHEMISTRY",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-CHEMISTRY-8"
+      },
+      {
+        "official subject name": "COMMUNICATIVE ENGLISH",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-COMMUNICAT-9"
+      },
+      {
+        "official subject name": "BASIC CIVIL&MECHANICAL ENGINEERING",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-BASICCIVIL-10"
+      }
+    ],
+    "2-1": [
+      {
+        "official subject name": "UNIVERSAL HUMAN VALUES",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-UNIVERSALH-12"
+      },
+      {
+        "official subject name": "DISCRETE MATHEMATICS & GRAPH THEORY",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-DISCRETEMA-11"
+      },
+      {
+        "official subject name": "ADVANCED DATA STRUCTURES & ALGORITHMS",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-ADVANCEDDA-13"
+      },
+      {
+        "official subject name": "OBJECT ORIENTED PROGRAMMING THROUGH JAVA",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-OBJECTORIE-14"
+      },
+      {
+        "official subject name": "ARTIFICIAL INTELLIGENCE",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-ARTIFICIAL-15"
+      }
+    ],
+    "2-2": [
+      {
+        "official subject name": "PROBABILITY & STATISTICS",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-PROBABILIT-20"
+      },
+      {
+        "official subject name": "OPTIMIZATION TECHNIQUES",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-OPTIMIZATI-23"
+      },
+      {
+        "official subject name": "DATABASE MANAGEMENT SYSTEMS",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-DATABASEMA-18"
+      },
+      {
+        "official subject name": "MACHINE LEARNING",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-MACHINELEA-22"
+      },
+      {
+        "official subject name": "DIGITAL LOGIC AND COMPUTER ORGANIZATION",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-DIGITALLOG-21"
+      }
+    ],
+    "3-1": [
+      {
+        "official subject name": "ENTREPRENEURSHIP DEVELOPMENT & VENTURE CREATION",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-ENTREPRENE-34"
+      },
+      {
+        "official subject name": "INFORMATION RETRIEVAL SYSTEMS",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-INFORMATIO-35"
+      },
+      {
+        "official subject name": "OPERATING SYSTEMS",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-OPERATINGS-27"
+      },
+      {
+        "official subject name": "COMPUTER NETWORKS",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-COMPUTERNE-31"
+      },
+      {
+        "official subject name": "INTERNET OF THINGS",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-INTERNETOF-32"
+      }
+    ],
+    "3-2": [
+      {
+        "official subject name": "DISASTER MANAGEMENT",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-DISASTERMA-42"
+      },
+      {
+        "official subject name": "SOFTWARE TESTING METHODOLOGIES",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-SOFTWARETE-41"
+      },
+      {
+        "official subject name": "NATURAL LANGUAGE PROCESSING",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-NATURALLAN-43, NLP-9375"
+      },
+      {
+        "official subject name": "DEEP LEARNING",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-DEEPLEARNI-33, DL-8549"
+      },
+      {
+        "official subject name": "DATA VISUALIZATION",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-DATAVISUAL-40"
+      },
+      {
+        "official subject name": "NOSQL DATABASES",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-NOSQLDATAB-44"
+      }
+    ]
+  },
+  "CSD": {
+    "1-1": [
+      {
+        "official subject name": "LINEAR ALGEBRA & CALCULUS",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-LINEARALGE-1"
+      },
+      {
+        "official subject name": "INTRODUCTION TO PROGRAMMING",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-INTRODUCTI-2"
+      },
+      {
+        "official subject name": "ENGINEERING PHYSICS",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-ENGINEERIN-3"
+      },
+      {
+        "official subject name": "BASIC ELECTRICAL & ELECTRONICS ENGINEERING",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-BASICELECT-4"
+      },
+      {
+        "official subject name": "ENGINEERING GRAPHICS",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-ENGINEERIN-5"
+      }
+    ],
+    "1-2": [
+      {
+        "official subject name": "DIFFERENTIAL EQUATIONS&VECTOR CALCULUS",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-DIFFERENTI-6"
+      },
+      {
+        "official subject name": "DATA STRUCTURES",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-DATASTRUCT-7"
+      },
+      {
+        "official subject name": "CHEMISTRY",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-CHEMISTRY-8"
+      },
+      {
+        "official subject name": "COMMUNICATIVE ENGLISH",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-COMMUNICAT-9"
+      },
+      {
+        "official subject name": "BASIC CIVIL&MECHANICAL ENGINEERING",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-BASICCIVIL-10"
+      }
+    ],
+    "2-1": [
+      {
+        "official subject name": "UNIVERSAL HUMAN VALUES",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-UNIVERSALH-12"
+      },
+      {
+        "official subject name": "DISCRETE MATHEMATICS & GRAPH THEORY",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-DISCRETEMA-11"
+      },
+      {
+        "official subject name": "ADVANCED DATA STRUCTURES & ALGORITHMS",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-ADVANCEDDA-13"
+      },
+      {
+        "official subject name": "OBJECT ORIENTED PROGRAMMING THROUGH JAVA",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-OBJECTORIE-14"
+      },
+      {
+        "official subject name": "INTRODUCTION TO DATA SCIENCE",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-INTRODUCTI-16"
+      }
+    ],
+    "2-2": [
+      {
+        "official subject name": "DATABASE MANAGEMENT SYSTEMS",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-DATABASEMA-18"
+      },
+      {
+        "official subject name": "OPTIMIZATION TECHNIQUES",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-OPTIMIZATI-23"
+      },
+      {
+        "official subject name": "STATISTICAL METHODS FOR DATA SCIENCE",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-STATISTICA-24"
+      },
+      {
+        "official subject name": "DATA ENGINEERING",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-DATAENGINE-25"
+      },
+      {
+        "official subject name": "COMPUTER ORGANIZATION AND ARCHITECTURE",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-COMPUTEROR-26"
+      }
+    ],
+    "3-1": [
+      {
+        "official subject name": "ENTREPRENEURSHIP DEVELOPMENT & VENTURE CREATION",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-ENTREPRENE-34"
+      },
+      {
+        "official subject name": "COMPUTER NETWORKS",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-COMPUTERNE-31"
+      },
+      {
+        "official subject name": "INTERNET OF THINGS",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-INTERNETOF-32"
+      },
+      {
+        "official subject name": "MACHINE LEARNING",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-MACHINELEA-22"
+      },
+      {
+        "official subject name": "SOFTWARE ENGINEERING",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-SOFTWAREEN-28"
+      }
+    ],
+    "3-2": [
+      {
+        "official subject name": "DISASTER MANAGEMENT",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-DISASTERMA-42"
+      },
+      {
+        "official subject name": "DEEP LEARNING",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-DEEPLEARNI-33, DL-8549"
+      },
+      {
+        "official subject name": "DATA VISUALIZATION",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-DATAVISUAL-40"
+      },
+      {
+        "official subject name": "NOSQL DATABASES",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-NOSQLDATAB-44"
+      },
+      {
+        "official subject name": "OPERATING SYSTEMS",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-OPERATINGS-27"
+      },
+      {
+        "official subject name": "CLOUD COMPUTING",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-CLOUDCOMPU-36"
+      }
+    ]
+  },
+  "AID": {
+    "1-1": [
+      {
+        "official subject name": "LINEAR ALGEBRA & CALCULUS",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-LINEARALGE-1"
+      },
+      {
+        "official subject name": "INTRODUCTION TO PROGRAMMING",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-INTRODUCTI-2"
+      },
+      {
+        "official subject name": "ENGINEERING PHYSICS",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-ENGINEERIN-3"
+      },
+      {
+        "official subject name": "BASIC ELECTRICAL & ELECTRONICS ENGINEERING",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-BASICELECT-4"
+      },
+      {
+        "official subject name": "ENGINEERING GRAPHICS",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-ENGINEERIN-5"
+      }
+    ],
+    "1-2": [
+      {
+        "official subject name": "DIFFERENTIAL EQUATIONS&VECTOR CALCULUS",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-DIFFERENTI-6"
+      },
+      {
+        "official subject name": "DATA STRUCTURES",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-DATASTRUCT-7"
+      },
+      {
+        "official subject name": "CHEMISTRY",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-CHEMISTRY-8"
+      },
+      {
+        "official subject name": "COMMUNICATIVE ENGLISH",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-COMMUNICAT-9"
+      },
+      {
+        "official subject name": "BASIC CIVIL&MECHANICAL ENGINEERING",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-BASICCIVIL-10"
+      }
+    ],
+    "2-1": [
+      {
+        "official subject name": "UNIVERSAL HUMAN VALUES",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-UNIVERSALH-12"
+      },
+      {
+        "official subject name": "DISCRETE MATHEMATICS & GRAPH THEORY",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-DISCRETEMA-11"
+      },
+      {
+        "official subject name": "ADVANCED DATA STRUCTURES AND ALGORITHMS",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-ADVANCEDDA-17"
+      },
+      {
+        "official subject name": "OBJECT ORIENTED PROGRAMMING THROUGH JAVA",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-OBJECTORIE-14"
+      },
+      {
+        "official subject name": "DATABASE MANAGEMENT SYSTEMS",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-DATABASEMA-18"
+      }
+    ],
+    "2-2": [
+      {
+        "official subject name": "OPERATING SYSTEMS",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-OPERATINGS-27"
+      },
+      {
+        "official subject name": "OPTIMIZATION TECHNIQUES",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-OPTIMIZATI-23"
+      },
+      {
+        "official subject name": "SOFTWARE ENGINEERING",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-SOFTWAREEN-28"
+      },
+      {
+        "official subject name": "STATISTICAL METHODS FOR DATA SCIENCE",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-STATISTICA-24"
+      },
+      {
+        "official subject name": "INTRODUCTION TO DATA SCIENCE",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-INTRODUCTI-16"
+      }
+    ],
+    "3-1": [
+      {
+        "official subject name": "COMPUTER NETWORKS",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-COMPUTERNE-31"
+      },
+      {
+        "official subject name": "ENTREPRENEURSHIP DEVELOPMENT & VENTURE CREATION",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-ENTREPRENE-34"
+      },
+      {
+        "official subject name": "COMPUTER ORGANIZATION AND ARCHITECTURE",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-COMPUTEROR-26"
+      },
+      {
+        "official subject name": "INTERNET OF THINGS",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-INTERNETOF-32"
+      },
+      {
+        "official subject name": "ARTIFICIAL INTELLIGENCE",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-ARTIFICIAL-15"
+      }
+    ],
+    "3-2": [
+      {
+        "official subject name": "DISASTER MANAGEMENT",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-DISASTERMA-42"
+      },
+      {
+        "official subject name": "BIG DATA ANALYTICS",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-BIGDATAANA-45, BDA-9171"
+      },
+      {
+        "official subject name": "NOSQL DATABASES",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-NOSQLDATAB-44"
+      },
+      {
+        "official subject name": "MACHINE LEARNING",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-MACHINELEA-22"
+      },
+      {
+        "official subject name": "DATA VISUALIZATION",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-DATAVISUAL-40"
+      },
+      {
+        "official subject name": "CLOUD COMPUTING",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-CLOUDCOMPU-36"
+      }
+    ]
+  },
+  "CSC": {
+    "1-1": [
+      {
+        "official subject name": "LINEAR ALGEBRA & CALCULUS",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-LINEARALGE-1"
+      },
+      {
+        "official subject name": "INTRODUCTION TO PROGRAMMING",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-INTRODUCTI-2"
+      },
+      {
+        "official subject name": "ENGINEERING PHYSICS",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-ENGINEERIN-3"
+      },
+      {
+        "official subject name": "BASIC ELECTRICAL & ELECTRONICS ENGINEERING",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-BASICELECT-4"
+      },
+      {
+        "official subject name": "ENGINEERING GRAPHICS",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-ENGINEERIN-5"
+      }
+    ],
+    "1-2": [
+      {
+        "official subject name": "DIFFERENTIAL EQUATIONS&VECTOR CALCULUS",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-DIFFERENTI-6"
+      },
+      {
+        "official subject name": "DATA STRUCTURES",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-DATASTRUCT-7"
+      },
+      {
+        "official subject name": "CHEMISTRY",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-CHEMISTRY-8"
+      },
+      {
+        "official subject name": "COMMUNICATIVE ENGLISH",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-COMMUNICAT-9"
+      },
+      {
+        "official subject name": "BASIC CIVIL&MECHANICAL ENGINEERING",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-BASICCIVIL-10"
+      }
+    ],
+    "2-1": [
+      {
+        "official subject name": "UNIVERSAL HUMAN VALUES",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-UNIVERSALH-12"
+      },
+      {
+        "official subject name": "OBJECT ORIENTED PROGRAMMING THROUGH JAVA",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-OBJECTORIE-14"
+      },
+      {
+        "official subject name": "DISCRETE MATHEMATICS & GRAPH THEORY",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-DISCRETEMA-11"
+      },
+      {
+        "official subject name": "DIGITAL LOGIC & COMPUTER ORGANIZATION",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-DIGITALLOG-19"
+      },
+      {
+        "official subject name": "ADVANCED DATA STRUCTURES & ALGORITHMS",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-ADVANCEDDA-13"
+      }
+    ],
+    "2-2": [
+      {
+        "official subject name": "OPERATING SYSTEMS",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-OPERATINGS-27"
+      },
+      {
+        "official subject name": "MANAGERIAL ECONOMICS AND FINANCIAL ANALYSIS",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-MANAGERIAL-29"
+      },
+      {
+        "official subject name": "DATABASE MANAGEMENT SYSTEMS",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-DATABASEMA-18"
+      },
+      {
+        "official subject name": "NUMBER THEORY & APPLICATIONS",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-NUMBERTHEO-30"
+      },
+      {
+        "official subject name": "COMPUTER NETWORKS",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-COMPUTERNE-31"
+      }
+    ],
+    "3-1": [
+      {
+        "official subject name": "ENTREPRENEURSHIP DEVELOPMENT & VENTURE CREATION",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-ENTREPRENE-34"
+      },
+      {
+        "official subject name": "CLOUD COMPUTING",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-CLOUDCOMPU-36"
+      },
+      {
+        "official subject name": "INTRODUCTION TO CYBER SECURITY",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-INTRODUCTI-37"
+      },
+      {
+        "official subject name": "AUTOMATA THEORY & COMPILER DESIGN",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-AUTOMATATH-38"
+      },
+      {
+        "official subject name": "INTERNET OF THINGS",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-INTERNETOF-32"
+      }
+    ],
+    "3-2": [
+      {
+        "official subject name": "DISASTER MANAGEMENT",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-DISASTERMA-42"
+      },
+      {
+        "official subject name": "NATURAL LANGUAGE PROCESSING",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-NATURALLAN-43, NLP-9375"
+      },
+      {
+        "official subject name": "CRYPTOGRAPHY & NETWORK SECURITY",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-CRYPTOGRAP-46"
+      },
+      {
+        "official subject name": "SOFTWARE TESTING METHODOLOGIES",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-SOFTWARETE-41"
+      },
+      {
+        "official subject name": "MACHINE LEARNING",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-MACHINELEA-22"
+      },
+      {
+        "official subject name": "CYBER CRIMES & DIGITAL FORENSICS",
+        "existing Subject record": "YES",
+        "existing SubjectBranchMapping record": "YES",
+        "missing mapping": "NO",
+        "existing semester": "YES",
+        "duplicate subject mapping": "NO",
+        "branch mismatch": "NO",
+        "foundSubjectCodes": "R23-CYBERCRIME-47"
+      }
+    ]
+  }
+}

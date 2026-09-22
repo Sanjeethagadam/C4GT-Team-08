@@ -1,0 +1,199 @@
+{
+  "global": {
+    "studentsProcessed": 2117,
+    "officialResultDataAvailable": 500,
+    "historicalResultDataNotAvailable": 1617
+  },
+  "branchSemesterStats": {
+    "CAI": {
+      "1-1": {
+        "studentsWithOfficialResults": 0,
+        "studentsWithoutOfficialResults": 335,
+        "activeBacklogStudents": 189,
+        "activeBacklogSubjects": 446
+      },
+      "1-2": {
+        "studentsWithOfficialResults": 0,
+        "studentsWithoutOfficialResults": 234,
+        "activeBacklogStudents": 124,
+        "activeBacklogSubjects": 262
+      },
+      "2-1": {
+        "studentsWithOfficialResults": 0,
+        "studentsWithoutOfficialResults": 234,
+        "activeBacklogStudents": 88,
+        "activeBacklogSubjects": 185
+      },
+      "2-2": {
+        "studentsWithOfficialResults": 0,
+        "studentsWithoutOfficialResults": 234,
+        "activeBacklogStudents": 33,
+        "activeBacklogSubjects": 40
+      },
+      "3-1": {
+        "studentsWithOfficialResults": 0,
+        "studentsWithoutOfficialResults": 89,
+        "activeBacklogStudents": 13,
+        "activeBacklogSubjects": 20
+      },
+      "3-2": {
+        "studentsWithOfficialResults": 81,
+        "studentsWithoutOfficialResults": 8,
+        "activeBacklogStudents": 20,
+        "activeBacklogSubjects": 41
+      }
+    },
+    "CSM": {
+      "1-1": {
+        "studentsWithOfficialResults": 0,
+        "studentsWithoutOfficialResults": 568,
+        "activeBacklogStudents": 269,
+        "activeBacklogSubjects": 668
+      },
+      "1-2": {
+        "studentsWithOfficialResults": 0,
+        "studentsWithoutOfficialResults": 359,
+        "activeBacklogStudents": 111,
+        "activeBacklogSubjects": 166
+      },
+      "2-1": {
+        "studentsWithOfficialResults": 0,
+        "studentsWithoutOfficialResults": 359,
+        "activeBacklogStudents": 142,
+        "activeBacklogSubjects": 329
+      },
+      "2-2": {
+        "studentsWithOfficialResults": 0,
+        "studentsWithoutOfficialResults": 359,
+        "activeBacklogStudents": 228,
+        "activeBacklogSubjects": 453
+      },
+      "3-1": {
+        "studentsWithOfficialResults": 0,
+        "studentsWithoutOfficialResults": 145,
+        "activeBacklogStudents": 31,
+        "activeBacklogSubjects": 51
+      },
+      "3-2": {
+        "studentsWithOfficialResults": 120,
+        "studentsWithoutOfficialResults": 25,
+        "activeBacklogStudents": 39,
+        "activeBacklogSubjects": 64
+      }
+    },
+    "CSD": {
+      "1-1": {
+        "studentsWithOfficialResults": 0,
+        "studentsWithoutOfficialResults": 341,
+        "activeBacklogStudents": 156,
+        "activeBacklogSubjects": 254
+      },
+      "1-2": {
+        "studentsWithOfficialResults": 0,
+        "studentsWithoutOfficialResults": 232,
+        "activeBacklogStudents": 73,
+        "activeBacklogSubjects": 101
+      },
+      "2-1": {
+        "studentsWithOfficialResults": 0,
+        "studentsWithoutOfficialResults": 232,
+        "activeBacklogStudents": 73,
+        "activeBacklogSubjects": 159
+      },
+      "2-2": {
+        "studentsWithOfficialResults": 0,
+        "studentsWithoutOfficialResults": 232,
+        "activeBacklogStudents": 125,
+        "activeBacklogSubjects": 221
+      },
+      "3-1": {
+        "studentsWithOfficialResults": 0,
+        "studentsWithoutOfficialResults": 86,
+        "activeBacklogStudents": 21,
+        "activeBacklogSubjects": 31
+      },
+      "3-2": {
+        "studentsWithOfficialResults": 78,
+        "studentsWithoutOfficialResults": 8,
+        "activeBacklogStudents": 23,
+        "activeBacklogSubjects": 35
+      }
+    },
+    "AID": {
+      "1-1": {
+        "studentsWithOfficialResults": 0,
+        "studentsWithoutOfficialResults": 568,
+        "activeBacklogStudents": 269,
+        "activeBacklogSubjects": 680
+      },
+      "1-2": {
+        "studentsWithOfficialResults": 0,
+        "studentsWithoutOfficialResults": 387,
+        "activeBacklogStudents": 97,
+        "activeBacklogSubjects": 141
+      },
+      "2-1": {
+        "studentsWithOfficialResults": 0,
+        "studentsWithoutOfficialResults": 387,
+        "activeBacklogStudents": 130,
+        "activeBacklogSubjects": 358
+      },
+      "2-2": {
+        "studentsWithOfficialResults": 0,
+        "studentsWithoutOfficialResults": 387,
+        "activeBacklogStudents": 176,
+        "activeBacklogSubjects": 320
+      },
+      "3-1": {
+        "studentsWithOfficialResults": 0,
+        "studentsWithoutOfficialResults": 173,
+        "activeBacklogStudents": 16,
+        "activeBacklogSubjects": 19
+      },
+      "3-2": {
+        "studentsWithOfficialResults": 136,
+        "studentsWithoutOfficialResults": 37,
+        "activeBacklogStudents": 40,
+        "activeBacklogSubjects": 56
+      }
+    },
+    "CSC": {
+      "1-1": {
+        "studentsWithOfficialResults": 0,
+        "studentsWithoutOfficialResults": 305,
+        "activeBacklogStudents": 140,
+        "activeBacklogSubjects": 321
+      },
+      "1-2": {
+        "studentsWithOfficialResults": 0,
+        "studentsWithoutOfficialResults": 211,
+        "activeBacklogStudents": 53,
+        "activeBacklogSubjects": 72
+      },
+      "2-1": {
+        "studentsWithOfficialResults": 0,
+        "studentsWithoutOfficialResults": 211,
+        "activeBacklogStudents": 66,
+        "activeBacklogSubjects": 159
+      },
+      "2-2": {
+        "studentsWithOfficialResults": 0,
+        "studentsWithoutOfficialResults": 211,
+        "activeBacklogStudents": 73,
+        "activeBacklogSubjects": 122
+      },
+      "3-1": {
+        "studentsWithOfficialResults": 0,
+        "studentsWithoutOfficialResults": 105,
+        "activeBacklogStudents": 9,
+        "activeBacklogSubjects": 19
+      },
+      "3-2": {
+        "studentsWithOfficialResults": 85,
+        "studentsWithoutOfficialResults": 20,
+        "activeBacklogStudents": 30,
+        "activeBacklogSubjects": 42
+      }
+    }
+  }
+}

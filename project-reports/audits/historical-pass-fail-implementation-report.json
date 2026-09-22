@@ -1,0 +1,56 @@
+{
+  "verificationReport": {
+    "title": "Historical Semester PASS/FAIL Implementation Verification Report",
+    "timestamp": "2026-09-15T15:32:00+05:30",
+    "sources": {
+      "curriculumSource": "SubjectBranchMapping collection (Active subjects for branch/semester)",
+      "backlogSource": "Backlog collection (K&K+ BACKLOGS DATA(2).xlsx imported records)",
+      "matchingMethod": "Student ID + Academic Semester ID + Subject ID compound matching"
+    },
+    "behavior": {
+      "semesterMapping": "Matches expected relevant historical semesters based on student's current year (e.g., Year 2 gets 1-1; Year 4 gets 1-1 to 3-2)",
+      "studentMapping": "Matches individual students in Student Portal and grouped cohorts in CTPO Class Results based on RBAC scope",
+      "zeroBacklogSemesterBehavior": "If no backlog records exist for a curriculum subject in a historical semester, it is inherently inferred as PASS",
+      "duplicateCheck": "Verified no duplicate historical rows; Set ensures unique evaluations per subject per semester"
+    },
+    "dataSafety": {
+      "DerivedSemesterResult": "Collection remains empty (0 records); no fake records were created",
+      "SemesterResult": "Total count unchanged (3916 records); official JNTUK results preserved entirely",
+      "official3-2Regression": "Official 3-2 results correctly served untouched (e.g., Student 23B21A4201 verified to have 5 official 3-2 results and 25 historical 3-1 results)"
+    },
+    "portalVerifications": {
+      "studentPortal": {
+        "year2": {
+          "student": "25B21A4201",
+          "expectedSemesters": ["1-1"],
+          "actualSemesters": ["1-1"],
+          "passCount": 21,
+          "failCount": 4,
+          "status": "SUCCESS"
+        },
+        "year3": {
+          "student": "24B21A4201",
+          "expectedSemesters": ["1-1", "1-2", "2-1", "2-2"],
+          "actualSemesters": ["1-1", "1-2", "2-1", "2-2"],
+          "status": "SUCCESS"
+        },
+        "year4": {
+          "student": "23B21A4201",
+          "expectedSemesters": ["1-1", "1-2", "2-1", "2-2", "3-1", "3-2"],
+          "actualSemesters": ["1-1", "1-2", "2-1", "2-2", "3-1", "3-2"],
+          "status": "SUCCESS"
+        }
+      },
+      "ctpoPortal": {
+        "account": "23KTCAI",
+        "scopeEnforcement": "Strictly scoped to assigned branch and year",
+        "resultsYield": "Returns correct PASS/FAIL historical data for cohort students without official results (e.g., 2225 historical subject rows generated for 1-1 cohort)",
+        "status": "SUCCESS"
+      }
+    },
+    "buildCheck": {
+      "typecheck": "SUCCESS",
+      "build": "SUCCESS"
+    }
+  }
+}

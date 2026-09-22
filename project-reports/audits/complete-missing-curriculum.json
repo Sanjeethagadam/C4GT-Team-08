@@ -1,0 +1,1355 @@
+{
+  "curriculum": {
+    "CAI": {
+      "1-1": [
+        {
+          "branch": "CAI",
+          "semester": "1-1",
+          "subjectName": "INTRODUCTION TO PROGRAMMING LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CAI",
+          "semester": "1-1",
+          "subjectName": "ENGINEERING PHYSICS LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CAI",
+          "semester": "1-1",
+          "subjectName": "BASIC ELECTRICAL & ELECTRONICS ENGINEERING LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CAI",
+          "semester": "1-1",
+          "subjectName": "IT WORKSHOP",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CAI",
+          "semester": "1-1",
+          "subjectName": "NSS/NCC/SCOUTS & GUIDES/COMMUNITY SERVICE",
+          "type": "ACTIVITY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        }
+      ],
+      "1-2": [
+        {
+          "branch": "CAI",
+          "semester": "1-2",
+          "subjectName": "DATA STRUCTURES LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CAI",
+          "semester": "1-2",
+          "subjectName": "CHEMISTRY LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CAI",
+          "semester": "1-2",
+          "subjectName": "COMMUNICATIVE ENGLISH LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CAI",
+          "semester": "1-2",
+          "subjectName": "ENGINEERING WORKSHOP",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CAI",
+          "semester": "1-2",
+          "subjectName": "HEALTH AND WELLNESS, YOGA AND SPORTS",
+          "type": "ACTIVITY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        }
+      ],
+      "2-1": [
+        {
+          "branch": "CAI",
+          "semester": "2-1",
+          "subjectName": "ADVANCED DATA STRUCTURES & ALGORITHMS LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CAI",
+          "semester": "2-1",
+          "subjectName": "OBJECT ORIENTED PROGRAMMING THROUGH JAVA LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CAI",
+          "semester": "2-1",
+          "subjectName": "ARTIFICIAL INTELLIGENCE LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CAI",
+          "semester": "2-1",
+          "subjectName": "SKILL ORIENTED COURSE",
+          "type": "ACTIVITY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        }
+      ],
+      "2-2": [
+        {
+          "branch": "CAI",
+          "semester": "2-2",
+          "subjectName": "DATABASE MANAGEMENT SYSTEMS LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CAI",
+          "semester": "2-2",
+          "subjectName": "MACHINE LEARNING LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CAI",
+          "semester": "2-2",
+          "subjectName": "SKILL ORIENTED COURSE-II",
+          "type": "ACTIVITY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        }
+      ],
+      "3-1": [
+        {
+          "branch": "CAI",
+          "semester": "3-1",
+          "subjectName": "OPERATING SYSTEMS LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CAI",
+          "semester": "3-1",
+          "subjectName": "COMPUTER NETWORKS LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CAI",
+          "semester": "3-1",
+          "subjectName": "DEEP LEARNING LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CAI",
+          "semester": "3-1",
+          "subjectName": "SKILL ORIENTED COURSE-III",
+          "type": "ACTIVITY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        }
+      ],
+      "3-2": [
+        {
+          "branch": "CAI",
+          "semester": "3-2",
+          "subjectName": "SOFTWARE ENGINEERING LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CAI",
+          "semester": "3-2",
+          "subjectName": "DATA VISUALIZATION LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        }
+      ]
+    },
+    "CSM": {
+      "1-1": [
+        {
+          "branch": "CSM",
+          "semester": "1-1",
+          "subjectName": "INTRODUCTION TO PROGRAMMING LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CSM",
+          "semester": "1-1",
+          "subjectName": "ENGINEERING PHYSICS LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CSM",
+          "semester": "1-1",
+          "subjectName": "BASIC ELECTRICAL & ELECTRONICS ENGINEERING LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CSM",
+          "semester": "1-1",
+          "subjectName": "IT WORKSHOP",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CSM",
+          "semester": "1-1",
+          "subjectName": "NSS/NCC/SCOUTS & GUIDES/COMMUNITY SERVICE",
+          "type": "ACTIVITY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        }
+      ],
+      "1-2": [
+        {
+          "branch": "CSM",
+          "semester": "1-2",
+          "subjectName": "DATA STRUCTURES LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CSM",
+          "semester": "1-2",
+          "subjectName": "CHEMISTRY LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CSM",
+          "semester": "1-2",
+          "subjectName": "COMMUNICATIVE ENGLISH LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CSM",
+          "semester": "1-2",
+          "subjectName": "ENGINEERING WORKSHOP",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CSM",
+          "semester": "1-2",
+          "subjectName": "HEALTH AND WELLNESS, YOGA AND SPORTS",
+          "type": "ACTIVITY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        }
+      ],
+      "2-1": [
+        {
+          "branch": "CSM",
+          "semester": "2-1",
+          "subjectName": "ADVANCED DATA STRUCTURES & ALGORITHMS LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CSM",
+          "semester": "2-1",
+          "subjectName": "OBJECT ORIENTED PROGRAMMING THROUGH JAVA LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CSM",
+          "semester": "2-1",
+          "subjectName": "ARTIFICIAL INTELLIGENCE LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CSM",
+          "semester": "2-1",
+          "subjectName": "SKILL ORIENTED COURSE",
+          "type": "ACTIVITY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        }
+      ],
+      "2-2": [
+        {
+          "branch": "CSM",
+          "semester": "2-2",
+          "subjectName": "DATABASE MANAGEMENT SYSTEMS LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CSM",
+          "semester": "2-2",
+          "subjectName": "MACHINE LEARNING LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CSM",
+          "semester": "2-2",
+          "subjectName": "SKILL ORIENTED COURSE-II",
+          "type": "ACTIVITY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        }
+      ],
+      "3-1": [
+        {
+          "branch": "CSM",
+          "semester": "3-1",
+          "subjectName": "OPERATING SYSTEMS LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CSM",
+          "semester": "3-1",
+          "subjectName": "COMPUTER NETWORKS LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CSM",
+          "semester": "3-1",
+          "subjectName": "SKILL ORIENTED COURSE-III",
+          "type": "ACTIVITY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        }
+      ],
+      "3-2": [
+        {
+          "branch": "CSM",
+          "semester": "3-2",
+          "subjectName": "DEEP LEARNING LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CSM",
+          "semester": "3-2",
+          "subjectName": "DATA VISUALIZATION LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        }
+      ]
+    },
+    "CSD": {
+      "1-1": [
+        {
+          "branch": "CSD",
+          "semester": "1-1",
+          "subjectName": "INTRODUCTION TO PROGRAMMING LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CSD",
+          "semester": "1-1",
+          "subjectName": "ENGINEERING PHYSICS LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CSD",
+          "semester": "1-1",
+          "subjectName": "BASIC ELECTRICAL & ELECTRONICS ENGINEERING LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CSD",
+          "semester": "1-1",
+          "subjectName": "IT WORKSHOP",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CSD",
+          "semester": "1-1",
+          "subjectName": "NSS/NCC/SCOUTS & GUIDES/COMMUNITY SERVICE",
+          "type": "ACTIVITY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        }
+      ],
+      "1-2": [
+        {
+          "branch": "CSD",
+          "semester": "1-2",
+          "subjectName": "DATA STRUCTURES LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CSD",
+          "semester": "1-2",
+          "subjectName": "CHEMISTRY LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CSD",
+          "semester": "1-2",
+          "subjectName": "COMMUNICATIVE ENGLISH LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CSD",
+          "semester": "1-2",
+          "subjectName": "ENGINEERING WORKSHOP",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CSD",
+          "semester": "1-2",
+          "subjectName": "HEALTH AND WELLNESS, YOGA AND SPORTS",
+          "type": "ACTIVITY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        }
+      ],
+      "2-1": [
+        {
+          "branch": "CSD",
+          "semester": "2-1",
+          "subjectName": "ADVANCED DATA STRUCTURES & ALGORITHMS LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CSD",
+          "semester": "2-1",
+          "subjectName": "OBJECT ORIENTED PROGRAMMING THROUGH JAVA LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CSD",
+          "semester": "2-1",
+          "subjectName": "DATA SCIENCE LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CSD",
+          "semester": "2-1",
+          "subjectName": "SKILL ORIENTED COURSE",
+          "type": "ACTIVITY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        }
+      ],
+      "2-2": [
+        {
+          "branch": "CSD",
+          "semester": "2-2",
+          "subjectName": "DATABASE MANAGEMENT SYSTEMS LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CSD",
+          "semester": "2-2",
+          "subjectName": "STATISTICAL METHODS FOR DATA SCIENCE LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CSD",
+          "semester": "2-2",
+          "subjectName": "SKILL ORIENTED COURSE-II",
+          "type": "ACTIVITY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        }
+      ],
+      "3-1": [
+        {
+          "branch": "CSD",
+          "semester": "3-1",
+          "subjectName": "COMPUTER NETWORKS LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CSD",
+          "semester": "3-1",
+          "subjectName": "MACHINE LEARNING LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CSD",
+          "semester": "3-1",
+          "subjectName": "SKILL ORIENTED COURSE-III",
+          "type": "ACTIVITY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        }
+      ],
+      "3-2": [
+        {
+          "branch": "CSD",
+          "semester": "3-2",
+          "subjectName": "DEEP LEARNING LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CSD",
+          "semester": "3-2",
+          "subjectName": "DATA VISUALIZATION LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CSD",
+          "semester": "3-2",
+          "subjectName": "OPERATING SYSTEMS LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        }
+      ]
+    },
+    "AID": {
+      "1-1": [
+        {
+          "branch": "AID",
+          "semester": "1-1",
+          "subjectName": "INTRODUCTION TO PROGRAMMING LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "AID",
+          "semester": "1-1",
+          "subjectName": "ENGINEERING PHYSICS LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "AID",
+          "semester": "1-1",
+          "subjectName": "BASIC ELECTRICAL & ELECTRONICS ENGINEERING LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "AID",
+          "semester": "1-1",
+          "subjectName": "IT WORKSHOP",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "AID",
+          "semester": "1-1",
+          "subjectName": "NSS/NCC/SCOUTS & GUIDES/COMMUNITY SERVICE",
+          "type": "ACTIVITY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        }
+      ],
+      "1-2": [
+        {
+          "branch": "AID",
+          "semester": "1-2",
+          "subjectName": "DATA STRUCTURES LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "AID",
+          "semester": "1-2",
+          "subjectName": "CHEMISTRY LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "AID",
+          "semester": "1-2",
+          "subjectName": "COMMUNICATIVE ENGLISH LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "AID",
+          "semester": "1-2",
+          "subjectName": "ENGINEERING WORKSHOP",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "AID",
+          "semester": "1-2",
+          "subjectName": "HEALTH AND WELLNESS, YOGA AND SPORTS",
+          "type": "ACTIVITY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        }
+      ],
+      "2-1": [
+        {
+          "branch": "AID",
+          "semester": "2-1",
+          "subjectName": "ADVANCED DATA STRUCTURES AND ALGORITHMS LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "AID",
+          "semester": "2-1",
+          "subjectName": "OBJECT ORIENTED PROGRAMMING THROUGH JAVA LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "AID",
+          "semester": "2-1",
+          "subjectName": "DATABASE MANAGEMENT SYSTEMS LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "AID",
+          "semester": "2-1",
+          "subjectName": "SKILL ORIENTED COURSE",
+          "type": "ACTIVITY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        }
+      ],
+      "2-2": [
+        {
+          "branch": "AID",
+          "semester": "2-2",
+          "subjectName": "OPERATING SYSTEMS LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "AID",
+          "semester": "2-2",
+          "subjectName": "SOFTWARE ENGINEERING LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "AID",
+          "semester": "2-2",
+          "subjectName": "STATISTICAL METHODS FOR DATA SCIENCE LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "AID",
+          "semester": "2-2",
+          "subjectName": "SKILL ORIENTED COURSE-II",
+          "type": "ACTIVITY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        }
+      ],
+      "3-1": [
+        {
+          "branch": "AID",
+          "semester": "3-1",
+          "subjectName": "COMPUTER NETWORKS LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "AID",
+          "semester": "3-1",
+          "subjectName": "ARTIFICIAL INTELLIGENCE LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "AID",
+          "semester": "3-1",
+          "subjectName": "SKILL ORIENTED COURSE-III",
+          "type": "ACTIVITY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        }
+      ],
+      "3-2": [
+        {
+          "branch": "AID",
+          "semester": "3-2",
+          "subjectName": "BIG DATA ANALYTICS LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "AID",
+          "semester": "3-2",
+          "subjectName": "MACHINE LEARNING LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "AID",
+          "semester": "3-2",
+          "subjectName": "DATA VISUALIZATION LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        }
+      ]
+    },
+    "CSC": {
+      "1-1": [
+        {
+          "branch": "CSC",
+          "semester": "1-1",
+          "subjectName": "INTRODUCTION TO PROGRAMMING LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CSC",
+          "semester": "1-1",
+          "subjectName": "ENGINEERING PHYSICS LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CSC",
+          "semester": "1-1",
+          "subjectName": "BASIC ELECTRICAL & ELECTRONICS ENGINEERING LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CSC",
+          "semester": "1-1",
+          "subjectName": "IT WORKSHOP",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CSC",
+          "semester": "1-1",
+          "subjectName": "NSS/NCC/SCOUTS & GUIDES/COMMUNITY SERVICE",
+          "type": "ACTIVITY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        }
+      ],
+      "1-2": [
+        {
+          "branch": "CSC",
+          "semester": "1-2",
+          "subjectName": "DATA STRUCTURES LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CSC",
+          "semester": "1-2",
+          "subjectName": "CHEMISTRY LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CSC",
+          "semester": "1-2",
+          "subjectName": "COMMUNICATIVE ENGLISH LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CSC",
+          "semester": "1-2",
+          "subjectName": "ENGINEERING WORKSHOP",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CSC",
+          "semester": "1-2",
+          "subjectName": "HEALTH AND WELLNESS, YOGA AND SPORTS",
+          "type": "ACTIVITY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        }
+      ],
+      "2-1": [
+        {
+          "branch": "CSC",
+          "semester": "2-1",
+          "subjectName": "OBJECT ORIENTED PROGRAMMING THROUGH JAVA LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CSC",
+          "semester": "2-1",
+          "subjectName": "ADVANCED DATA STRUCTURES & ALGORITHMS LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CSC",
+          "semester": "2-1",
+          "subjectName": "DIGITAL LOGIC & COMPUTER ORGANIZATION LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CSC",
+          "semester": "2-1",
+          "subjectName": "SKILL ORIENTED COURSE",
+          "type": "ACTIVITY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        }
+      ],
+      "2-2": [
+        {
+          "branch": "CSC",
+          "semester": "2-2",
+          "subjectName": "OPERATING SYSTEMS LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CSC",
+          "semester": "2-2",
+          "subjectName": "DATABASE MANAGEMENT SYSTEMS LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CSC",
+          "semester": "2-2",
+          "subjectName": "COMPUTER NETWORKS LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CSC",
+          "semester": "2-2",
+          "subjectName": "SKILL ORIENTED COURSE-II",
+          "type": "ACTIVITY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        }
+      ],
+      "3-1": [
+        {
+          "branch": "CSC",
+          "semester": "3-1",
+          "subjectName": "CLOUD COMPUTING LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CSC",
+          "semester": "3-1",
+          "subjectName": "INTRODUCTION TO CYBER SECURITY LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CSC",
+          "semester": "3-1",
+          "subjectName": "SKILL ORIENTED COURSE-III",
+          "type": "ACTIVITY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        }
+      ],
+      "3-2": [
+        {
+          "branch": "CSC",
+          "semester": "3-2",
+          "subjectName": "CRYPTOGRAPHY & NETWORK SECURITY LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CSC",
+          "semester": "3-2",
+          "subjectName": "SOFTWARE TESTING METHODOLOGIES LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        },
+        {
+          "branch": "CSC",
+          "semester": "3-2",
+          "subjectName": "CYBER CRIMES & DIGITAL FORENSICS LAB",
+          "type": "LABORATORY",
+          "existingSubject": "NO",
+          "existingMapping": "NO",
+          "creditFromReference": "MISSING",
+          "referenceSource": "NONE - PENDING ACTUAL IMAGE EXTRACTION",
+          "recommendedAction": "AWAITING AUTHORITATIVE CREDITS BEFORE CREATION"
+        }
+      ]
+    }
+  },
+  "summary": {
+    "Missing subjects with verified credits": 0,
+    "Missing subjects with missing credits": 116,
+    "Ambiguous subjects requiring review": 3
+  }
+}

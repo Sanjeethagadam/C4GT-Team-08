@@ -1,0 +1,252 @@
+[
+  {
+    "Branch": "CAI",
+    "Semester": "1-1",
+    "Expected subject count": "UNKNOWN (Needs Authoritative Reference)",
+    "Expected theory count": 5,
+    "Expected lab count": "UNKNOWN",
+    "Expected activity count": "UNKNOWN",
+    "Credits required": "UNKNOWN",
+    "Reference data status": "MISSING"
+  },
+  {
+    "Branch": "CAI",
+    "Semester": "2-1",
+    "Expected subject count": "UNKNOWN (Needs Authoritative Reference)",
+    "Expected theory count": 5,
+    "Expected lab count": "UNKNOWN",
+    "Expected activity count": "UNKNOWN",
+    "Credits required": "UNKNOWN",
+    "Reference data status": "MISSING"
+  },
+  {
+    "Branch": "CAI",
+    "Semester": "2-2",
+    "Expected subject count": "UNKNOWN (Needs Authoritative Reference)",
+    "Expected theory count": 5,
+    "Expected lab count": "UNKNOWN",
+    "Expected activity count": "UNKNOWN",
+    "Credits required": "UNKNOWN",
+    "Reference data status": "MISSING"
+  },
+  {
+    "Branch": "CAI",
+    "Semester": "3-1",
+    "Expected subject count": "UNKNOWN (Needs Authoritative Reference)",
+    "Expected theory count": 5,
+    "Expected lab count": "UNKNOWN",
+    "Expected activity count": "UNKNOWN",
+    "Credits required": "UNKNOWN",
+    "Reference data status": "MISSING"
+  },
+  {
+    "Branch": "CAI",
+    "Semester": "3-2",
+    "Expected subject count": "UNKNOWN (Needs Authoritative Reference)",
+    "Expected theory count": 6,
+    "Expected lab count": "UNKNOWN",
+    "Expected activity count": "UNKNOWN",
+    "Credits required": "UNKNOWN",
+    "Reference data status": "MISSING"
+  },
+  {
+    "Branch": "CSM",
+    "Semester": "1-2",
+    "Expected subject count": "UNKNOWN (Needs Authoritative Reference)",
+    "Expected theory count": 5,
+    "Expected lab count": "UNKNOWN",
+    "Expected activity count": "UNKNOWN",
+    "Credits required": "UNKNOWN",
+    "Reference data status": "MISSING"
+  },
+  {
+    "Branch": "CSM",
+    "Semester": "2-1",
+    "Expected subject count": "UNKNOWN (Needs Authoritative Reference)",
+    "Expected theory count": 5,
+    "Expected lab count": "UNKNOWN",
+    "Expected activity count": "UNKNOWN",
+    "Credits required": "UNKNOWN",
+    "Reference data status": "MISSING"
+  },
+  {
+    "Branch": "CSM",
+    "Semester": "2-2",
+    "Expected subject count": "UNKNOWN (Needs Authoritative Reference)",
+    "Expected theory count": 5,
+    "Expected lab count": "UNKNOWN",
+    "Expected activity count": "UNKNOWN",
+    "Credits required": "UNKNOWN",
+    "Reference data status": "MISSING"
+  },
+  {
+    "Branch": "CSM",
+    "Semester": "3-1",
+    "Expected subject count": "UNKNOWN (Needs Authoritative Reference)",
+    "Expected theory count": 5,
+    "Expected lab count": "UNKNOWN",
+    "Expected activity count": "UNKNOWN",
+    "Credits required": "UNKNOWN",
+    "Reference data status": "MISSING"
+  },
+  {
+    "Branch": "CSM",
+    "Semester": "3-2",
+    "Expected subject count": "UNKNOWN (Needs Authoritative Reference)",
+    "Expected theory count": 6,
+    "Expected lab count": "UNKNOWN",
+    "Expected activity count": "UNKNOWN",
+    "Credits required": "UNKNOWN",
+    "Reference data status": "MISSING"
+  },
+  {
+    "Branch": "CSD",
+    "Semester": "1-1",
+    "Expected subject count": "UNKNOWN (Needs Authoritative Reference)",
+    "Expected theory count": 5,
+    "Expected lab count": "UNKNOWN",
+    "Expected activity count": "UNKNOWN",
+    "Credits required": "UNKNOWN",
+    "Reference data status": "MISSING"
+  },
+  {
+    "Branch": "CSD",
+    "Semester": "2-1",
+    "Expected subject count": "UNKNOWN (Needs Authoritative Reference)",
+    "Expected theory count": 5,
+    "Expected lab count": "UNKNOWN",
+    "Expected activity count": "UNKNOWN",
+    "Credits required": "UNKNOWN",
+    "Reference data status": "MISSING"
+  },
+  {
+    "Branch": "CSD",
+    "Semester": "2-2",
+    "Expected subject count": "UNKNOWN (Needs Authoritative Reference)",
+    "Expected theory count": 5,
+    "Expected lab count": "UNKNOWN",
+    "Expected activity count": "UNKNOWN",
+    "Credits required": "UNKNOWN",
+    "Reference data status": "MISSING"
+  },
+  {
+    "Branch": "CSD",
+    "Semester": "3-1",
+    "Expected subject count": "UNKNOWN (Needs Authoritative Reference)",
+    "Expected theory count": 5,
+    "Expected lab count": "UNKNOWN",
+    "Expected activity count": "UNKNOWN",
+    "Credits required": "UNKNOWN",
+    "Reference data status": "MISSING"
+  },
+  {
+    "Branch": "CSD",
+    "Semester": "3-2",
+    "Expected subject count": "UNKNOWN (Needs Authoritative Reference)",
+    "Expected theory count": 6,
+    "Expected lab count": "UNKNOWN",
+    "Expected activity count": "UNKNOWN",
+    "Credits required": "UNKNOWN",
+    "Reference data status": "MISSING"
+  },
+  {
+    "Branch": "AID",
+    "Semester": "1-2",
+    "Expected subject count": "UNKNOWN (Needs Authoritative Reference)",
+    "Expected theory count": 5,
+    "Expected lab count": "UNKNOWN",
+    "Expected activity count": "UNKNOWN",
+    "Credits required": "UNKNOWN",
+    "Reference data status": "MISSING"
+  },
+  {
+    "Branch": "AID",
+    "Semester": "2-1",
+    "Expected subject count": "UNKNOWN (Needs Authoritative Reference)",
+    "Expected theory count": 5,
+    "Expected lab count": "UNKNOWN",
+    "Expected activity count": "UNKNOWN",
+    "Credits required": "UNKNOWN",
+    "Reference data status": "MISSING"
+  },
+  {
+    "Branch": "AID",
+    "Semester": "2-2",
+    "Expected subject count": "UNKNOWN (Needs Authoritative Reference)",
+    "Expected theory count": 5,
+    "Expected lab count": "UNKNOWN",
+    "Expected activity count": "UNKNOWN",
+    "Credits required": "UNKNOWN",
+    "Reference data status": "MISSING"
+  },
+  {
+    "Branch": "AID",
+    "Semester": "3-1",
+    "Expected subject count": "UNKNOWN (Needs Authoritative Reference)",
+    "Expected theory count": 5,
+    "Expected lab count": "UNKNOWN",
+    "Expected activity count": "UNKNOWN",
+    "Credits required": "UNKNOWN",
+    "Reference data status": "MISSING"
+  },
+  {
+    "Branch": "AID",
+    "Semester": "3-2",
+    "Expected subject count": "UNKNOWN (Needs Authoritative Reference)",
+    "Expected theory count": 6,
+    "Expected lab count": "UNKNOWN",
+    "Expected activity count": "UNKNOWN",
+    "Credits required": "UNKNOWN",
+    "Reference data status": "MISSING"
+  },
+  {
+    "Branch": "CSC",
+    "Semester": "1-1",
+    "Expected subject count": "UNKNOWN (Needs Authoritative Reference)",
+    "Expected theory count": 5,
+    "Expected lab count": "UNKNOWN",
+    "Expected activity count": "UNKNOWN",
+    "Credits required": "UNKNOWN",
+    "Reference data status": "MISSING"
+  },
+  {
+    "Branch": "CSC",
+    "Semester": "2-1",
+    "Expected subject count": "UNKNOWN (Needs Authoritative Reference)",
+    "Expected theory count": 5,
+    "Expected lab count": "UNKNOWN",
+    "Expected activity count": "UNKNOWN",
+    "Credits required": "UNKNOWN",
+    "Reference data status": "MISSING"
+  },
+  {
+    "Branch": "CSC",
+    "Semester": "2-2",
+    "Expected subject count": "UNKNOWN (Needs Authoritative Reference)",
+    "Expected theory count": 5,
+    "Expected lab count": "UNKNOWN",
+    "Expected activity count": "UNKNOWN",
+    "Credits required": "UNKNOWN",
+    "Reference data status": "MISSING"
+  },
+  {
+    "Branch": "CSC",
+    "Semester": "3-1",
+    "Expected subject count": "UNKNOWN (Needs Authoritative Reference)",
+    "Expected theory count": 5,
+    "Expected lab count": "UNKNOWN",
+    "Expected activity count": "UNKNOWN",
+    "Credits required": "UNKNOWN",
+    "Reference data status": "MISSING"
+  },
+  {
+    "Branch": "CSC",
+    "Semester": "3-2",
+    "Expected subject count": "UNKNOWN (Needs Authoritative Reference)",
+    "Expected theory count": 6,
+    "Expected lab count": "UNKNOWN",
+    "Expected activity count": "UNKNOWN",
+    "Credits required": "UNKNOWN",
+    "Reference data status": "MISSING"
+  }
+]

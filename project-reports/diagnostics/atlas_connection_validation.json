@@ -1,0 +1,17 @@
+{
+  "connection_success": true,
+  "atlas_host": "ac-r3btcee-shard-00-00.aiesuvx.mongodb.net",
+  "database_name": "academic_engagement_db",
+  "node_version": "24.13.1",
+  "mongoose_version": "8.24.4",
+  "mongodb_driver_version": "6.20.0",
+  "connection_option_used": "default (no family specified)",
+  "verified_counts": {
+    "students": 2117,
+    "semesterresults": 3916,
+    "backlogs": 6759,
+    "users": 623,
+    "subjects": 63
+  },
+  "data_modified": false
+}

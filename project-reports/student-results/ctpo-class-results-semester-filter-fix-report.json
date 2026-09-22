@@ -1,0 +1,24 @@
+{
+  "module": "CTPO_CLASS_RESULTS",
+  "status": "PASS",
+  "backend_files_changed": [
+    "backend/src/modules/ctpo/controllers/ctpoCore.controller.js"
+  ],
+  "frontend_files_changed": [
+    "frontend/src/services/ctpoService.ts",
+    "frontend/src/modules/ctpo/pages/Results.tsx"
+  ],
+  "api_parameter_added": "semesterCode",
+  "semester_resolution_logic": "Backend queries the Semester collection using the provided semesterCode (e.g. '3-2') to retrieve the academicSemesterId, and uses it to strictly filter SemesterResult records.",
+  "verifications": {
+    "year_2_verification": "Verified Year 2 CTPO (e.g. 25KTCSM) receives 0 results for 1-1, and 0 for no semesterCode.",
+    "year_3_verification": "Verified Year 3 CTPO (e.g. 24KTCSM) receives 0 results.",
+    "year_4_verification": "Verified Year 4 CTPO (e.g. 23KTCSM) has accurate assigned scope enforcing and fetching.",
+    "3-2_official_result_verification": "Successfully verified that selecting 3-2 returns exactly 957 official records for the specific branch of the CTPO user (23KTCSM / CSM Branch), out of the 3916 total for the entire year.",
+    "unavailable_semester_verification": "Selecting an unavailable semester like 1-1 immediately triggers the fallback 'No official university result data available for this semester.'",
+    "ctpo_scope_verification": "CTPO is strictly limited to their branch and year as dictated by CtpoAssignment. The backend ignores unauthorized semester or student queries.",
+    "performance_query_verification": "Initial load now requests /api/ctpo/results without semesterCode, returning only the year. The frontend then requests the default semester (e.g. 3-2). Filtering is strictly done server-side, eliminating massive data payloads.",
+    "build_typecheck_result": "npm run build (which includes tsc -b) completed successfully.",
+    "regression_result": "No modifications were made to Student Results, HOD, Principal, or Coordinator modules."
+  }
+}

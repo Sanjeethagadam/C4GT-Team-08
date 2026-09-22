@@ -1,0 +1,40 @@
+{
+  "A": {
+    "description": "standard 3-node Mongoose result",
+    "connected": false,
+    "error_type": "MongooseServerSelectionError",
+    "servers": [
+      {
+        "address": "ac-r3btcee-shard-00-00.aiesuvx.mongodb.net:27017",
+        "type": "Unknown",
+        "error": "Socket 'secureConnect' timed out after 10170ms (connectTimeoutMS: 10000)"
+      },
+      {
+        "address": "ac-r3btcee-shard-00-01.aiesuvx.mongodb.net:27017",
+        "type": "Unknown",
+        "error": "Socket 'secureConnect' timed out after 10173ms (connectTimeoutMS: 10000)"
+      },
+      {
+        "address": "ac-r3btcee-shard-00-02.aiesuvx.mongodb.net:27017",
+        "type": "Unknown",
+        "error": "Socket 'secureConnect' timed out after 10229ms (connectTimeoutMS: 10000)"
+      }
+    ]
+  },
+  "B": {
+    "description": "single-node direct Mongoose result",
+    "connected": false,
+    "error_type": "MongooseServerSelectionError",
+    "address": "ac-r3btcee-shard-00-00.aiesuvx.mongodb.net:27017",
+    "type": "Unknown",
+    "server_error": "Socket 'secureConnect' timed out after 10163ms (connectTimeoutMS: 10000)"
+  },
+  "C": {
+    "description": "single-node direct native MongoClient result",
+    "connected": false,
+    "error_type": "MongoServerSelectionError",
+    "address": "ac-r3btcee-shard-00-00.aiesuvx.mongodb.net:27017",
+    "type": "Unknown",
+    "server_error": "Socket 'secureConnect' timed out after 10003ms (connectTimeoutMS: 10000)"
+  }
+}

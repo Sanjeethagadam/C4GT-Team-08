@@ -1,0 +1,234 @@
+{
+  "passCount": 16,
+  "failCount": 0,
+  "remainingIssues": [],
+  "details": [
+    {
+      "username": "25KTCAI",
+      "branch": "UNKNOWN",
+      "year": "2",
+      "loginStatus": "PASS",
+      "semesterOptions": [
+        "1-1"
+      ],
+      "threeTwoAccessible": "N/A",
+      "threeTwoResultStatus": "-",
+      "rbacStatus": "PASS"
+    },
+    {
+      "username": "25KTCSM",
+      "branch": "UNKNOWN",
+      "year": "2",
+      "loginStatus": "PASS",
+      "semesterOptions": [
+        "1-1"
+      ],
+      "threeTwoAccessible": "N/A",
+      "threeTwoResultStatus": "-",
+      "rbacStatus": "PASS"
+    },
+    {
+      "username": "25KTCSD",
+      "branch": "UNKNOWN",
+      "year": "2",
+      "loginStatus": "PASS",
+      "semesterOptions": [
+        "1-1"
+      ],
+      "threeTwoAccessible": "N/A",
+      "threeTwoResultStatus": "-",
+      "rbacStatus": "PASS"
+    },
+    {
+      "username": "25KTAID",
+      "branch": "UNKNOWN",
+      "year": "2",
+      "loginStatus": "PASS",
+      "semesterOptions": [
+        "1-1"
+      ],
+      "threeTwoAccessible": "N/A",
+      "threeTwoResultStatus": "-",
+      "rbacStatus": "PASS"
+    },
+    {
+      "username": "25KTCSC",
+      "branch": "UNKNOWN",
+      "year": "2",
+      "loginStatus": "PASS",
+      "semesterOptions": [
+        "1-1"
+      ],
+      "threeTwoAccessible": "N/A",
+      "threeTwoResultStatus": "-",
+      "rbacStatus": "PASS"
+    },
+    {
+      "username": "24KTCAI",
+      "branch": "UNKNOWN",
+      "year": "3",
+      "loginStatus": "PASS",
+      "semesterOptions": [
+        "1-1",
+        "1-2",
+        "2-1",
+        "2-2"
+      ],
+      "threeTwoAccessible": "N/A",
+      "threeTwoResultStatus": "-",
+      "rbacStatus": "PASS"
+    },
+    {
+      "username": "24KTCSM",
+      "branch": "UNKNOWN",
+      "year": "3",
+      "loginStatus": "PASS",
+      "semesterOptions": [
+        "1-1",
+        "1-2",
+        "2-1",
+        "2-2"
+      ],
+      "threeTwoAccessible": "N/A",
+      "threeTwoResultStatus": "-",
+      "rbacStatus": "PASS"
+    },
+    {
+      "username": "24KTCSD",
+      "branch": "UNKNOWN",
+      "year": "3",
+      "loginStatus": "PASS",
+      "semesterOptions": [
+        "1-1",
+        "1-2",
+        "2-1",
+        "2-2"
+      ],
+      "threeTwoAccessible": "N/A",
+      "threeTwoResultStatus": "-",
+      "rbacStatus": "PASS"
+    },
+    {
+      "username": "24KTAID",
+      "branch": "UNKNOWN",
+      "year": "3",
+      "loginStatus": "PASS",
+      "semesterOptions": [
+        "1-1",
+        "1-2",
+        "2-1",
+        "2-2"
+      ],
+      "threeTwoAccessible": "N/A",
+      "threeTwoResultStatus": "-",
+      "rbacStatus": "PASS"
+    },
+    {
+      "username": "24KTCSC",
+      "branch": "UNKNOWN",
+      "year": "3",
+      "loginStatus": "PASS",
+      "semesterOptions": [
+        "1-1",
+        "1-2",
+        "2-1",
+        "2-2"
+      ],
+      "threeTwoAccessible": "N/A",
+      "threeTwoResultStatus": "-",
+      "rbacStatus": "PASS"
+    },
+    {
+      "username": "23KTCAI",
+      "branch": "UNKNOWN",
+      "year": "4",
+      "loginStatus": "PASS",
+      "semesterOptions": [
+        "1-1",
+        "1-2",
+        "2-1",
+        "2-2",
+        "3-1",
+        "3-2"
+      ],
+      "threeTwoAccessible": true,
+      "threeTwoResultStatus": "Official Data Shown",
+      "rbacStatus": "PASS"
+    },
+    {
+      "username": "23KTCSM",
+      "branch": "UNKNOWN",
+      "year": "4",
+      "loginStatus": "PASS",
+      "semesterOptions": [
+        "1-1",
+        "1-2",
+        "2-1",
+        "2-2",
+        "3-1",
+        "3-2"
+      ],
+      "threeTwoAccessible": true,
+      "threeTwoResultStatus": "Official Data Shown",
+      "rbacStatus": "PASS"
+    },
+    {
+      "username": "23KTCSD",
+      "branch": "UNKNOWN",
+      "year": "4",
+      "loginStatus": "PASS",
+      "semesterOptions": [
+        "1-1",
+        "1-2",
+        "2-1",
+        "2-2",
+        "3-1",
+        "3-2"
+      ],
+      "threeTwoAccessible": true,
+      "threeTwoResultStatus": "Official Data Shown",
+      "rbacStatus": "PASS"
+    },
+    {
+      "username": "23KTAID",
+      "branch": "UNKNOWN",
+      "year": "4",
+      "loginStatus": "PASS",
+      "semesterOptions": [
+        "1-1",
+        "1-2",
+        "2-1",
+        "2-2",
+        "3-1",
+        "3-2"
+      ],
+      "threeTwoAccessible": true,
+      "threeTwoResultStatus": "Official Data Shown",
+      "rbacStatus": "PASS"
+    },
+    {
+      "username": "23KTCSC",
+      "branch": "UNKNOWN",
+      "year": "4",
+      "loginStatus": "PASS",
+      "semesterOptions": [
+        "1-1",
+        "1-2",
+        "2-1",
+        "2-2",
+        "3-1",
+        "3-2"
+      ],
+      "threeTwoAccessible": true,
+      "threeTwoResultStatus": "Official Data Shown",
+      "rbacStatus": "PASS"
+    },
+    {
+      "username": "23B21A4201",
+      "type": "STUDENT",
+      "loginStatus": "PASS",
+      "ownResultsOnly": true,
+      "officialDataVerified": true
+    }
+  ]
+}

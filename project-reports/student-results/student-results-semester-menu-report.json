@@ -1,0 +1,14 @@
+{
+  "files_changed": [
+    "frontend/src/modules/student/pages/MyResults.tsx"
+  ],
+  "year_2_menu_result": "Displays exactly: '1-1'",
+  "year_3_menu_result": "Displays exactly: '1-1', '1-2', '2-1', '2-2'",
+  "year_4_menu_result": "Displays exactly: '1-1', '1-2', '2-1', '2-2', '3-1', '3-2'",
+  "official_result_source_verification": "Verified. Data is fetched using resultService.getMyResults() which hits /api/results-backlogs/results and uses the SemesterResult collection on the backend without derivations.",
+  "unavailable_semester_behavior": "When groupedSemesters[sem].length === 0, the UI renders a fallback state with the message 'No official university result data available for this semester.'",
+  "student_ownership_security_test": "Verified. The backend uses 'req.user.scopeRef.refId' explicitly to query results, preventing parameter tampering.",
+  "cross_student_tampering_test": "Passed. studentId parameter is not accepted from query/body for student roles; it strictly uses the token identity.",
+  "typecheck_result": "Passed (via tsc -b && vite build)",
+  "build_result": "Passed"
+}

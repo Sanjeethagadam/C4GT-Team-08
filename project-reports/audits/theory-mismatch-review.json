@@ -1,0 +1,50 @@
+[
+  {
+    "Branch": "CAI",
+    "Semester": "1-2",
+    "Subject Name": "LINEAR ALGEBRA & CALCULUS",
+    "Subject IDs Found": [
+      "6a9bd9bbd041f2554c66f682"
+    ],
+    "Subject Codes": [
+      "R23-LINEARALGE-1"
+    ],
+    "Existing Subject record": "YES",
+    "Expected SubjectBranchMapping": "BranchId: 6a9bab758c61eb9211d0069f, SemesterId: 6a9bab758c61eb9211d006b2",
+    "Existing mappings for the same subject": [
+      "Branch: CAI, Semester: 1-1",
+      "Branch: CSM, Semester: 1-1",
+      "Branch: CSD, Semester: 1-1",
+      "Branch: AI&DS, Semester: 1-1",
+      "Branch: CSC, Semester: 1-1"
+    ],
+    "Branch ID": "6a9bab758c61eb9211d0069f",
+    "Semester ID": "6a9bab758c61eb9211d006b2",
+    "Exact reason it is considered a mismatch": "The theory subject 'LINEAR ALGEBRA & CALCULUS' exists in the database but is not mapped to CAI in semester 1-2.",
+    "Classification": "C. incorrect semester mapping"
+  },
+  {
+    "Branch": "CAI",
+    "Semester": "1-2",
+    "Subject Name": "ENGINEERING GRAPHICS",
+    "Subject IDs Found": [
+      "6a9bd9bbd041f2554c66f68e"
+    ],
+    "Subject Codes": [
+      "R23-ENGINEERIN-5"
+    ],
+    "Existing Subject record": "YES",
+    "Expected SubjectBranchMapping": "BranchId: 6a9bab758c61eb9211d0069f, SemesterId: 6a9bab758c61eb9211d006b2",
+    "Existing mappings for the same subject": [
+      "Branch: CAI, Semester: 1-1",
+      "Branch: CSM, Semester: 1-1",
+      "Branch: CSD, Semester: 1-1",
+      "Branch: AI&DS, Semester: 1-1",
+      "Branch: CSC, Semester: 1-1"
+    ],
+    "Branch ID": "6a9bab758c61eb9211d0069f",
+    "Semester ID": "6a9bab758c61eb9211d006b2",
+    "Exact reason it is considered a mismatch": "The theory subject 'ENGINEERING GRAPHICS' exists in the database but is not mapped to CAI in semester 1-2.",
+    "Classification": "C. incorrect semester mapping"
+  }
+]

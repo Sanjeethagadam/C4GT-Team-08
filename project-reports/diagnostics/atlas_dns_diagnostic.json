@@ -1,0 +1,10 @@
+{
+  "node_version": "v24.13.1",
+  "npm_version": "11.8.0",
+  "mongoose_version": "8.24.4",
+  "mongodb_driver_version": "6.20.0",
+  "srv_dns_test_result": "Error: querySrv ECONNREFUSED _mongodb._tcp.academic-engagement-clu.aiesuvx.mongodb.net",
+  "application_mongodb_connection_method": "mongoose.connect(process.env.MONGODB_URI)",
+  "exact_non_secret_connection_host": "ac-r3btcee-shard-00-00.aiesuvx.mongodb.net:27017,ac-r3btcee-shard-00-01.aiesuvx.mongodb.net:27017,ac-r3btcee-shard-00-02.aiesuvx.mongodb.net:27017",
+  "diagnosis_of_likely_cause": "The connection failure is caused by Node.js failing to resolve the DNS SRV record (_mongodb._tcp) using its internal c-ares resolver, despite the system DNS (nslookup) succeeding. The 'ECONNREFUSED' error indicates that Node.js is attempting to query a DNS server that is actively rejecting the connection (e.g., 127.0.0.1:53 or an incorrect network adapter IP). Since the underlying TCP connectivity to the MongoDB Atlas nodes is successful, the issue is strictly isolated to Node.js's DNS resolution behavior on this specific Windows network environment."
+}

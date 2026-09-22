@@ -1,0 +1,2915 @@
+{
+  "audit": [
+    {
+      "branch": "CAI",
+      "semester": "1-1",
+      "subjectName": "LINEAR ALGEBRA & CALCULUS",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "1-1",
+      "subjectName": "COMPUTER PROGRAMMING LAB",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "1-1",
+      "subjectName": "INTRODUCTION TO PROGRAMMING",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "1-1",
+      "subjectName": "ENGINEERING PHYSICS",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "1-1",
+      "subjectName": "IT WORKSHOP",
+      "credits": 1,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "1-1",
+      "subjectName": "BASIC ELECTRICAL & ELECTRONICS ENGINEERI",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "1-1",
+      "subjectName": "ENGINEERING PHYSICS LAB",
+      "credits": 1,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "1-1",
+      "subjectName": "ENGINEERING GRAPHICS",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "1-1",
+      "subjectName": "ELECTRICAL & ELECTRONICS ENGINEERING WOR",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "1-1",
+      "subjectName": "NSS/NCC/SCOUTS & GUIDES/COMMUNITY SERVIC",
+      "credits": 0.5,
+      "type": "ACTIVITY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "1-2",
+      "subjectName": "DIFFERENTIAL EQUATIONS & VECTOR CALCULUS",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Original 5 Screenshot Datasets",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "1-2",
+      "subjectName": "DATA STRUCTURES",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Original 5 Screenshot Datasets",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "1-2",
+      "subjectName": "CHEMISTRY",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Original 5 Screenshot Datasets",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "1-2",
+      "subjectName": "COMMUNICATIVE ENGLISH",
+      "credits": 2,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Original 5 Screenshot Datasets",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "1-2",
+      "subjectName": "BASIC CIVIL & MECHANICAL ENGINEERING",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Original 5 Screenshot Datasets",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "1-2",
+      "subjectName": "DATA STRUCTURES LAB",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Original 5 Screenshot Datasets",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "1-2",
+      "subjectName": "CHEMISTRY LAB",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Original 5 Screenshot Datasets",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "1-2",
+      "subjectName": "COMMUNICATIVE ENGLISH LAB",
+      "credits": 1,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Original 5 Screenshot Datasets",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "1-2",
+      "subjectName": "ENGINEERING WORKSHOP",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Original 5 Screenshot Datasets",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "1-2",
+      "subjectName": "HEALTH AND WELLNESS, YOGA AND SPORTS",
+      "credits": 0.5,
+      "type": "ACTIVITY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Original 5 Screenshot Datasets",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "2-1",
+      "subjectName": "UNIVERSAL HUMAN VALUES-UNDERSTANDING HAR",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "2-1",
+      "subjectName": "ENVIRONMENTAL SCIENCE(NON CREDITS SUBJEC",
+      "credits": 0,
+      "type": "ACTIVITY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "2-1",
+      "subjectName": "DISCRETE MATHEMATICS & GRAPH THEORY",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "2-1",
+      "subjectName": "DIGITAL LOGIC & COMPUTER ORGANIZATION",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "2-1",
+      "subjectName": "ADVANCED DATA STRUCTURES & ALGORITHMS AN",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "2-1",
+      "subjectName": "OBJECT ORIENTED PROGRAMMING THROUGH JAVA",
+      "credits": 1.5,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Verified via identical subject passed in CAI 2-1",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "2-1",
+      "subjectName": "ADVANCED DATA STRUCTURES AND ALGORITHMS",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "2-1",
+      "subjectName": "OBJECT ORIENTED PROGRAMMING THROUGH JAVA",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "2-1",
+      "subjectName": "PYTHON PROGRAMMING LAB",
+      "credits": 2,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "2-2",
+      "subjectName": "DESIGN THINKING & INNOVATION",
+      "credits": 2,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "2-2",
+      "subjectName": "MANAGERIAL ECONOMICS AND FINANCIAL ANALY",
+      "credits": 2,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "2-2",
+      "subjectName": "OPERATING SYSTEMS",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "2-2",
+      "subjectName": "DATABASE MANAGEMENT SYSTEMS",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "2-2",
+      "subjectName": "DATABASE MANAGEMENT SYSTEMS LAB",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "2-2",
+      "subjectName": "NUMBER THEORY & APPLICATIONS",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "2-2",
+      "subjectName": "COMPUTER NETWORKS",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "2-2",
+      "subjectName": "COMPUTER NETWORKS LAB",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "2-2",
+      "subjectName": "FULL STACK DEVELOPMENT-1",
+      "credits": 2,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "3-1",
+      "subjectName": "ENTREPRENEURSHIP DEVELOPMENT & VENTURE CREATION",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "3-1",
+      "subjectName": "OPERATING SYSTEMS",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "3-1",
+      "subjectName": "COMPUTER NETWORKS",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "3-1",
+      "subjectName": "INTERNET OF THINGS",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "3-1",
+      "subjectName": "DEEP LEARNING",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "3-1",
+      "subjectName": "DEEP LEARNING LAB",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "3-1",
+      "subjectName": "COMPUTER NETWORKS LAB",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "3-1",
+      "subjectName": "FULL STACK DEVELOPMENT-2",
+      "credits": 2,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "3-1",
+      "subjectName": "USER INTERFACE DESIGN USING FLUTTER",
+      "credits": 1,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "3-1",
+      "subjectName": "EVALUATION OF COMMUNITY SERVICE PROJECT INTERNSHIP",
+      "credits": 2,
+      "type": "ACTIVITY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "3-2",
+      "subjectName": "DISATER MANAGEMENT",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "3-2",
+      "subjectName": "SOFTWARE TESTING METHODOLOGIES",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "3-2",
+      "subjectName": "DATA VISUALIZATION",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "3-2",
+      "subjectName": "SOFTWARE ENGINEERING",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "3-2",
+      "subjectName": "GENERATIVE A.I.",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "3-2",
+      "subjectName": "GENERATIVE A.I. LAB",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "3-2",
+      "subjectName": "DATA VISUALIZATION LAB",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "3-2",
+      "subjectName": "SOFT SKILLS",
+      "credits": 2,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "3-2",
+      "subjectName": "TECHNICAL PAPER WRITING&IPR",
+      "credits": 0,
+      "type": "ACTIVITY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CAI",
+      "semester": "3-2",
+      "subjectName": "CLOUD COMPUTING",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "1-1",
+      "subjectName": "LINEAR ALGEBRA & CALCULUS",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Original 5 Screenshot Datasets",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "1-1",
+      "subjectName": "INTRODUCTION TO PROGRAMMING",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Original 5 Screenshot Datasets",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "1-1",
+      "subjectName": "ENGINEERING PHYSICS",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Original 5 Screenshot Datasets",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "1-1",
+      "subjectName": "BASIC ELECTRICAL & ELECTRONICS ENGINEERING",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Original 5 Screenshot Datasets",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "1-1",
+      "subjectName": "ENGINEERING GRAPHICS",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Original 5 Screenshot Datasets",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "1-1",
+      "subjectName": "INTRODUCTION TO PROGRAMMING LAB",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Original 5 Screenshot Datasets",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "1-1",
+      "subjectName": "ENGINEERING PHYSICS LAB",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Original 5 Screenshot Datasets",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "1-1",
+      "subjectName": "BASIC ELECTRICAL & ELECTRONICS ENGINEERING LAB",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Original 5 Screenshot Datasets",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "1-1",
+      "subjectName": "IT WORKSHOP",
+      "credits": 1,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Original 5 Screenshot Datasets",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "1-1",
+      "subjectName": "NSS/NCC/SCOUTS & GUIDES/COMMUNITY SERVICE",
+      "credits": 0.5,
+      "type": "ACTIVITY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Original 5 Screenshot Datasets",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "1-2",
+      "subjectName": "DIFFERENTIAL EQUATIONS&VECTOR CALCULUS",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "1-2",
+      "subjectName": "DATA STRUCTURES",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "1-2",
+      "subjectName": "DATA STRUCTURES LAB",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "1-2",
+      "subjectName": "COMMUNICATIVE ENGLISH",
+      "credits": 2,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "1-2",
+      "subjectName": "COMMUNICATIVE ENGLISH LAB",
+      "credits": 1,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "1-2",
+      "subjectName": "CHEMISTRY",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "1-2",
+      "subjectName": "CHEMISTRY LAB",
+      "credits": 1,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "1-2",
+      "subjectName": "BASIC CIVIL&MECHANICAL ENGINEERING",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "1-2",
+      "subjectName": "ENGINEERING WORKSHOP",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "1-2",
+      "subjectName": "HEALTH AND WELLNESS,YOGA AND SPORTS",
+      "credits": 0.5,
+      "type": "ACTIVITY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "2-1",
+      "subjectName": "UNIVERSAL HUMAN VALUES-UNDERSTANDING HAR",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "2-1",
+      "subjectName": "ENVIRONMENTAL SCIENCE(NON CREDITS SUBJEC",
+      "credits": 0,
+      "type": "ACTIVITY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "2-1",
+      "subjectName": "DISCRETE MATHEMATICS & GRAPH THEORY",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "2-1",
+      "subjectName": "ADVANCED DATA STRUCTURES & ALGORITHMS AN",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "2-1",
+      "subjectName": "OBJECT ORIENTED PROGRAMMING THROUGH JAVA",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "2-1",
+      "subjectName": "OBJECT ORIENTED PROGRAMMING THROUGH JAVA",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "2-1",
+      "subjectName": "PYTHON PROGRAMMING LAB",
+      "credits": 2,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "2-1",
+      "subjectName": "ARTIFICIAL INTELLIGENCE",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "2-1",
+      "subjectName": "ADVANCED DATA STRUCTURES AND ALGORITHMS",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "2-2",
+      "subjectName": "DESIGN THINKING & INNOVATION",
+      "credits": 2,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "2-2",
+      "subjectName": "PROBABILITY & STATISTICS",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "2-2",
+      "subjectName": "DATABASE MANAGEMENT SYSTEMS",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "2-2",
+      "subjectName": "DATABASE MANAGEMENT SYSTEMS LAB",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "2-2",
+      "subjectName": "FULL STACK DEVELOPMENT-I",
+      "credits": 2,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "2-2",
+      "subjectName": "OPTIMIZATION TECHNIQUES",
+      "credits": 2,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "2-2",
+      "subjectName": "MACHINE LEARNING",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "2-2",
+      "subjectName": "DIGITAL LOGIC AND COMPUTER ORGANIZATION",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "2-2",
+      "subjectName": "MACHINE LEARNING LAB",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "3-1",
+      "subjectName": "ENTREPRENEURSHIP DEVELOPMENT & VENTURE CREATION",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "3-1",
+      "subjectName": "EVALUATION OF COMMUNITY SERVICE PROJECT",
+      "credits": 2,
+      "type": "ACTIVITY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "3-1",
+      "subjectName": "INFORMATION RETRIEVAL SYSTEMS",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "3-1",
+      "subjectName": "OPERATING SYSTEMS",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "3-1",
+      "subjectName": "COMPUTER NETWORKS",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "3-1",
+      "subjectName": "INFORMATION RETRIEVAL LAB",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "3-1",
+      "subjectName": "COMPUTER NETWORKS LAB",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "3-1",
+      "subjectName": "FULL STACK DEVELOPMENT-2",
+      "credits": 2,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "3-1",
+      "subjectName": "USER INTERFACE DESIGN USING FLUTTER",
+      "credits": 1,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "3-1",
+      "subjectName": "INTERNET OF THINGS",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "3-2",
+      "subjectName": "DISATER MANAGEMENT",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "3-2",
+      "subjectName": "SOFTWARE TESTING METHODOLOGIES",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "3-2",
+      "subjectName": "NATURAL LANGUAGE PROCESSING",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "3-2",
+      "subjectName": "DEEP LEARNING",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "3-2",
+      "subjectName": "DATA VISUALIZATION",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "3-2",
+      "subjectName": "DEEP LEARNING LAB",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "3-2",
+      "subjectName": "DATA VISUALIZATION LAB",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "3-2",
+      "subjectName": "SOFT SKILLS",
+      "credits": 2,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "3-2",
+      "subjectName": "TECHNICAL PAPER WRITING&IPR",
+      "credits": 0,
+      "type": "ACTIVITY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSM",
+      "semester": "3-2",
+      "subjectName": "NOSQL DATABASES",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "1-1",
+      "subjectName": "LINEAR ALGEBRA& CALCULUS",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "1-1",
+      "subjectName": "COMPUTER PROGRAMMING LAB",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "1-1",
+      "subjectName": "INTRODUCTION TO PROGRAMMING",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "1-1",
+      "subjectName": "ENGINEERING PHYSICS",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "1-1",
+      "subjectName": "IT WORKSHOP",
+      "credits": 1,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "1-1",
+      "subjectName": "BASIC ELECTRICAL & ELECTRONICS ENGINEERI",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "1-1",
+      "subjectName": "ENGINEERING PHYSICS LAB",
+      "credits": 1,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "1-1",
+      "subjectName": "ENGINEERING GRAPHICS",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Verified via identical subject passed in CAI 1-1",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "1-1",
+      "subjectName": "ELECTRICAL & ELECTRONICS ENGINEERING WOR",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "1-1",
+      "subjectName": "NSS/NCC/SCOUTS & GUIDES/COMMUNITY SERVIC",
+      "credits": 0.5,
+      "type": "ACTIVITY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "1-2",
+      "subjectName": "DIFFERENTIAL EQUATIONS&VECTOR CALCULUS",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Original 5 Screenshot Datasets",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "1-2",
+      "subjectName": "DATA STRUCTURES",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Original 5 Screenshot Datasets",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "1-2",
+      "subjectName": "CHEMISTRY",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Original 5 Screenshot Datasets",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "1-2",
+      "subjectName": "COMMUNICATIVE ENGLISH",
+      "credits": 2,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Original 5 Screenshot Datasets",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "1-2",
+      "subjectName": "BASIC CIVIL&MECHANICAL ENGINEERING",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Original 5 Screenshot Datasets",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "1-2",
+      "subjectName": "DATA STRUCTURES LAB",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Original 5 Screenshot Datasets",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "1-2",
+      "subjectName": "CHEMISTRY LAB",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Original 5 Screenshot Datasets",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "1-2",
+      "subjectName": "COMMUNICATIVE ENGLISH LAB",
+      "credits": 1,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Original 5 Screenshot Datasets",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "1-2",
+      "subjectName": "ENGINEERING WORKSHOP",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Original 5 Screenshot Datasets",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "1-2",
+      "subjectName": "HEALTH AND WELLNESS, YOGA AND SPORTS",
+      "credits": 0.5,
+      "type": "ACTIVITY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Original 5 Screenshot Datasets",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "2-1",
+      "subjectName": "UNIVERSAL HUMAN VALUES-UNDERSTANDING HAR",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "2-1",
+      "subjectName": "ENVIRONMENTAL SCIENCE(NON CREDITS SUBJEC",
+      "credits": 0,
+      "type": "ACTIVITY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "2-1",
+      "subjectName": "DISCRETE MATHEMATICS & GRAPH THEORY",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "2-1",
+      "subjectName": "ADVANCED DATA STRUCTURES & ALGORITHMS AN",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "2-1",
+      "subjectName": "OBJECT ORIENTED PROGRAMMING THROUGH JAVA",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "2-1",
+      "subjectName": "OBJECT ORIENTED PROGRAMMING THROUGH JAVA",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "2-1",
+      "subjectName": "PYTHON PROGRAMMING LAB",
+      "credits": 2,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "2-1",
+      "subjectName": "INTRODUCTION TO DATA SCIENCE",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "2-1",
+      "subjectName": "DATA SCIENCE LAB",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "2-2",
+      "subjectName": "DESIGN THINKING & INNOVATION",
+      "credits": 2,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "2-2",
+      "subjectName": "DATABASE MANAGEMENT SYSTEMS",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "2-2",
+      "subjectName": "DATABASE MANAGEMENT SYSTEMS LAB",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "2-2",
+      "subjectName": "OPTIMIZATION TECHNIQUES",
+      "credits": 2,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "2-2",
+      "subjectName": "STATISTICAL METHODS FOR DATA SCIENCE",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "2-2",
+      "subjectName": "DATA ENGINEERING",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "2-2",
+      "subjectName": "COMPUTER ORGANIZATION AND ARCHITECTURE",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "2-2",
+      "subjectName": "DATA ENGINEERING LAB",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "2-2",
+      "subjectName": "EXPLORATORY DATA ANALYSIS WITH PYTHON",
+      "credits": 2,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "3-1",
+      "subjectName": "ENTREPRENEURSHIP DEVELOPMENT & VENTURE CREATION",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "3-1",
+      "subjectName": "COMPUTER NETWORKS",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "3-1",
+      "subjectName": "INTERNET OF THINGS",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "3-1",
+      "subjectName": "EVALUATION OF COMMUNITY SERVICE PROJECT INTERNSHIP",
+      "credits": 2,
+      "type": "ACTIVITY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "3-1",
+      "subjectName": "MACHINE LEARNING",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "3-1",
+      "subjectName": "SOFTWARE ENGINEERING",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "3-1",
+      "subjectName": "MACHINE LEARNING LAB",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "3-1",
+      "subjectName": "COMPUTER NETWORKS LAB",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "3-1",
+      "subjectName": "FULL STACK DEVELOPMENT-1",
+      "credits": 2,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "3-1",
+      "subjectName": "USER INTERFACE DESIGN USING FLUTTER",
+      "credits": 1,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "3-2",
+      "subjectName": "DISATER MANAGEMENT",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "3-2",
+      "subjectName": "DEEP LEARNING",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "3-2",
+      "subjectName": "DATA VISUALIZATION",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "3-2",
+      "subjectName": "NOSQL DATABASES",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "3-2",
+      "subjectName": "OPERATING SYSTEMS",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "3-2",
+      "subjectName": "DEEP LEARNING LAB",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "3-2",
+      "subjectName": "DATA VISUALIZATION LAB",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "3-2",
+      "subjectName": "SOFT SKILLS",
+      "credits": 2,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "3-2",
+      "subjectName": "TECHNICAL PAPER WRITING&IPR",
+      "credits": 0,
+      "type": "ACTIVITY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSD",
+      "semester": "3-2",
+      "subjectName": "CLOUD COMPUTING",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "1-1",
+      "subjectName": "LINEAR ALGEBRA & CALCULUS",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Original 5 Screenshot Datasets",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "1-1",
+      "subjectName": "INTRODUCTION TO PROGRAMMING",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Original 5 Screenshot Datasets",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "1-1",
+      "subjectName": "ENGINEERING PHYSICS",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Original 5 Screenshot Datasets",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "1-1",
+      "subjectName": "BASIC ELECTRICAL & ELECTRONICS ENGINEERING",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Original 5 Screenshot Datasets",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "1-1",
+      "subjectName": "ENGINEERING GRAPHICS",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Original 5 Screenshot Datasets",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "1-1",
+      "subjectName": "INTRODUCTION TO PROGRAMMING LAB",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Original 5 Screenshot Datasets",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "1-1",
+      "subjectName": "ENGINEERING PHYSICS LAB",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Original 5 Screenshot Datasets",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "1-1",
+      "subjectName": "BASIC ELECTRICAL & ELECTRONICS ENGINEERING LAB",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Original 5 Screenshot Datasets",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "1-1",
+      "subjectName": "IT WORKSHOP",
+      "credits": 1,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Original 5 Screenshot Datasets",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "1-1",
+      "subjectName": "NSS/NCC/SCOUTS & GUIDES/COMMUNITY SERVICE",
+      "credits": 0.5,
+      "type": "ACTIVITY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Original 5 Screenshot Datasets",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "1-2",
+      "subjectName": "DIFFERENTIAL EQUATIONS&VECTOR CALCULUS",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "1-2",
+      "subjectName": "DATA STRUCTURES",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "1-2",
+      "subjectName": "DATA STRUCTURES LAB",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "1-2",
+      "subjectName": "COMMUNICATIVE ENGLISH",
+      "credits": 2,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "1-2",
+      "subjectName": "COMMUNICATIVE ENGLISH LAB",
+      "credits": 1,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "1-2",
+      "subjectName": "CHEMISTRY",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "1-2",
+      "subjectName": "CHEMISTRY LAB",
+      "credits": 1,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "1-2",
+      "subjectName": "BASIC CIVIL&MECHANICAL ENGINEERING",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "1-2",
+      "subjectName": "ENGINEERING WORKSHOP",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "1-2",
+      "subjectName": "HEALTH AND WELLNESS,YOGA AND SPORTS",
+      "credits": 0.5,
+      "type": "ACTIVITY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "2-1",
+      "subjectName": "UNIVERSAL HUMAN VALUES-UNDERSTANDING HAR",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "2-1",
+      "subjectName": "ENVIRONMENTAL SCIENCE(NON CREDITS SUBJEC",
+      "credits": 0,
+      "type": "ACTIVITY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "2-1",
+      "subjectName": "DISCRETE MATHEMATICS & GRAPH THEORY",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Verified via identical subject passed in CAI 2-1",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "2-1",
+      "subjectName": "ADVANCED DATA STRUCTURES & ALGORITHMS AN",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Verified via identical subject passed in CAI 2-1",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "2-1",
+      "subjectName": "OBJECT ORIENTED PROGRAMMING THROUGH JAVA",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "2-1",
+      "subjectName": "ADVANCED DATA STRUCTURES AND ALGORITHMS",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "2-1",
+      "subjectName": "OBJECT ORIENTED PROGRAMMING THROUGH JAVA",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "2-1",
+      "subjectName": "PYTHON PROGRAMMING LAB",
+      "credits": 2,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "2-1",
+      "subjectName": "DATABASE MANAGEMENT SYSTEMS",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "2-2",
+      "subjectName": "DESIGN THINKING & INNOVATION",
+      "credits": 2,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "2-2",
+      "subjectName": "OPERATING SYSTEMS",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "2-2",
+      "subjectName": "SOFTWARE ENGINEERING",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "2-2",
+      "subjectName": "OPERATING SYSTEMS LAB",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "2-2",
+      "subjectName": "FULL STACK DEVELOPMENT-I",
+      "credits": 2,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "2-2",
+      "subjectName": "OPTIMIZATION TECHNIQUES",
+      "credits": 2,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "2-2",
+      "subjectName": "STATISTICAL METHODS FOR DATA SCIENCE",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "2-2",
+      "subjectName": "INTRODUCTION TO DATA SCIENCE",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "2-2",
+      "subjectName": "DATASCIENCE USING PYTHON LAB",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "3-1",
+      "subjectName": "ENTREPRENEURSHIP DEVELOPMENT & VENTURE CREATION",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Verified via identical subject passed in CAI 3-1",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "3-1",
+      "subjectName": "COMPUTER NETWORKS",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "3-1",
+      "subjectName": "INTERNET OF THINGS",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "3-1",
+      "subjectName": "ARTIFICIAL INTELLIGENCE",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "3-1",
+      "subjectName": "COMPUTER ORGANIZATION AND ARCHITECTURE",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Verified via identical subject passed in CSD 2-2",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "3-1",
+      "subjectName": "ARTIFICIAL INTELLIGENCE LAB",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "3-1",
+      "subjectName": "COMPUTER NETWORKS LAB",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "3-1",
+      "subjectName": "FULL STACK DEVELOPMENT-2",
+      "credits": 2,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "3-1",
+      "subjectName": "TINKERING LAB (USER INTERFACE DESIGN USING FLUTTER)",
+      "credits": 1,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "3-1",
+      "subjectName": "EVALUATION OF COMMUNITY SERVICE PROJECT INTERNSHIP",
+      "credits": 2,
+      "type": "ACTIVITY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "3-2",
+      "subjectName": "DISATER MANAGEMENT",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "3-2",
+      "subjectName": "MACHINE LEARNING",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "3-2",
+      "subjectName": "DATA VISUALIZATION",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "3-2",
+      "subjectName": "CLOUD COMPUTING",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "3-2",
+      "subjectName": "BIG DATA ANALYTICS",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Verified via authoritative SemesterResult database collection",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "3-2",
+      "subjectName": "DATA VISUALIZATION AND MACHINE LEARNING LAB",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "3-2",
+      "subjectName": "BIG DATA ANALYTICS LAB",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "3-2",
+      "subjectName": "SOFT SKILLS",
+      "credits": 2,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "3-2",
+      "subjectName": "TECHNICAL PAPER WRITING&IPR",
+      "credits": 0,
+      "type": "ACTIVITY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "AID",
+      "semester": "3-2",
+      "subjectName": "NOSQL DATABASES",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Verified via identical subject passed in CSM 3-2",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "1-1",
+      "subjectName": "LINEAR ALGEBRA & CALCULUS",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "1-1",
+      "subjectName": "COMPUTER PROGRAMMING LAB",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "1-1",
+      "subjectName": "INTRODUCTION TO PROGRAMMING",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "1-1",
+      "subjectName": "ENGINEERING PHYSICS",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Verified via identical subject passed in CAI 1-1",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "1-1",
+      "subjectName": "IT WORKSHOP",
+      "credits": 1,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "1-1",
+      "subjectName": "BASIC ELECTRICAL & ELECTRONICS ENGINEERI",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "1-1",
+      "subjectName": "ENGINEERING PHYSICS LAB",
+      "credits": 1,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "1-1",
+      "subjectName": "ENGINEERING GRAPHICS",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "1-1",
+      "subjectName": "ELECTRICAL & ELECTRONICS ENGINEERING WOR",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "1-1",
+      "subjectName": "NSS/NCC/SCOUTS & GUIDES/COMMUNITY SERVIC",
+      "credits": 0.5,
+      "type": "ACTIVITY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "1-2",
+      "subjectName": "DIFFERENTIAL EQUATIONS&VECTOR CALCULUS",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Original 5 Screenshot Datasets",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "1-2",
+      "subjectName": "DATA STRUCTURES",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Original 5 Screenshot Datasets",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "1-2",
+      "subjectName": "CHEMISTRY",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Original 5 Screenshot Datasets",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "1-2",
+      "subjectName": "COMMUNICATIVE ENGLISH",
+      "credits": 2,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Original 5 Screenshot Datasets",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "1-2",
+      "subjectName": "BASIC CIVIL&MECHANICAL ENGINEERING",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Original 5 Screenshot Datasets",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "1-2",
+      "subjectName": "DATA STRUCTURES LAB",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Original 5 Screenshot Datasets",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "1-2",
+      "subjectName": "CHEMISTRY LAB",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Original 5 Screenshot Datasets",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "1-2",
+      "subjectName": "COMMUNICATIVE ENGLISH LAB",
+      "credits": 1,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Original 5 Screenshot Datasets",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "1-2",
+      "subjectName": "ENGINEERING WORKSHOP",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Original 5 Screenshot Datasets",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "1-2",
+      "subjectName": "HEALTH AND WELLNESS, YOGA AND SPORTS",
+      "credits": 0.5,
+      "type": "ACTIVITY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Original 5 Screenshot Datasets",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "2-1",
+      "subjectName": "UNIVERSAL HUMAN VALUES-UNDERSTANDING HAR",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "2-1",
+      "subjectName": "ENVIRONMENTAL SCIENCE(NON CREDITS SUBJEC",
+      "credits": 0,
+      "type": "ACTIVITY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "2-1",
+      "subjectName": "DISCRETE MATHEMATICS & GRAPH THEORY",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "2-1",
+      "subjectName": "DIGITAL LOGIC & COMPUTER ORGANIZATION",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "2-1",
+      "subjectName": "ADVANCED DATA STRUCTURES & ALGORITHMS AN",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "2-1",
+      "subjectName": "OBJECT ORIENTED PROGRAMMING THROUGH JAVA",
+      "credits": 1.5,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Verified via identical subject passed in CAI 2-1",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "2-1",
+      "subjectName": "ADVANCED DATA STRUCTURES AND ALGORITHMS",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "2-1",
+      "subjectName": "OBJECT ORIENTED PROGRAMMING THROUGH JAVA",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "2-1",
+      "subjectName": "PYTHON PROGRAMMING LAB",
+      "credits": 2,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "2-2",
+      "subjectName": "DESIGN THINKING & INNOVATION",
+      "credits": 2,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "2-2",
+      "subjectName": "MANAGERIAL ECONOMICS AND FINANCIAL ANALY",
+      "credits": 2,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "2-2",
+      "subjectName": "OPERATING SYSTEMS",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "2-2",
+      "subjectName": "DATABASE MANAGEMENT SYSTEMS",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "2-2",
+      "subjectName": "DATABASE MANAGEMENT SYSTEMS LAB",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "2-2",
+      "subjectName": "NUMBER THEORY & APPLICATIONS",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "2-2",
+      "subjectName": "COMPUTER NETWORKS",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "2-2",
+      "subjectName": "COMPUTER NETWORKS LAB",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "2-2",
+      "subjectName": "FULL STACK DEVELOPMENT-1",
+      "credits": 2,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "3-1",
+      "subjectName": "ENTREPRENEURSHIP DEVELOPMENT & VENTURE CREATION",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "3-1",
+      "subjectName": "CLOUD COMPUTING",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "3-1",
+      "subjectName": "INTRODUCTION TO CYBER SECURITY",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "3-1",
+      "subjectName": "AUTOMATA THEORY & COMPILER DESIGN",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "3-1",
+      "subjectName": "CLOUD COMPUTING LAB",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "3-1",
+      "subjectName": "CYBER SECURITY LAB",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "3-1",
+      "subjectName": "FULL STACK DEVELOPMENT-2",
+      "credits": 2,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "3-1",
+      "subjectName": "USER INTERFACE DESIGN USING FLUTTER",
+      "credits": 1,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "3-1",
+      "subjectName": "EVALUATION OF COMMUNITY SERVICE INTERNSHIP",
+      "credits": 2,
+      "type": "ACTIVITY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "3-1",
+      "subjectName": "INTERNET OF THINGS",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "3-2",
+      "subjectName": "DISATER MANAGEMENT",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "3-2",
+      "subjectName": "SOFTWARE TESTING METHODOLOGIES",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "3-2",
+      "subjectName": "NATURAL LANGUAGE PROCESSING",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Verified via identical subject passed in CSM 3-2",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "3-2",
+      "subjectName": "MACHINE LEARNING",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "3-2",
+      "subjectName": "CYBER CRIMES & DIGITAL FORENSICS",
+      "credits": 3,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "3-2",
+      "subjectName": "CRYPTOGRAPHY & NETWORK SECURITY",
+      "credits": 1.5,
+      "type": "THEORY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Verified via authoritative SemesterResult database collection",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "3-2",
+      "subjectName": "CRYPTOGRAPHY&NETWORK SECURITY LAB",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "3-2",
+      "subjectName": "CYBER CRIMES&DIGITAL FORENSICS LAB",
+      "credits": 1.5,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "3-2",
+      "subjectName": "SOFT SKILLS OR IELTS",
+      "credits": 2,
+      "type": "LAB",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "branch": "CSC",
+      "semester": "3-2",
+      "subjectName": "TECHNICAL PAPER WRITING&IPR",
+      "credits": 0,
+      "type": "ACTIVITY",
+      "sourceType": "DIRECT_REFERENCE",
+      "sourceReference": "Extracted from branch reference screenshots",
+      "verificationStatus": "VERIFIED"
+    }
+  ],
+  "inferred_list": [],
+  "missing_list": [],
+  "summary": {
+    "total_expected": 290,
+    "direct_reference": 290,
+    "subject_pdf": 0,
+    "database": 0,
+    "inferred": 0,
+    "missing": 0,
+    "status": "READY"
+  }
+}

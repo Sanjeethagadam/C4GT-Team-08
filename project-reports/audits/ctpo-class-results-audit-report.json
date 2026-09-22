@@ -1,0 +1,49 @@
+{
+  "module": "CTPO_CLASS_RESULTS",
+  "status": "PARTIAL",
+  "semester_matrix": [
+    { "ctpo_year": 4, "semester": "3-2", "records": 3916, "students": 500, "status": "AVAILABLE" },
+    { "ctpo_year": 4, "semester": "1-1", "records": 0, "students": 0, "status": "UNAVAILABLE" },
+    { "ctpo_year": 4, "semester": "1-2", "records": 0, "students": 0, "status": "UNAVAILABLE" },
+    { "ctpo_year": 4, "semester": "2-1", "records": 0, "students": 0, "status": "UNAVAILABLE" },
+    { "ctpo_year": 4, "semester": "2-2", "records": 0, "students": 0, "status": "UNAVAILABLE" },
+    { "ctpo_year": 4, "semester": "3-1", "records": 0, "students": 0, "status": "UNAVAILABLE" },
+    { "ctpo_year": 3, "semester": "1-1", "records": 0, "students": 0, "status": "UNAVAILABLE" },
+    { "ctpo_year": 3, "semester": "1-2", "records": 0, "students": 0, "status": "UNAVAILABLE" },
+    { "ctpo_year": 3, "semester": "2-1", "records": 0, "students": 0, "status": "UNAVAILABLE" },
+    { "ctpo_year": 3, "semester": "2-2", "records": 0, "students": 0, "status": "UNAVAILABLE" },
+    { "ctpo_year": 2, "semester": "1-1", "records": 0, "students": 0, "status": "UNAVAILABLE" }
+  ],
+  "features": [
+    "One-student-one-row structure implemented in frontend.",
+    "Expandable subject-wise details view implemented in frontend.",
+    "Fallback state 'No official university result data available for this semester.' correctly implemented.",
+    "Dropdown mapping for assigned CTPO year correctly drives semester options."
+  ],
+  "scope_findings": [
+    "Backend (ctpoCore.controller.js) correctly restricts students by branchId and year based on getCtpoScope().",
+    "Section restriction is NOT enforced in ctpoCore.controller.js, correctly allowing the CTPO to see the entire cohort as requested.",
+    "However, semesterResult.controller.js has a duplicate getResults that incorrectly forces a sectionId restriction for CTPO, though it is not actively hit by this frontend module."
+  ],
+  "data_source_findings": [
+    "Strictly uses the official SemesterResult collection.",
+    "Does NOT fabricate records or assume default passing/backlog states.",
+    "Grade Point normalization correctly respects existing stored values or maps standard S/A/B/C/D/E/F grades."
+  ],
+  "data_quality_findings": [
+    "No instances of 'Unknown Subject' in the 3-2 dataset due to earlier fixes.",
+    "Data structure relies strictly on DB population; missing imports will cleanly trigger the empty state without breaking."
+  ],
+  "performance_findings": [
+    "CRITICAL PERFORMANCE BOTTLENECK: The backend /ctpo/results endpoint (ctpoCore.controller.js -> getResults) fetches ALL SemesterResult documents for ALL students in the CTPO's scope for ALL historical semesters in a single query.",
+    "Frontend then receives thousands of records and filters them locally: 'const filteredResults = results.filter(r => r.academicSemesterId?.semesterCode === selectedSemester)'.",
+    "This will severely degrade performance (high memory overhead and long TTFB) when students have 4-8 semesters of data."
+  ],
+  "critical_issues": [
+    "Backend fails to filter results by semester ID/code, pushing the filtering burden entirely to the frontend."
+  ],
+  "recommended_fixes": [
+    "Modify ctpoService.getResults and ctpoCore.controller.js to accept and strictly filter by 'semesterCode' so only a single semester's data is transferred to the frontend.",
+    "Implement server-side pagination for the Class Results table, or at least projection to minimize payload size."
+  ]
+}

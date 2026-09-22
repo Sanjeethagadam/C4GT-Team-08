@@ -1,0 +1,47 @@
+{
+  "status": "completed",
+  "task": "Final Browser Verification of Student -> My Results",
+  "build_status": {
+    "typecheck": "passed",
+    "build": "passed (vite build successful without TypeScript errors)"
+  },
+  "restored_subjects_verification": {
+    "total_restored": 9,
+    "status": "verified",
+    "details": [
+      { "subjectCode": "R2332426", "subjectName": "SOFT SKILLS", "match": "exact" },
+      { "subjectCode": "R2332427", "subjectName": "TECHNICAL PAPER WRITING&IPR", "match": "exact" },
+      { "subjectCode": "R2332436", "subjectName": "TECHNICAL PAPER WRITING&IPR", "match": "exact" },
+      { "subjectCode": "R2332444", "subjectName": "SOFT SKILLS", "match": "exact" },
+      { "subjectCode": "R2332445", "subjectName": "TECHNICAL PAPER WRITING&IPR", "match": "exact" },
+      { "subjectCode": "R2332454", "subjectName": "SOFT SKILLS", "match": "exact" },
+      { "subjectCode": "R2332455", "subjectName": "TECHNICAL PAPER WRITING&IPR", "match": "exact" },
+      { "subjectCode": "R2332466", "subjectName": "TECHNICAL PAPER WRITING&IPR", "match": "exact" },
+      { "subjectCode": "R2332465", "subjectName": "SOFT SKILLS OR IELTS", "match": "exact" }
+    ],
+    "resolution": "All missing SubjectIds now strictly map to official DB subjects. No Unknown Subjects remain in the results table for any student."
+  },
+  "browser_test_results": {
+    "Year_4_Student_22B21A4288": {
+      "tabs_rendered": ["1-1", "1-2", "2-1", "2-2", "3-1", "3-2"],
+      "data_verified": "Official 3-2 results display correctly. Re-mapped subjects appear. Missing subjects successfully show \"No official university result data available for this semester.\""
+    },
+    "Year_3_Student_24B21A4201": {
+      "tabs_rendered": ["1-1", "1-2", "2-1", "2-2"],
+      "data_verified": "Tabs correctly constrained to Year 3 limits. Accurate fallback state when results are empty."
+    },
+    "Year_2_Student_25B21A4201": {
+      "tabs_rendered": ["1-1"],
+      "data_verified": "Tabs correctly constrained to Year 2 limits."
+    }
+  },
+  "student_ownership_verification": {
+    "status": "verified",
+    "details": "Authenticated students are strictly sandboxed via scopeRef.refId mapping to studentId on the backend. It is not possible to query another student's official results through UI manipulation."
+  },
+  "reference_pdf_comparison": {
+    "status": "verified",
+    "details": "Student Details card correctly maps to top. Data tables enforce Subject Code, Subject Name, Credits, Grade, Grade Point, and Pass Year column order precisely as requested. Total Credits and SGPA summaries correctly display when data exists."
+  },
+  "discrepancies": "A parsing artifact during historical import mapped 'DEEP LEARNING LAB' (R2332424) to the 'DEEP LEARNING' theory Subject reference. This has been noted, but official records were NOT fabricated or overwritten according to prompt guidelines. The original dataset remains the strict authority."
+}

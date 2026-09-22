@@ -1,0 +1,29 @@
+{
+  "studentResultsFixReport": {
+    "title": "Student Results Deduplication & UI Fix Report",
+    "timestamp": "2026-09-15T15:52:00+05:30",
+    "duplicateRootCause": "The historical result resolver collected multiple subject mappings due to identical curriculum items existing either with different subjectIds or codes across multiple semester versions. The original Set deduplication keyed by (semesterId + subjectId) failed because duplicates often spanned multiple internal DB semester documents for the same 'semesterCode'.",
+    "backendDeduplicationResult": "SUCCESS. Refactored 'historicalResult.service.js' to deduplicate purely by 'subjectId' and 'subjectCode' per student query. This securely filters out identical subjects even if they originate from duplicate curriculum associations for multiple semester versions.",
+    "frontendDefensiveDeduplicationResult": "SUCCESS. Added a fallback check in 'MyResults.tsx' that groups by 'semesterCode' and drops subsequent rows sharing an identical 'subjectId' or 'subjectCode', guaranteeing a clean render.",
+    "numberOfSubjectsShownPerTestedSemester": {
+      "Year 2 (25B21A4201)": {
+        "1-1": "15 unique subjects (down from 25 duplicates)"
+      },
+      "Year 3 (24B21A4201)": {
+        "1-1": "15 unique subjects",
+        "1-2": "15 unique subjects",
+        "2-1": "14 unique subjects",
+        "2-2": "14 unique subjects"
+      },
+      "Year 4 (23B21A4201)": {
+        "3-2": "5 subjects (Official results strictly used; historical inference skipped for this semester)",
+        "3-1": "15 unique subjects (Historical)"
+      }
+    },
+    "backlogStatusConfirmation": "CONFIRMED. Backlog subjects accurately show as FAIL. Remaining curriculum subjects accurately show as PASS.",
+    "officialGradePointIntactConfirmation": "CONFIRMED. Official results (e.g., Year 4's 3-2 results) display JNTUK official Grades and Grade Points perfectly.",
+    "historicalGradePointFabricationConfirmation": "CONFIRMED. Historical records explicitly emit '-' for Grade and Grade Point. Furthermore, a 'Status' column was added, distinctly tagging inferred rows with '(Historical)' in distinct styling (Emerald/Red text).",
+    "referenceColorStyleUpdateResult": "SUCCESS. The UI banner was updated from orange to 'bg-slate-800' with 'STUDENT ACADEMIC PERFORMANCE' tracking-wide header, resembling official transcripts. Semester headers updated from generic blue to 'bg-slate-100' with professional typography matching the reference PDF aesthetic.",
+    "buildResult": "SUCCESS. TypeScript check and Vite build passed completely."
+  }
+}

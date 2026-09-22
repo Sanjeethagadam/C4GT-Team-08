@@ -1,0 +1,13 @@
+{
+  "atlas_hosts": "ac-r3btcee-shard-00-00.aiesuvx.mongodb.net:27017, ac-r3btcee-shard-00-01.aiesuvx.mongodb.net:27017, ac-r3btcee-shard-00-02.aiesuvx.mongodb.net:27017",
+  "database_name": "academic_engagement_db",
+  "replicaSet": "atlas-r3btcee-shard-0",
+  "tls_setting": "ssl=true",
+  "authSource": "admin",
+  "other_options": "retryWrites=true, w=majority, appName=academic-engagement-cluster",
+  "matches_atlas_standard_format": "The format is correct, but the value for the 'replicaSet' option is likely incorrect. It is currently 'atlas-r3btcee-shard-0'.",
+  "contains_all_replica_set_hosts": true,
+  "family_6_is_only_custom_option": true,
+  "mongoose_test_result": "MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster.",
+  "server_selection_errors": "The driver successfully resolved all 3 hostnames (Map(3) has all 3 servers). However, it failed to select a primary node (Topology: ReplicaSetNoPrimary). When TCP connection is successful, 0.0.0.0/0 is whitelisted, and hosts are resolved, this specific topology failure almost always indicates a mismatch between the 'replicaSet' name provided in the connection string and the actual replica set name running on the servers. The servers reject being added to the topology because their internal replica set name does not match 'atlas-r3btcee-shard-0'."
+}

@@ -1,0 +1,3059 @@
+{
+  "review": {
+    "CAI": {
+      "1-1": [
+        {
+          "Branch": "CAI",
+          "Semester": "1-1",
+          "Subject Name": "LINEAR ALGEBRA & CALCULUS",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CAI",
+          "Semester": "1-1",
+          "Subject Name": "INTRODUCTION TO PROGRAMMING",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CAI",
+          "Semester": "1-1",
+          "Subject Name": "ENGINEERING PHYSICS",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CAI",
+          "Semester": "1-1",
+          "Subject Name": "BASIC ELECTRICAL & ELECTRONICS ENGINEERING",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CAI",
+          "Semester": "1-1",
+          "Subject Name": "ENGINEERING GRAPHICS",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CAI",
+          "Semester": "1-1",
+          "Subject Name": "INTRODUCTION TO PROGRAMMING LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CAI",
+          "Semester": "1-1",
+          "Subject Name": "ENGINEERING PHYSICS LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CAI",
+          "Semester": "1-1",
+          "Subject Name": "BASIC ELECTRICAL & ELECTRONICS ENGINEERING LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CAI",
+          "Semester": "1-1",
+          "Subject Name": "IT WORKSHOP",
+          "Type": "LAB",
+          "Credit": 1,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CAI",
+          "Semester": "1-1",
+          "Subject Name": "NSS/NCC/SCOUTS & GUIDES/COMMUNITY SERVICE",
+          "Type": "ACTIVITY",
+          "Credit": 0.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        }
+      ],
+      "1-2": [
+        {
+          "Branch": "CAI",
+          "Semester": "1-2",
+          "Subject Name": "DIFFERENTIAL EQUATIONS & VECTOR CALCULUS",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CAI",
+          "Semester": "1-2",
+          "Subject Name": "DATA STRUCTURES",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CAI",
+          "Semester": "1-2",
+          "Subject Name": "CHEMISTRY",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CAI",
+          "Semester": "1-2",
+          "Subject Name": "COMMUNICATIVE ENGLISH",
+          "Type": "THEORY",
+          "Credit": 2,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CAI",
+          "Semester": "1-2",
+          "Subject Name": "BASIC CIVIL & MECHANICAL ENGINEERING",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CAI",
+          "Semester": "1-2",
+          "Subject Name": "DATA STRUCTURES LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CAI",
+          "Semester": "1-2",
+          "Subject Name": "CHEMISTRY LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CAI",
+          "Semester": "1-2",
+          "Subject Name": "COMMUNICATIVE ENGLISH LAB",
+          "Type": "LAB",
+          "Credit": 1,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CAI",
+          "Semester": "1-2",
+          "Subject Name": "ENGINEERING WORKSHOP",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CAI",
+          "Semester": "1-2",
+          "Subject Name": "HEALTH AND WELLNESS, YOGA AND SPORTS",
+          "Type": "ACTIVITY",
+          "Credit": 0.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        }
+      ],
+      "2-1": [
+        {
+          "Branch": "CAI",
+          "Semester": "2-1",
+          "Subject Name": "DISCRETE MATHEMATICS & GRAPH THEORY",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CAI",
+          "Semester": "2-1",
+          "Subject Name": "UNIVERSAL HUMAN VALUES",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CAI",
+          "Semester": "2-1",
+          "Subject Name": "ADVANCED DATA STRUCTURES & ALGORITHMS",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CAI",
+          "Semester": "2-1",
+          "Subject Name": "OBJECT ORIENTED PROGRAMMING THROUGH JAVA",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CAI",
+          "Semester": "2-1",
+          "Subject Name": "ARTIFICIAL INTELLIGENCE",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CAI",
+          "Semester": "2-1",
+          "Subject Name": "ADVANCED DATA STRUCTURES & ALGORITHMS LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CAI",
+          "Semester": "2-1",
+          "Subject Name": "OBJECT ORIENTED PROGRAMMING THROUGH JAVA LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CAI",
+          "Semester": "2-1",
+          "Subject Name": "ARTIFICIAL INTELLIGENCE LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CAI",
+          "Semester": "2-1",
+          "Subject Name": "SKILL ORIENTED COURSE",
+          "Type": "ACTIVITY",
+          "Credit": 2,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        }
+      ],
+      "2-2": [
+        {
+          "Branch": "CAI",
+          "Semester": "2-2",
+          "Subject Name": "PROBABILITY & STATISTICS",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CAI",
+          "Semester": "2-2",
+          "Subject Name": "DATABASE MANAGEMENT SYSTEMS",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CAI",
+          "Semester": "2-2",
+          "Subject Name": "DIGITAL LOGIC AND COMPUTER ORGANIZATION",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CAI",
+          "Semester": "2-2",
+          "Subject Name": "MACHINE LEARNING",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CAI",
+          "Semester": "2-2",
+          "Subject Name": "OPTIMIZATION TECHNIQUES",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CAI",
+          "Semester": "2-2",
+          "Subject Name": "DATABASE MANAGEMENT SYSTEMS LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CAI",
+          "Semester": "2-2",
+          "Subject Name": "MACHINE LEARNING LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CAI",
+          "Semester": "2-2",
+          "Subject Name": "SKILL ORIENTED COURSE-II",
+          "Type": "ACTIVITY",
+          "Credit": 2,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        }
+      ],
+      "3-1": [
+        {
+          "Branch": "CAI",
+          "Semester": "3-1",
+          "Subject Name": "OPERATING SYSTEMS",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CAI",
+          "Semester": "3-1",
+          "Subject Name": "COMPUTER NETWORKS",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CAI",
+          "Semester": "3-1",
+          "Subject Name": "INTERNET OF THINGS",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CAI",
+          "Semester": "3-1",
+          "Subject Name": "DEEP LEARNING",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "YES"
+        },
+        {
+          "Branch": "CAI",
+          "Semester": "3-1",
+          "Subject Name": "ENTREPRENEURSHIP DEVELOPMENT & VENTURE CREATION",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CAI",
+          "Semester": "3-1",
+          "Subject Name": "OPERATING SYSTEMS LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CAI",
+          "Semester": "3-1",
+          "Subject Name": "COMPUTER NETWORKS LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CAI",
+          "Semester": "3-1",
+          "Subject Name": "DEEP LEARNING LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CAI",
+          "Semester": "3-1",
+          "Subject Name": "SKILL ORIENTED COURSE-III",
+          "Type": "ACTIVITY",
+          "Credit": 2,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        }
+      ],
+      "3-2": [
+        {
+          "Branch": "CAI",
+          "Semester": "3-2",
+          "Subject Name": "SOFTWARE ENGINEERING",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CAI",
+          "Semester": "3-2",
+          "Subject Name": "GENERATIVE A.I.",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CAI",
+          "Semester": "3-2",
+          "Subject Name": "DATA VISUALIZATION",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CAI",
+          "Semester": "3-2",
+          "Subject Name": "SOFTWARE TESTING METHODOLOGIES",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CAI",
+          "Semester": "3-2",
+          "Subject Name": "CLOUD COMPUTING",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CAI",
+          "Semester": "3-2",
+          "Subject Name": "DISASTER MANAGEMENT",
+          "Type": "THEORY",
+          "Credit": 2,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CAI",
+          "Semester": "3-2",
+          "Subject Name": "SOFTWARE ENGINEERING LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CAI",
+          "Semester": "3-2",
+          "Subject Name": "DATA VISUALIZATION LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        }
+      ]
+    },
+    "CSM": {
+      "1-1": [
+        {
+          "Branch": "CSM",
+          "Semester": "1-1",
+          "Subject Name": "LINEAR ALGEBRA & CALCULUS",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSM",
+          "Semester": "1-1",
+          "Subject Name": "INTRODUCTION TO PROGRAMMING",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSM",
+          "Semester": "1-1",
+          "Subject Name": "ENGINEERING PHYSICS",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSM",
+          "Semester": "1-1",
+          "Subject Name": "BASIC ELECTRICAL & ELECTRONICS ENGINEERING",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSM",
+          "Semester": "1-1",
+          "Subject Name": "ENGINEERING GRAPHICS",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSM",
+          "Semester": "1-1",
+          "Subject Name": "INTRODUCTION TO PROGRAMMING LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSM",
+          "Semester": "1-1",
+          "Subject Name": "ENGINEERING PHYSICS LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSM",
+          "Semester": "1-1",
+          "Subject Name": "BASIC ELECTRICAL & ELECTRONICS ENGINEERING LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSM",
+          "Semester": "1-1",
+          "Subject Name": "IT WORKSHOP",
+          "Type": "LAB",
+          "Credit": 1,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSM",
+          "Semester": "1-1",
+          "Subject Name": "NSS/NCC/SCOUTS & GUIDES/COMMUNITY SERVICE",
+          "Type": "ACTIVITY",
+          "Credit": 0.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        }
+      ],
+      "1-2": [
+        {
+          "Branch": "CSM",
+          "Semester": "1-2",
+          "Subject Name": "DIFFERENTIAL EQUATIONS&VECTOR CALCULUS",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSM",
+          "Semester": "1-2",
+          "Subject Name": "DATA STRUCTURES",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSM",
+          "Semester": "1-2",
+          "Subject Name": "CHEMISTRY",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSM",
+          "Semester": "1-2",
+          "Subject Name": "COMMUNICATIVE ENGLISH",
+          "Type": "THEORY",
+          "Credit": 2,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSM",
+          "Semester": "1-2",
+          "Subject Name": "BASIC CIVIL&MECHANICAL ENGINEERING",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSM",
+          "Semester": "1-2",
+          "Subject Name": "DATA STRUCTURES LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSM",
+          "Semester": "1-2",
+          "Subject Name": "CHEMISTRY LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSM",
+          "Semester": "1-2",
+          "Subject Name": "COMMUNICATIVE ENGLISH LAB",
+          "Type": "LAB",
+          "Credit": 1,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSM",
+          "Semester": "1-2",
+          "Subject Name": "ENGINEERING WORKSHOP",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSM",
+          "Semester": "1-2",
+          "Subject Name": "HEALTH AND WELLNESS, YOGA AND SPORTS",
+          "Type": "ACTIVITY",
+          "Credit": 0.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        }
+      ],
+      "2-1": [
+        {
+          "Branch": "CSM",
+          "Semester": "2-1",
+          "Subject Name": "UNIVERSAL HUMAN VALUES",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSM",
+          "Semester": "2-1",
+          "Subject Name": "DISCRETE MATHEMATICS & GRAPH THEORY",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSM",
+          "Semester": "2-1",
+          "Subject Name": "ADVANCED DATA STRUCTURES & ALGORITHMS",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSM",
+          "Semester": "2-1",
+          "Subject Name": "OBJECT ORIENTED PROGRAMMING THROUGH JAVA",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSM",
+          "Semester": "2-1",
+          "Subject Name": "ARTIFICIAL INTELLIGENCE",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSM",
+          "Semester": "2-1",
+          "Subject Name": "ADVANCED DATA STRUCTURES & ALGORITHMS LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSM",
+          "Semester": "2-1",
+          "Subject Name": "OBJECT ORIENTED PROGRAMMING THROUGH JAVA LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSM",
+          "Semester": "2-1",
+          "Subject Name": "ARTIFICIAL INTELLIGENCE LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSM",
+          "Semester": "2-1",
+          "Subject Name": "SKILL ORIENTED COURSE",
+          "Type": "ACTIVITY",
+          "Credit": 2,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        }
+      ],
+      "2-2": [
+        {
+          "Branch": "CSM",
+          "Semester": "2-2",
+          "Subject Name": "PROBABILITY & STATISTICS",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSM",
+          "Semester": "2-2",
+          "Subject Name": "OPTIMIZATION TECHNIQUES",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSM",
+          "Semester": "2-2",
+          "Subject Name": "DATABASE MANAGEMENT SYSTEMS",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSM",
+          "Semester": "2-2",
+          "Subject Name": "MACHINE LEARNING",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSM",
+          "Semester": "2-2",
+          "Subject Name": "DIGITAL LOGIC AND COMPUTER ORGANIZATION",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSM",
+          "Semester": "2-2",
+          "Subject Name": "DATABASE MANAGEMENT SYSTEMS LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSM",
+          "Semester": "2-2",
+          "Subject Name": "MACHINE LEARNING LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSM",
+          "Semester": "2-2",
+          "Subject Name": "SKILL ORIENTED COURSE-II",
+          "Type": "ACTIVITY",
+          "Credit": 2,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        }
+      ],
+      "3-1": [
+        {
+          "Branch": "CSM",
+          "Semester": "3-1",
+          "Subject Name": "ENTREPRENEURSHIP DEVELOPMENT & VENTURE CREATION",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSM",
+          "Semester": "3-1",
+          "Subject Name": "INFORMATION RETRIEVAL SYSTEMS",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSM",
+          "Semester": "3-1",
+          "Subject Name": "OPERATING SYSTEMS",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSM",
+          "Semester": "3-1",
+          "Subject Name": "COMPUTER NETWORKS",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSM",
+          "Semester": "3-1",
+          "Subject Name": "INTERNET OF THINGS",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSM",
+          "Semester": "3-1",
+          "Subject Name": "OPERATING SYSTEMS LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSM",
+          "Semester": "3-1",
+          "Subject Name": "COMPUTER NETWORKS LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSM",
+          "Semester": "3-1",
+          "Subject Name": "SKILL ORIENTED COURSE-III",
+          "Type": "ACTIVITY",
+          "Credit": 2,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        }
+      ],
+      "3-2": [
+        {
+          "Branch": "CSM",
+          "Semester": "3-2",
+          "Subject Name": "DISASTER MANAGEMENT",
+          "Type": "THEORY",
+          "Credit": 2,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSM",
+          "Semester": "3-2",
+          "Subject Name": "SOFTWARE TESTING METHODOLOGIES",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSM",
+          "Semester": "3-2",
+          "Subject Name": "NATURAL LANGUAGE PROCESSING",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "YES"
+        },
+        {
+          "Branch": "CSM",
+          "Semester": "3-2",
+          "Subject Name": "DEEP LEARNING",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "YES"
+        },
+        {
+          "Branch": "CSM",
+          "Semester": "3-2",
+          "Subject Name": "DATA VISUALIZATION",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSM",
+          "Semester": "3-2",
+          "Subject Name": "NOSQL DATABASES",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSM",
+          "Semester": "3-2",
+          "Subject Name": "DEEP LEARNING LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSM",
+          "Semester": "3-2",
+          "Subject Name": "DATA VISUALIZATION LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        }
+      ]
+    },
+    "CSD": {
+      "1-1": [
+        {
+          "Branch": "CSD",
+          "Semester": "1-1",
+          "Subject Name": "LINEAR ALGEBRA & CALCULUS",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSD",
+          "Semester": "1-1",
+          "Subject Name": "INTRODUCTION TO PROGRAMMING",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSD",
+          "Semester": "1-1",
+          "Subject Name": "ENGINEERING PHYSICS",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSD",
+          "Semester": "1-1",
+          "Subject Name": "BASIC ELECTRICAL & ELECTRONICS ENGINEERING",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSD",
+          "Semester": "1-1",
+          "Subject Name": "ENGINEERING GRAPHICS",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSD",
+          "Semester": "1-1",
+          "Subject Name": "INTRODUCTION TO PROGRAMMING LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSD",
+          "Semester": "1-1",
+          "Subject Name": "ENGINEERING PHYSICS LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSD",
+          "Semester": "1-1",
+          "Subject Name": "BASIC ELECTRICAL & ELECTRONICS ENGINEERING LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSD",
+          "Semester": "1-1",
+          "Subject Name": "IT WORKSHOP",
+          "Type": "LAB",
+          "Credit": 1,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSD",
+          "Semester": "1-1",
+          "Subject Name": "NSS/NCC/SCOUTS & GUIDES/COMMUNITY SERVICE",
+          "Type": "ACTIVITY",
+          "Credit": 0.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        }
+      ],
+      "1-2": [
+        {
+          "Branch": "CSD",
+          "Semester": "1-2",
+          "Subject Name": "DIFFERENTIAL EQUATIONS&VECTOR CALCULUS",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSD",
+          "Semester": "1-2",
+          "Subject Name": "DATA STRUCTURES",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSD",
+          "Semester": "1-2",
+          "Subject Name": "CHEMISTRY",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSD",
+          "Semester": "1-2",
+          "Subject Name": "COMMUNICATIVE ENGLISH",
+          "Type": "THEORY",
+          "Credit": 2,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSD",
+          "Semester": "1-2",
+          "Subject Name": "BASIC CIVIL&MECHANICAL ENGINEERING",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSD",
+          "Semester": "1-2",
+          "Subject Name": "DATA STRUCTURES LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSD",
+          "Semester": "1-2",
+          "Subject Name": "CHEMISTRY LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSD",
+          "Semester": "1-2",
+          "Subject Name": "COMMUNICATIVE ENGLISH LAB",
+          "Type": "LAB",
+          "Credit": 1,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSD",
+          "Semester": "1-2",
+          "Subject Name": "ENGINEERING WORKSHOP",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSD",
+          "Semester": "1-2",
+          "Subject Name": "HEALTH AND WELLNESS, YOGA AND SPORTS",
+          "Type": "ACTIVITY",
+          "Credit": 0.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        }
+      ],
+      "2-1": [
+        {
+          "Branch": "CSD",
+          "Semester": "2-1",
+          "Subject Name": "UNIVERSAL HUMAN VALUES",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSD",
+          "Semester": "2-1",
+          "Subject Name": "DISCRETE MATHEMATICS & GRAPH THEORY",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSD",
+          "Semester": "2-1",
+          "Subject Name": "ADVANCED DATA STRUCTURES & ALGORITHMS",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSD",
+          "Semester": "2-1",
+          "Subject Name": "OBJECT ORIENTED PROGRAMMING THROUGH JAVA",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSD",
+          "Semester": "2-1",
+          "Subject Name": "INTRODUCTION TO DATA SCIENCE",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSD",
+          "Semester": "2-1",
+          "Subject Name": "ADVANCED DATA STRUCTURES & ALGORITHMS LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSD",
+          "Semester": "2-1",
+          "Subject Name": "OBJECT ORIENTED PROGRAMMING THROUGH JAVA LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSD",
+          "Semester": "2-1",
+          "Subject Name": "DATA SCIENCE LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSD",
+          "Semester": "2-1",
+          "Subject Name": "SKILL ORIENTED COURSE",
+          "Type": "ACTIVITY",
+          "Credit": 2,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        }
+      ],
+      "2-2": [
+        {
+          "Branch": "CSD",
+          "Semester": "2-2",
+          "Subject Name": "DATABASE MANAGEMENT SYSTEMS",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSD",
+          "Semester": "2-2",
+          "Subject Name": "OPTIMIZATION TECHNIQUES",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSD",
+          "Semester": "2-2",
+          "Subject Name": "STATISTICAL METHODS FOR DATA SCIENCE",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSD",
+          "Semester": "2-2",
+          "Subject Name": "DATA ENGINEERING",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSD",
+          "Semester": "2-2",
+          "Subject Name": "COMPUTER ORGANIZATION AND ARCHITECTURE",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSD",
+          "Semester": "2-2",
+          "Subject Name": "DATABASE MANAGEMENT SYSTEMS LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSD",
+          "Semester": "2-2",
+          "Subject Name": "STATISTICAL METHODS FOR DATA SCIENCE LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSD",
+          "Semester": "2-2",
+          "Subject Name": "SKILL ORIENTED COURSE-II",
+          "Type": "ACTIVITY",
+          "Credit": 2,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        }
+      ],
+      "3-1": [
+        {
+          "Branch": "CSD",
+          "Semester": "3-1",
+          "Subject Name": "ENTREPRENEURSHIP DEVELOPMENT & VENTURE CREATION",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSD",
+          "Semester": "3-1",
+          "Subject Name": "COMPUTER NETWORKS",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSD",
+          "Semester": "3-1",
+          "Subject Name": "INTERNET OF THINGS",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSD",
+          "Semester": "3-1",
+          "Subject Name": "MACHINE LEARNING",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSD",
+          "Semester": "3-1",
+          "Subject Name": "SOFTWARE ENGINEERING",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSD",
+          "Semester": "3-1",
+          "Subject Name": "COMPUTER NETWORKS LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSD",
+          "Semester": "3-1",
+          "Subject Name": "MACHINE LEARNING LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSD",
+          "Semester": "3-1",
+          "Subject Name": "SKILL ORIENTED COURSE-III",
+          "Type": "ACTIVITY",
+          "Credit": 2,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        }
+      ],
+      "3-2": [
+        {
+          "Branch": "CSD",
+          "Semester": "3-2",
+          "Subject Name": "DISASTER MANAGEMENT",
+          "Type": "THEORY",
+          "Credit": 2,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSD",
+          "Semester": "3-2",
+          "Subject Name": "DEEP LEARNING",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "YES"
+        },
+        {
+          "Branch": "CSD",
+          "Semester": "3-2",
+          "Subject Name": "DATA VISUALIZATION",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSD",
+          "Semester": "3-2",
+          "Subject Name": "NOSQL DATABASES",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSD",
+          "Semester": "3-2",
+          "Subject Name": "OPERATING SYSTEMS",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSD",
+          "Semester": "3-2",
+          "Subject Name": "CLOUD COMPUTING",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSD",
+          "Semester": "3-2",
+          "Subject Name": "DEEP LEARNING LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSD",
+          "Semester": "3-2",
+          "Subject Name": "DATA VISUALIZATION LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSD",
+          "Semester": "3-2",
+          "Subject Name": "OPERATING SYSTEMS LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        }
+      ]
+    },
+    "AID": {
+      "1-1": [
+        {
+          "Branch": "AID",
+          "Semester": "1-1",
+          "Subject Name": "LINEAR ALGEBRA & CALCULUS",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "AID",
+          "Semester": "1-1",
+          "Subject Name": "INTRODUCTION TO PROGRAMMING",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "AID",
+          "Semester": "1-1",
+          "Subject Name": "ENGINEERING PHYSICS",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "AID",
+          "Semester": "1-1",
+          "Subject Name": "BASIC ELECTRICAL & ELECTRONICS ENGINEERING",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "AID",
+          "Semester": "1-1",
+          "Subject Name": "ENGINEERING GRAPHICS",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "AID",
+          "Semester": "1-1",
+          "Subject Name": "INTRODUCTION TO PROGRAMMING LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "AID",
+          "Semester": "1-1",
+          "Subject Name": "ENGINEERING PHYSICS LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "AID",
+          "Semester": "1-1",
+          "Subject Name": "BASIC ELECTRICAL & ELECTRONICS ENGINEERING LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "AID",
+          "Semester": "1-1",
+          "Subject Name": "IT WORKSHOP",
+          "Type": "LAB",
+          "Credit": 1,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "AID",
+          "Semester": "1-1",
+          "Subject Name": "NSS/NCC/SCOUTS & GUIDES/COMMUNITY SERVICE",
+          "Type": "ACTIVITY",
+          "Credit": 0.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        }
+      ],
+      "1-2": [
+        {
+          "Branch": "AID",
+          "Semester": "1-2",
+          "Subject Name": "DIFFERENTIAL EQUATIONS&VECTOR CALCULUS",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "AID",
+          "Semester": "1-2",
+          "Subject Name": "DATA STRUCTURES",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "AID",
+          "Semester": "1-2",
+          "Subject Name": "CHEMISTRY",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "AID",
+          "Semester": "1-2",
+          "Subject Name": "COMMUNICATIVE ENGLISH",
+          "Type": "THEORY",
+          "Credit": 2,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "AID",
+          "Semester": "1-2",
+          "Subject Name": "BASIC CIVIL&MECHANICAL ENGINEERING",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "AID",
+          "Semester": "1-2",
+          "Subject Name": "DATA STRUCTURES LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "AID",
+          "Semester": "1-2",
+          "Subject Name": "CHEMISTRY LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "AID",
+          "Semester": "1-2",
+          "Subject Name": "COMMUNICATIVE ENGLISH LAB",
+          "Type": "LAB",
+          "Credit": 1,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "AID",
+          "Semester": "1-2",
+          "Subject Name": "ENGINEERING WORKSHOP",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "AID",
+          "Semester": "1-2",
+          "Subject Name": "HEALTH AND WELLNESS, YOGA AND SPORTS",
+          "Type": "ACTIVITY",
+          "Credit": 0.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        }
+      ],
+      "2-1": [
+        {
+          "Branch": "AID",
+          "Semester": "2-1",
+          "Subject Name": "UNIVERSAL HUMAN VALUES",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "AID",
+          "Semester": "2-1",
+          "Subject Name": "DISCRETE MATHEMATICS & GRAPH THEORY",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "AID",
+          "Semester": "2-1",
+          "Subject Name": "ADVANCED DATA STRUCTURES AND ALGORITHMS",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "AID",
+          "Semester": "2-1",
+          "Subject Name": "OBJECT ORIENTED PROGRAMMING THROUGH JAVA",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "AID",
+          "Semester": "2-1",
+          "Subject Name": "DATABASE MANAGEMENT SYSTEMS",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "AID",
+          "Semester": "2-1",
+          "Subject Name": "ADVANCED DATA STRUCTURES AND ALGORITHMS LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "AID",
+          "Semester": "2-1",
+          "Subject Name": "OBJECT ORIENTED PROGRAMMING THROUGH JAVA LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "AID",
+          "Semester": "2-1",
+          "Subject Name": "DATABASE MANAGEMENT SYSTEMS LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "AID",
+          "Semester": "2-1",
+          "Subject Name": "SKILL ORIENTED COURSE",
+          "Type": "ACTIVITY",
+          "Credit": 2,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        }
+      ],
+      "2-2": [
+        {
+          "Branch": "AID",
+          "Semester": "2-2",
+          "Subject Name": "OPERATING SYSTEMS",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "AID",
+          "Semester": "2-2",
+          "Subject Name": "OPTIMIZATION TECHNIQUES",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "AID",
+          "Semester": "2-2",
+          "Subject Name": "SOFTWARE ENGINEERING",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "AID",
+          "Semester": "2-2",
+          "Subject Name": "STATISTICAL METHODS FOR DATA SCIENCE",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "AID",
+          "Semester": "2-2",
+          "Subject Name": "INTRODUCTION TO DATA SCIENCE",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "AID",
+          "Semester": "2-2",
+          "Subject Name": "OPERATING SYSTEMS LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "AID",
+          "Semester": "2-2",
+          "Subject Name": "SOFTWARE ENGINEERING LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "AID",
+          "Semester": "2-2",
+          "Subject Name": "STATISTICAL METHODS FOR DATA SCIENCE LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "AID",
+          "Semester": "2-2",
+          "Subject Name": "SKILL ORIENTED COURSE-II",
+          "Type": "ACTIVITY",
+          "Credit": 2,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        }
+      ],
+      "3-1": [
+        {
+          "Branch": "AID",
+          "Semester": "3-1",
+          "Subject Name": "COMPUTER NETWORKS",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "AID",
+          "Semester": "3-1",
+          "Subject Name": "ENTREPRENEURSHIP DEVELOPMENT & VENTURE CREATION",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "AID",
+          "Semester": "3-1",
+          "Subject Name": "COMPUTER ORGANIZATION AND ARCHITECTURE",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "AID",
+          "Semester": "3-1",
+          "Subject Name": "INTERNET OF THINGS",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "AID",
+          "Semester": "3-1",
+          "Subject Name": "ARTIFICIAL INTELLIGENCE",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "AID",
+          "Semester": "3-1",
+          "Subject Name": "COMPUTER NETWORKS LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "AID",
+          "Semester": "3-1",
+          "Subject Name": "ARTIFICIAL INTELLIGENCE LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "AID",
+          "Semester": "3-1",
+          "Subject Name": "SKILL ORIENTED COURSE-III",
+          "Type": "ACTIVITY",
+          "Credit": 2,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        }
+      ],
+      "3-2": [
+        {
+          "Branch": "AID",
+          "Semester": "3-2",
+          "Subject Name": "DISASTER MANAGEMENT",
+          "Type": "THEORY",
+          "Credit": 2,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "AID",
+          "Semester": "3-2",
+          "Subject Name": "BIG DATA ANALYTICS",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "YES"
+        },
+        {
+          "Branch": "AID",
+          "Semester": "3-2",
+          "Subject Name": "NOSQL DATABASES",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "AID",
+          "Semester": "3-2",
+          "Subject Name": "MACHINE LEARNING",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "AID",
+          "Semester": "3-2",
+          "Subject Name": "DATA VISUALIZATION",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "AID",
+          "Semester": "3-2",
+          "Subject Name": "CLOUD COMPUTING",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "AID",
+          "Semester": "3-2",
+          "Subject Name": "BIG DATA ANALYTICS LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "AID",
+          "Semester": "3-2",
+          "Subject Name": "MACHINE LEARNING LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "AID",
+          "Semester": "3-2",
+          "Subject Name": "DATA VISUALIZATION LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        }
+      ]
+    },
+    "CSC": {
+      "1-1": [
+        {
+          "Branch": "CSC",
+          "Semester": "1-1",
+          "Subject Name": "LINEAR ALGEBRA & CALCULUS",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSC",
+          "Semester": "1-1",
+          "Subject Name": "INTRODUCTION TO PROGRAMMING",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSC",
+          "Semester": "1-1",
+          "Subject Name": "ENGINEERING PHYSICS",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSC",
+          "Semester": "1-1",
+          "Subject Name": "BASIC ELECTRICAL & ELECTRONICS ENGINEERING",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSC",
+          "Semester": "1-1",
+          "Subject Name": "ENGINEERING GRAPHICS",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSC",
+          "Semester": "1-1",
+          "Subject Name": "INTRODUCTION TO PROGRAMMING LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSC",
+          "Semester": "1-1",
+          "Subject Name": "ENGINEERING PHYSICS LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSC",
+          "Semester": "1-1",
+          "Subject Name": "BASIC ELECTRICAL & ELECTRONICS ENGINEERING LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSC",
+          "Semester": "1-1",
+          "Subject Name": "IT WORKSHOP",
+          "Type": "LAB",
+          "Credit": 1,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSC",
+          "Semester": "1-1",
+          "Subject Name": "NSS/NCC/SCOUTS & GUIDES/COMMUNITY SERVICE",
+          "Type": "ACTIVITY",
+          "Credit": 0.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        }
+      ],
+      "1-2": [
+        {
+          "Branch": "CSC",
+          "Semester": "1-2",
+          "Subject Name": "DIFFERENTIAL EQUATIONS&VECTOR CALCULUS",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSC",
+          "Semester": "1-2",
+          "Subject Name": "DATA STRUCTURES",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSC",
+          "Semester": "1-2",
+          "Subject Name": "CHEMISTRY",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSC",
+          "Semester": "1-2",
+          "Subject Name": "COMMUNICATIVE ENGLISH",
+          "Type": "THEORY",
+          "Credit": 2,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSC",
+          "Semester": "1-2",
+          "Subject Name": "BASIC CIVIL&MECHANICAL ENGINEERING",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSC",
+          "Semester": "1-2",
+          "Subject Name": "DATA STRUCTURES LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSC",
+          "Semester": "1-2",
+          "Subject Name": "CHEMISTRY LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSC",
+          "Semester": "1-2",
+          "Subject Name": "COMMUNICATIVE ENGLISH LAB",
+          "Type": "LAB",
+          "Credit": 1,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSC",
+          "Semester": "1-2",
+          "Subject Name": "ENGINEERING WORKSHOP",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSC",
+          "Semester": "1-2",
+          "Subject Name": "HEALTH AND WELLNESS, YOGA AND SPORTS",
+          "Type": "ACTIVITY",
+          "Credit": 0.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        }
+      ],
+      "2-1": [
+        {
+          "Branch": "CSC",
+          "Semester": "2-1",
+          "Subject Name": "UNIVERSAL HUMAN VALUES",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSC",
+          "Semester": "2-1",
+          "Subject Name": "OBJECT ORIENTED PROGRAMMING THROUGH JAVA",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSC",
+          "Semester": "2-1",
+          "Subject Name": "DISCRETE MATHEMATICS & GRAPH THEORY",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSC",
+          "Semester": "2-1",
+          "Subject Name": "DIGITAL LOGIC & COMPUTER ORGANIZATION",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSC",
+          "Semester": "2-1",
+          "Subject Name": "ADVANCED DATA STRUCTURES & ALGORITHMS",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSC",
+          "Semester": "2-1",
+          "Subject Name": "OBJECT ORIENTED PROGRAMMING THROUGH JAVA LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSC",
+          "Semester": "2-1",
+          "Subject Name": "ADVANCED DATA STRUCTURES & ALGORITHMS LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSC",
+          "Semester": "2-1",
+          "Subject Name": "DIGITAL LOGIC & COMPUTER ORGANIZATION LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSC",
+          "Semester": "2-1",
+          "Subject Name": "SKILL ORIENTED COURSE",
+          "Type": "ACTIVITY",
+          "Credit": 2,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        }
+      ],
+      "2-2": [
+        {
+          "Branch": "CSC",
+          "Semester": "2-2",
+          "Subject Name": "OPERATING SYSTEMS",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSC",
+          "Semester": "2-2",
+          "Subject Name": "MANAGERIAL ECONOMICS AND FINANCIAL ANALYSIS",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSC",
+          "Semester": "2-2",
+          "Subject Name": "DATABASE MANAGEMENT SYSTEMS",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSC",
+          "Semester": "2-2",
+          "Subject Name": "NUMBER THEORY & APPLICATIONS",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSC",
+          "Semester": "2-2",
+          "Subject Name": "COMPUTER NETWORKS",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSC",
+          "Semester": "2-2",
+          "Subject Name": "OPERATING SYSTEMS LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSC",
+          "Semester": "2-2",
+          "Subject Name": "DATABASE MANAGEMENT SYSTEMS LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSC",
+          "Semester": "2-2",
+          "Subject Name": "COMPUTER NETWORKS LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSC",
+          "Semester": "2-2",
+          "Subject Name": "SKILL ORIENTED COURSE-II",
+          "Type": "ACTIVITY",
+          "Credit": 2,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        }
+      ],
+      "3-1": [
+        {
+          "Branch": "CSC",
+          "Semester": "3-1",
+          "Subject Name": "ENTREPRENEURSHIP DEVELOPMENT & VENTURE CREATION",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSC",
+          "Semester": "3-1",
+          "Subject Name": "CLOUD COMPUTING",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSC",
+          "Semester": "3-1",
+          "Subject Name": "INTRODUCTION TO CYBER SECURITY",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSC",
+          "Semester": "3-1",
+          "Subject Name": "AUTOMATA THEORY & COMPILER DESIGN",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSC",
+          "Semester": "3-1",
+          "Subject Name": "INTERNET OF THINGS",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSC",
+          "Semester": "3-1",
+          "Subject Name": "CLOUD COMPUTING LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSC",
+          "Semester": "3-1",
+          "Subject Name": "INTRODUCTION TO CYBER SECURITY LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSC",
+          "Semester": "3-1",
+          "Subject Name": "SKILL ORIENTED COURSE-III",
+          "Type": "ACTIVITY",
+          "Credit": 2,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        }
+      ],
+      "3-2": [
+        {
+          "Branch": "CSC",
+          "Semester": "3-2",
+          "Subject Name": "DISASTER MANAGEMENT",
+          "Type": "THEORY",
+          "Credit": 2,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSC",
+          "Semester": "3-2",
+          "Subject Name": "NATURAL LANGUAGE PROCESSING",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "YES"
+        },
+        {
+          "Branch": "CSC",
+          "Semester": "3-2",
+          "Subject Name": "CRYPTOGRAPHY & NETWORK SECURITY",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSC",
+          "Semester": "3-2",
+          "Subject Name": "SOFTWARE TESTING METHODOLOGIES",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSC",
+          "Semester": "3-2",
+          "Subject Name": "MACHINE LEARNING",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSC",
+          "Semester": "3-2",
+          "Subject Name": "CYBER CRIMES & DIGITAL FORENSICS",
+          "Type": "THEORY",
+          "Credit": 3,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "YES",
+          "Existing Mapping": "YES",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSC",
+          "Semester": "3-2",
+          "Subject Name": "CRYPTOGRAPHY & NETWORK SECURITY LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSC",
+          "Semester": "3-2",
+          "Subject Name": "SOFTWARE TESTING METHODOLOGIES LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        },
+        {
+          "Branch": "CSC",
+          "Semester": "3-2",
+          "Subject Name": "CYBER CRIMES & DIGITAL FORENSICS LAB",
+          "Type": "LAB",
+          "Credit": 1.5,
+          "Credit Status": "VERIFIED",
+          "Existing Subject": "NO",
+          "Existing Mapping": "NO",
+          "Ambiguous Name": "NO"
+        }
+      ]
+    }
+  },
+  "summary": {
+    "Verified credits": 271,
+    "Missing credits": 0
+  }
+}

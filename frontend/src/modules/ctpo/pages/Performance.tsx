@@ -1,0 +1,140 @@
+import { useEffect, useState } from 'react';
+import { PageHeader, StatCard, LoadingSkeleton, ErrorState, ChartCard } from '@/components/common';
+import { ctpoService } from '@/services/ctpoService';
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend, PieChart, Pie, Cell } from 'recharts';
+import { BookOpen, TrendingUp, TrendingDown, Target } from 'lucide-react';
+
+export const Performance = () => {
+  const [performanceData, setPerformanceData] = useState<any>(null);
+  
+  const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  const loadData = async () => {
+    setIsLoading(true);
+    setError(null);
+    try {
+      const data = await ctpoService.getPerformance();
+      setPerformanceData(data);
+    } catch (err: any) {
+      setError(err.message || 'Failed to load performance data');
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  useEffect(() => {
+    loadData();
+  }, []);
+
+  const trends = performanceData?.trends || [];
+  const distribution = performanceData?.distribution || [];
+  const kpis = performanceData?.kpis || null;
+  const availableSemesters = performanceData?.availableSemesters || [];
+
+  const DIST_COLORS = {
+    '0-39': '#ef4444',
+    '40-59': '#f59e0b',
+    '60-74': '#3b82f6',
+    '75-89': '#8b5cf6',
+    '90-100': '#10b981'
+  };
+
+  return (
+    <>
+      <PageHeader 
+        title="Class Performance" 
+        description="Detailed view of internal marks and academic trends (MID-1 / MID-2) for your class."
+      />
+
+      <div className="bg-white p-4 rounded-xl border border-slate-200 shadow-sm flex items-center gap-4 mb-6 mt-6">
+        <label className="text-sm font-medium text-slate-700">Semester:</label>
+        <select 
+          className="border-slate-300 rounded-md shadow-sm focus:ring-primary focus:border-primary p-1.5 border text-sm disabled:bg-slate-100"
+          value={availableSemesters.length > 0 ? availableSemesters[0] : ''}
+          disabled={true}
+        >
+          {availableSemesters.length === 0 && <option value="">No Data</option>}
+          {availableSemesters.map((s: string) => <option key={s} value={s}>Semester Scope</option>)}
+        </select>
+        <span className="text-xs text-slate-500 italic">This is fixed to your assigned CTPO scope.</span>
+      </div>
+
+      {isLoading ? (
+        <div className="space-y-6">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+            <LoadingSkeleton type="card" />
+            <LoadingSkeleton type="card" />
+            <LoadingSkeleton type="card" />
+            <LoadingSkeleton type="card" />
+          </div>
+          <LoadingSkeleton type="card" />
+        </div>
+      ) : error ? (
+        <ErrorState message={error} onRetry={() => loadData()} />
+      ) : !kpis ? (
+        <div className="bg-white rounded-xl shadow-sm border border-slate-200 p-8 text-center text-slate-500 text-lg font-medium">
+          No internal examination marks available for this selection.
+        </div>
+      ) : (
+        <div className="space-y-6">
+          {kpis && (
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+              <StatCard title="Average Marks" value={kpis.averageMarks ? kpis.averageMarks.toFixed(1) + '%' : '0%'} icon={BookOpen} />
+              <StatCard title="Highest Average" value={kpis.highestAverage ? kpis.highestAverage.toFixed(1) + '%' : '0%'} icon={TrendingUp} contextType="success" />
+              <StatCard title="Lowest Average" value={kpis.lowestAverage && kpis.lowestAverage !== 100 ? kpis.lowestAverage.toFixed(1) + '%' : '0%'} icon={TrendingDown} contextType="danger" />
+              <StatCard title="Exams Recorded" value={kpis.examsRecorded} icon={Target} />
+            </div>
+          )}
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            <ChartCard title="Mark Distribution" description="Internal exam marks grouped by percentage">
+              {distribution.length === 0 || distribution.every((d: any) => d.count === 0) ? (
+                <div className="flex h-full items-center justify-center text-slate-500">No internal examination marks available for this selection.</div>
+              ) : (
+                <ResponsiveContainer width="100%" height={350}>
+                  <PieChart>
+                    <Pie
+                      data={distribution}
+                      cx="50%"
+                      cy="50%"
+                      innerRadius={80}
+                      outerRadius={120}
+                      paddingAngle={5}
+                      dataKey="count"
+                      nameKey="range"
+                      label
+                    >
+                      {distribution.map((entry: any, index: number) => (
+                        <Cell key={`cell-${index}`} fill={DIST_COLORS[entry.range as keyof typeof DIST_COLORS]} />
+                      ))}
+                    </Pie>
+                    <Tooltip contentStyle={{ borderRadius: '8px', border: 'none', boxShadow: '0 4px 6px -1px rgb(0 0 0 / 0.1)' }} />
+                    <Legend />
+                  </PieChart>
+                </ResponsiveContainer>
+              )}
+            </ChartCard>
+
+            <ChartCard title="MID-1 vs MID-2 Average" description="Direct comparison of average marks">
+              {trends.length === 0 ? (
+                <div className="flex h-full items-center justify-center text-slate-500">No internal examination marks available for this selection.</div>
+              ) : (
+                <ResponsiveContainer width="100%" height={350}>
+                  <BarChart data={trends} margin={{ top: 20, right: 30, left: 0, bottom: 5 }}>
+                    <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#e2e8f0" />
+                    <XAxis dataKey="name" tick={{ fill: '#64748b' }} axisLine={false} tickLine={false} />
+                    <YAxis tick={{ fill: '#64748b' }} axisLine={false} tickLine={false} domain={[0, 100]} />
+                    <Tooltip cursor={{ fill: '#f8fafc' }} contentStyle={{ borderRadius: '8px', border: 'none', boxShadow: '0 4px 6px -1px rgb(0 0 0 / 0.1)' }} />
+                    <Legend />
+                    <Bar dataKey="averageMarks" fill="#3b82f6" radius={[4, 4, 0, 0]} name="Average Marks" />
+                  </BarChart>
+                </ResponsiveContainer>
+              )}
+            </ChartCard>
+          </div>
+        </div>
+      )}
+    </>
+  );
+};

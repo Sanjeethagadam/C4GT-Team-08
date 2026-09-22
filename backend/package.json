@@ -1,0 +1,33 @@
+{
+  "name": "academic-engagement-system-backend",
+  "version": "1.0.0",
+  "description": "Backend for Academic Engagement, Student Risk & Academic Support Management System",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "seed": "node src/utils/seed.js",
+    "test": "jest",
+    "import:students": "node src/modules/results-backlogs/utils/import-backlogs.js \"../source-data/K&K+ BACKLOGS DATA.xlsx\" students",
+    "import:backlog-staging": "node src/modules/results-backlogs/utils/import-backlogs.js \"../source-data/K&K+ BACKLOGS DATA.xlsx\" staging"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.3.2",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^8.0.3",
+    "multer": "^2.3.0",
+    "pdf-parse": "^2.4.5",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "jest": "^30.5.1",
+    "nodemon": "^3.0.2",
+    "puppeteer": "^25.10.0",
+    "supertest": "^7.2.2"
+  }
+}

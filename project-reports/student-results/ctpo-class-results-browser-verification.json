@@ -1,0 +1,12 @@
+{
+  "module": "CTPO_CLASS_RESULTS_VERIFICATION",
+  "status": "PASS",
+  "login_result": "Successfully logged in as 23KTCAI (Year 4), 24KTCAI (Year 3), and 25KTCAI (Year 2) using their established passwords (username followed by '@').",
+  "semester_menu_result": "Verified dynamic dropdown scoping. 23KTCAI sees 1-1 through 3-2. 24KTCAI sees 1-1 through 2-2. 25KTCAI sees only 1-1.",
+  "3_2_result": "For 23KTCAI (Year 4 CTPO), selected 3-2. The frontend efficiently fetched ?semesterCode=3-2. The table correctly rendered the results restricted to the CAI branch with exactly one row per student, without duplicate rows for subjects. The detailed expandable rows correctly showed subject name, grade, grade point, credits, and status.",
+  "unavailable_1_1_result": "For 23KTCAI, selected 1-1. The frontend immediately updated to display the strict fallback message: 'No official university result data available for this semester.'",
+  "semester_switching": "Switching back to 3-2 after viewing the empty 1-1 screen successfully restored the 3-2 results.",
+  "network_request_verification": "Network tab monitoring confirmed the backend requests correctly appended the semesterCode parameter (e.g. GET /api/v1/ctpo/results?semesterCode=3-2), confirming the previous full-history download bottleneck is completely resolved.",
+  "scope_verification": "Verified 24KTCAI (Year 3) and 25KTCAI (Year 2) fallback states and API requests. Both are strictly limited to their branch and year as dictated by their ACTIVE CtpoAssignment.",
+  "build_typecheck_result": "npm run build (which natively executes tsc -b) passed with zero compilation errors."
+}

@@ -1,0 +1,511 @@
+{
+  "studentsProcessed": 2117,
+  "branchWiseCounts": {
+    "CSM": 568,
+    "CAI": 335,
+    "CSD": 341,
+    "AID": 568,
+    "CSC": 305
+  },
+  "yearWiseCounts": {
+    "2": 694,
+    "3": 825,
+    "4": 598
+  },
+  "semesterWiseCounts": {
+    "1-1": 2117,
+    "1-2": 1423,
+    "2-1": 1423,
+    "2-2": 1423,
+    "3-1": 598,
+    "3-2": 598
+  },
+  "expectedSubjectRecords": 72974,
+  "passCount": 64843,
+  "failCount": 5633,
+  "derivedResultCount": 70476,
+  "missingSubjects": 0,
+  "missingCredits": 0,
+  "unmatchedBacklogSubjects": 0,
+  "studentsNotFound": 0,
+  "duplicateLogicalKeys": 0,
+  "gradeDistribution": {
+    "S": 10820,
+    "A": 10640,
+    "B": 10809,
+    "C": 10833,
+    "D": 10827,
+    "E": 10914,
+    "F": 5633
+  },
+  "sgpaRange": {
+    "min": 1.62,
+    "max": 9.45
+  },
+  "cgpaRange": {
+    "min": 1.62,
+    "max": 8.9
+  },
+  "sampleStudents": [
+    {
+      "student": "KADA MAHESH BHAGAVAN",
+      "rollNo": "25B21A4201",
+      "branch": "CSM",
+      "year": 2,
+      "records": [
+        {
+          "semester": "1-1",
+          "subject": "LINEAR ALGEBRA & CALCULUS",
+          "credit": 3,
+          "passOrFail": "FAIL",
+          "grade": "F",
+          "gradePoint": 0
+        },
+        {
+          "semester": "1-1",
+          "subject": "INTRODUCTION TO PROGRAMMING",
+          "credit": 3,
+          "passOrFail": "FAIL",
+          "grade": "F",
+          "gradePoint": 0
+        },
+        {
+          "semester": "1-1",
+          "subject": "ENGINEERING PHYSICS",
+          "credit": 3,
+          "passOrFail": "FAIL",
+          "grade": "F",
+          "gradePoint": 0
+        },
+        {
+          "semester": "1-1",
+          "subject": "BASIC ELECTRICAL & ELECTRONICS ENGINEERING",
+          "credit": 3,
+          "passOrFail": "PASS",
+          "grade": "A",
+          "gradePoint": 9
+        },
+        {
+          "semester": "1-1",
+          "subject": "ENGINEERING GRAPHICS",
+          "credit": 3,
+          "passOrFail": "FAIL",
+          "grade": "F",
+          "gradePoint": 0
+        },
+        {
+          "semester": "1-1",
+          "subject": "INTRODUCTION TO PROGRAMMING LAB",
+          "credit": 1.5,
+          "passOrFail": "PASS",
+          "grade": "S",
+          "gradePoint": 10
+        },
+        {
+          "semester": "1-1",
+          "subject": "ENGINEERING PHYSICS LAB",
+          "credit": 1.5,
+          "passOrFail": "PASS",
+          "grade": "S",
+          "gradePoint": 10
+        },
+        {
+          "semester": "1-1",
+          "subject": "BASIC ELECTRICAL & ELECTRONICS ENGINEERING LAB",
+          "credit": 1.5,
+          "passOrFail": "PASS",
+          "grade": "S",
+          "gradePoint": 10
+        },
+        {
+          "semester": "1-1",
+          "subject": "IT WORKSHOP",
+          "credit": 1,
+          "passOrFail": "PASS",
+          "grade": "C",
+          "gradePoint": 7
+        },
+        {
+          "semester": "1-1",
+          "subject": "NSS/NCC/SCOUTS & GUIDES/COMMUNITY SERVICE",
+          "credit": 0.5,
+          "passOrFail": "PASS",
+          "grade": "B",
+          "gradePoint": 8
+        }
+      ],
+      "sgpas": {
+        "1-1": 3.95
+      },
+      "cgpa": 3.95
+    },
+    {
+      "student": "VELANGI BHARATH",
+      "rollNo": "25B21A4301",
+      "branch": "CAI",
+      "year": 2,
+      "records": [
+        {
+          "semester": "1-1",
+          "subject": "LINEAR ALGEBRA & CALCULUS",
+          "credit": 3,
+          "passOrFail": "FAIL",
+          "grade": "F",
+          "gradePoint": 0
+        },
+        {
+          "semester": "1-1",
+          "subject": "COMPUTER PROGRAMMING LAB",
+          "credit": 1.5,
+          "passOrFail": "PASS",
+          "grade": "E",
+          "gradePoint": 5
+        },
+        {
+          "semester": "1-1",
+          "subject": "INTRODUCTION TO PROGRAMMING",
+          "credit": 3,
+          "passOrFail": "FAIL",
+          "grade": "F",
+          "gradePoint": 0
+        },
+        {
+          "semester": "1-1",
+          "subject": "ENGINEERING PHYSICS",
+          "credit": 3,
+          "passOrFail": "FAIL",
+          "grade": "F",
+          "gradePoint": 0
+        },
+        {
+          "semester": "1-1",
+          "subject": "IT WORKSHOP",
+          "credit": 1,
+          "passOrFail": "PASS",
+          "grade": "B",
+          "gradePoint": 8
+        },
+        {
+          "semester": "1-1",
+          "subject": "BASIC ELECTRICAL & ELECTRONICS ENGINEERI",
+          "credit": 3,
+          "passOrFail": "PASS",
+          "grade": "E",
+          "gradePoint": 5
+        },
+        {
+          "semester": "1-1",
+          "subject": "ENGINEERING PHYSICS LAB",
+          "credit": 1,
+          "passOrFail": "PASS",
+          "grade": "E",
+          "gradePoint": 5
+        },
+        {
+          "semester": "1-1",
+          "subject": "ENGINEERING GRAPHICS",
+          "credit": 3,
+          "passOrFail": "PASS",
+          "grade": "S",
+          "gradePoint": 10
+        },
+        {
+          "semester": "1-1",
+          "subject": "ELECTRICAL & ELECTRONICS ENGINEERING WOR",
+          "credit": 1.5,
+          "passOrFail": "PASS",
+          "grade": "S",
+          "gradePoint": 10
+        },
+        {
+          "semester": "1-1",
+          "subject": "NSS/NCC/SCOUTS & GUIDES/COMMUNITY SERVIC",
+          "credit": 0.5,
+          "passOrFail": "PASS",
+          "grade": "B",
+          "gradePoint": 8
+        }
+      ],
+      "sgpas": {
+        "1-1": 4.12
+      },
+      "cgpa": 4.12
+    },
+    {
+      "student": "VASAMSETTI VENKATA SATYA REVANTH",
+      "rollNo": "25B21A4401",
+      "branch": "CSD",
+      "year": 2,
+      "records": [
+        {
+          "semester": "1-1",
+          "subject": "LINEAR ALGEBRA& CALCULUS",
+          "credit": 3,
+          "passOrFail": "PASS",
+          "grade": "B",
+          "gradePoint": 8
+        },
+        {
+          "semester": "1-1",
+          "subject": "COMPUTER PROGRAMMING LAB",
+          "credit": 1.5,
+          "passOrFail": "PASS",
+          "grade": "S",
+          "gradePoint": 10
+        },
+        {
+          "semester": "1-1",
+          "subject": "INTRODUCTION TO PROGRAMMING",
+          "credit": 3,
+          "passOrFail": "PASS",
+          "grade": "A",
+          "gradePoint": 9
+        },
+        {
+          "semester": "1-1",
+          "subject": "ENGINEERING PHYSICS",
+          "credit": 3,
+          "passOrFail": "PASS",
+          "grade": "C",
+          "gradePoint": 7
+        },
+        {
+          "semester": "1-1",
+          "subject": "IT WORKSHOP",
+          "credit": 1,
+          "passOrFail": "PASS",
+          "grade": "C",
+          "gradePoint": 7
+        },
+        {
+          "semester": "1-1",
+          "subject": "BASIC ELECTRICAL & ELECTRONICS ENGINEERI",
+          "credit": 3,
+          "passOrFail": "PASS",
+          "grade": "S",
+          "gradePoint": 10
+        },
+        {
+          "semester": "1-1",
+          "subject": "ENGINEERING PHYSICS LAB",
+          "credit": 1,
+          "passOrFail": "PASS",
+          "grade": "D",
+          "gradePoint": 6
+        },
+        {
+          "semester": "1-1",
+          "subject": "ENGINEERING GRAPHICS",
+          "credit": 3,
+          "passOrFail": "FAIL",
+          "grade": "F",
+          "gradePoint": 0
+        },
+        {
+          "semester": "1-1",
+          "subject": "ELECTRICAL & ELECTRONICS ENGINEERING WOR",
+          "credit": 1.5,
+          "passOrFail": "PASS",
+          "grade": "C",
+          "gradePoint": 7
+        },
+        {
+          "semester": "1-1",
+          "subject": "NSS/NCC/SCOUTS & GUIDES/COMMUNITY SERVIC",
+          "credit": 0.5,
+          "passOrFail": "PASS",
+          "grade": "C",
+          "gradePoint": 7
+        }
+      ],
+      "sgpas": {
+        "1-1": 7.02
+      },
+      "cgpa": 7.02
+    },
+    {
+      "student": "BATTULA SRAVAN KUMAR",
+      "rollNo": "25B21A4501",
+      "branch": "AID",
+      "year": 2,
+      "records": [
+        {
+          "semester": "1-1",
+          "subject": "LINEAR ALGEBRA & CALCULUS",
+          "credit": 3,
+          "passOrFail": "PASS",
+          "grade": "E",
+          "gradePoint": 5
+        },
+        {
+          "semester": "1-1",
+          "subject": "INTRODUCTION TO PROGRAMMING",
+          "credit": 3,
+          "passOrFail": "PASS",
+          "grade": "S",
+          "gradePoint": 10
+        },
+        {
+          "semester": "1-1",
+          "subject": "ENGINEERING PHYSICS",
+          "credit": 3,
+          "passOrFail": "PASS",
+          "grade": "B",
+          "gradePoint": 8
+        },
+        {
+          "semester": "1-1",
+          "subject": "BASIC ELECTRICAL & ELECTRONICS ENGINEERING",
+          "credit": 3,
+          "passOrFail": "PASS",
+          "grade": "B",
+          "gradePoint": 8
+        },
+        {
+          "semester": "1-1",
+          "subject": "ENGINEERING GRAPHICS",
+          "credit": 3,
+          "passOrFail": "PASS",
+          "grade": "D",
+          "gradePoint": 6
+        },
+        {
+          "semester": "1-1",
+          "subject": "INTRODUCTION TO PROGRAMMING LAB",
+          "credit": 1.5,
+          "passOrFail": "PASS",
+          "grade": "A",
+          "gradePoint": 9
+        },
+        {
+          "semester": "1-1",
+          "subject": "ENGINEERING PHYSICS LAB",
+          "credit": 1.5,
+          "passOrFail": "PASS",
+          "grade": "C",
+          "gradePoint": 7
+        },
+        {
+          "semester": "1-1",
+          "subject": "BASIC ELECTRICAL & ELECTRONICS ENGINEERING LAB",
+          "credit": 1.5,
+          "passOrFail": "PASS",
+          "grade": "C",
+          "gradePoint": 7
+        },
+        {
+          "semester": "1-1",
+          "subject": "IT WORKSHOP",
+          "credit": 1,
+          "passOrFail": "PASS",
+          "grade": "B",
+          "gradePoint": 8
+        },
+        {
+          "semester": "1-1",
+          "subject": "NSS/NCC/SCOUTS & GUIDES/COMMUNITY SERVICE",
+          "credit": 0.5,
+          "passOrFail": "PASS",
+          "grade": "E",
+          "gradePoint": 5
+        }
+      ],
+      "sgpas": {
+        "1-1": 7.43
+      },
+      "cgpa": 7.43
+    },
+    {
+      "student": "KOTA SAI PRASANNA",
+      "rollNo": "25B21A4601",
+      "branch": "CSC",
+      "year": 2,
+      "records": [
+        {
+          "semester": "1-1",
+          "subject": "LINEAR ALGEBRA & CALCULUS",
+          "credit": 3,
+          "passOrFail": "PASS",
+          "grade": "D",
+          "gradePoint": 6
+        },
+        {
+          "semester": "1-1",
+          "subject": "COMPUTER PROGRAMMING LAB",
+          "credit": 1.5,
+          "passOrFail": "PASS",
+          "grade": "S",
+          "gradePoint": 10
+        },
+        {
+          "semester": "1-1",
+          "subject": "INTRODUCTION TO PROGRAMMING",
+          "credit": 3,
+          "passOrFail": "PASS",
+          "grade": "C",
+          "gradePoint": 7
+        },
+        {
+          "semester": "1-1",
+          "subject": "ENGINEERING PHYSICS",
+          "credit": 3,
+          "passOrFail": "PASS",
+          "grade": "C",
+          "gradePoint": 7
+        },
+        {
+          "semester": "1-1",
+          "subject": "IT WORKSHOP",
+          "credit": 1,
+          "passOrFail": "PASS",
+          "grade": "A",
+          "gradePoint": 9
+        },
+        {
+          "semester": "1-1",
+          "subject": "BASIC ELECTRICAL & ELECTRONICS ENGINEERI",
+          "credit": 3,
+          "passOrFail": "PASS",
+          "grade": "B",
+          "gradePoint": 8
+        },
+        {
+          "semester": "1-1",
+          "subject": "ENGINEERING PHYSICS LAB",
+          "credit": 1,
+          "passOrFail": "PASS",
+          "grade": "B",
+          "gradePoint": 8
+        },
+        {
+          "semester": "1-1",
+          "subject": "ENGINEERING GRAPHICS",
+          "credit": 3,
+          "passOrFail": "PASS",
+          "grade": "C",
+          "gradePoint": 7
+        },
+        {
+          "semester": "1-1",
+          "subject": "ELECTRICAL & ELECTRONICS ENGINEERING WOR",
+          "credit": 1.5,
+          "passOrFail": "PASS",
+          "grade": "E",
+          "gradePoint": 5
+        },
+        {
+          "semester": "1-1",
+          "subject": "NSS/NCC/SCOUTS & GUIDES/COMMUNITY SERVIC",
+          "credit": 0.5,
+          "passOrFail": "PASS",
+          "grade": "E",
+          "gradePoint": 5
+        }
+      ],
+      "sgpas": {
+        "1-1": 7.17
+      },
+      "cgpa": 7.17
+    }
+  ]
+}

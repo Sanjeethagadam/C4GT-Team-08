@@ -1,0 +1,9 @@
+{
+  "totalBacklogRecords": 6759,
+  "activeRecords": 6759,
+  "clearedRecords": 0,
+  "otherRecords": 0,
+  "semesterDistribution": "Not calculated for brevity",
+  "historicalClearedFailuresIdentifiable": "NO",
+  "analysis": "If cleared=0, the Backlog collection only contains currently active backlogs. This means historical PASS/FAIL reconstruction is NOT mathematically safe, because a student who failed previously but cleared it later would have NO record in the Backlog collection, causing us to incorrectly assume they passed it on the first attempt."
+}

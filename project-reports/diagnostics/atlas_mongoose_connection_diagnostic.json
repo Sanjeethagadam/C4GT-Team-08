@@ -1,0 +1,35 @@
+{
+  "diagnostic_success": true,
+  "mongoose_connection_success": false,
+  "environment_clean": true,
+  "custom_env_vars_detected": "None",
+  "uri_components_verified": {
+    "hosts_present": "ac-r3btcee-shard-00-00, ac-r3btcee-shard-00-01, ac-r3btcee-shard-00-02",
+    "replicaSet": "atlas-1io29n-shard-0",
+    "authSource": "admin",
+    "tls_ssl": "true",
+    "database": "academic_engagement_db"
+  },
+  "mongoose_server_selection_details": {
+    "error_type": "MongooseServerSelectionError",
+    "message": "Could not connect to any servers in your MongoDB Atlas cluster.",
+    "servers_state": [
+      {
+        "address": "ac-r3btcee-shard-00-00.aiesuvx.mongodb.net:27017",
+        "type": "Unknown",
+        "error": "none"
+      },
+      {
+        "address": "ac-r3btcee-shard-00-01.aiesuvx.mongodb.net:27017",
+        "type": "Unknown",
+        "error": "none"
+      },
+      {
+        "address": "ac-r3btcee-shard-00-02.aiesuvx.mongodb.net:27017",
+        "type": "Unknown",
+        "error": "none"
+      }
+    ]
+  },
+  "analysis": "The URI matches the exact standard format, and 'family: 6' successfully forces IPv6 DNS resolution. Node.js resolves the IPs and adds all 3 servers to the Topology Map. However, their state remains 'Unknown' with no explicit socket errors. In Mongoose 8.x/driver 6.x, when TCP connects (no ECONNREFUSED/ETIMEDOUT) but the server state remains Unknown without a socket error, it usually indicates that the initial MongoDB wire-protocol handshake (the 'hello' or 'isMaster' command) was rejected by the server due to an authentication failure (invalid credentials or a password requiring URL-encoding). The driver fails to transition the servers from Unknown to a known replica set state."
+}
