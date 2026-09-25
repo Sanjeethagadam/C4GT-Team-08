@@ -298,7 +298,7 @@ export const Sidebar = ({ className }) => {
         <div className="flex flex-col min-w-0">
           <div className="flex items-center gap-1.5">
             <span className="text-xs font-extrabold tracking-tight text-white truncate">
-              KIET SAMS
+              KIET AMS
             </span>
             <span className="h-1.5 w-1.5 rounded-full bg-[#0090FF] inline-block shrink-0 shadow-[0_0_6px_#0090FF]"></span>
           </div>

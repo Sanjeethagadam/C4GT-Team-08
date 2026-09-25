@@ -170,7 +170,7 @@ export const Notices = () => {
       const stats = await apiClient.get(`/notifications/notices/${id}/stats`);
       const data = stats.data;
       alert(
-        `Acknowledgement Stats:\n\nTotal Targeted: ${data.totalTargeted}\nViewed: ${data.viewed}\nNot Viewed: ${data.notViewed}\nView Percentage: ${data.viewPercentage}%`,
+        `Acknowledgement Status:\n\nTotal Targeted: ${data.totalTargeted}\nViewed: ${data.viewed}\nNot Viewed: ${data.notViewed}\nView Percentage: ${data.viewPercentage}%`,
       );
     } catch (err) {
       alert(err.message || "Failed to fetch stats");
@@ -458,7 +458,7 @@ export const Notices = () => {
                         size="sm"
                         onClick={() => handleViewStats(notice._id)}
                       >
-                        Stats
+                        Status
                       </Button>
                       <Button
                         variant="outline"
