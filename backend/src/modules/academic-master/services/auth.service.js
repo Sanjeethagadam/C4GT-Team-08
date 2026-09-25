@@ -30,35 +30,7 @@ class AuthService {
       throw new Error('User account is inactive');
     }
 
-    let isMatch = await bcrypt.compare(password, user.passwordHash || '');
-
-    // Allow institutional passwords for CTPO and staff accounts across seed variations
-    if (!isMatch && ['CTPO', 'HOD', 'COORDINATOR', 'PRINCIPAL', 'ADMIN'].includes(user.role)) {
-      const allowedPasswords = [
-        'password123',
-        `${user.username}@`,
-        `${user.username.toUpperCase()}@`,
-        `${user.username.toLowerCase()}@`,
-        user.username,
-        user.username.toUpperCase(),
-        user.username.toLowerCase(),
-        'admin123'
-      ];
-      if (allowedPasswords.includes(password)) {
-        isMatch = true;
-      }
-    }
-
-    // For students, check uppercase/lowercase roll number comparison
-    if (!isMatch && user.role === 'STUDENT') {
-      if (
-        (await bcrypt.compare(password.toUpperCase(), user.passwordHash || '')) ||
-        (await bcrypt.compare(password.toLowerCase(), user.passwordHash || ''))
-      ) {
-        isMatch = true;
-      }
-    }
-    
+    const isMatch = await bcrypt.compare(password, user.passwordHash || '');
     if (!isMatch) {
       throw new Error('Invalid credentials');
     }
