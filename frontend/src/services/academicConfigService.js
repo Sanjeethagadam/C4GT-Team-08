@@ -15,7 +15,7 @@ export const academicConfigService = {
   },
 
   async updateAcademicYear(id, data) {
-    const response = await apiClient.put(
+    const response = await apiClient.patch(
       `${getBase()}/academic-years/${id}`,
       data,
     );
@@ -34,7 +34,7 @@ export const academicConfigService = {
   },
 
   async updateSemester(id, data) {
-    const response = await apiClient.put(`${getBase()}/semesters/${id}`, data);
+    const response = await apiClient.patch(`${getBase()}/semesters/${id}`, data);
     return response.data;
   },
 };
