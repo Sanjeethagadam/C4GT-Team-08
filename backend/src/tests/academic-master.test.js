@@ -11,6 +11,7 @@ const AcademicYear = require('../modules/academic-master/models/AcademicYear');
 const Section = require('../modules/academic-master/models/Section');
 const Subject = require('../modules/academic-master/models/Subject');
 const SubjectBranchMapping = require('../modules/academic-master/models/SubjectBranchMapping');
+const CtpoAssignment = require('../modules/examination/models/CtpoAssignment');
 const bcrypt = require('bcrypt');
 
 let adminToken;
@@ -27,7 +28,8 @@ beforeAll(async () => {
     User.deleteMany(), Campus.deleteMany(), Branch.deleteMany(),
     CampusBranchAvailability.deleteMany(), Student.deleteMany(),
     AcademicYear.deleteMany(), Semester.deleteMany(),
-    Section.deleteMany(), Subject.deleteMany(), SubjectBranchMapping.deleteMany()
+    Section.deleteMany(), Subject.deleteMany(), SubjectBranchMapping.deleteMany(),
+    CtpoAssignment.deleteMany()
   ]);
 
   // Setup Admin
@@ -239,5 +241,98 @@ describe('Internal APIs', () => {
     expect(res.body.data).toHaveProperty('rollNo');
     expect(res.body.data).toHaveProperty('name');
     expect(res.body.data).not.toHaveProperty('createdAt'); // Ensuring only specific fields are returned
+  });
+});
+
+describe('Academic Year Update/Delete', () => {
+  let ayIdTest;
+  let semesterIdTest;
+
+  it('Admin can create an unused academic year', async () => {
+    const res = await request(app).post('/api/academic-years').set('Authorization', `Bearer ${adminToken}`).send({
+      academicYear: '2099-2100', startDate: '2099-08-01', endDate: '2100-05-30'
+    });
+    expect(res.statusCode).toBe(201);
+    ayIdTest = res.body.data._id;
+  });
+
+  it('ADMIN can update status ACTIVE -> INACTIVE', async () => {
+    const res = await request(app).patch(`/api/academic-years/${ayIdTest}`).set('Authorization', `Bearer ${adminToken}`).send({
+      status: 'INACTIVE'
+    });
+    expect(res.statusCode).toBe(200);
+    expect(res.body.data.status).toBe('INACTIVE');
+  });
+
+  it('ADMIN can update status INACTIVE -> ACTIVE', async () => {
+    const res = await request(app).patch(`/api/academic-years/${ayIdTest}`).set('Authorization', `Bearer ${adminToken}`).send({
+      status: 'ACTIVE'
+    });
+    expect(res.statusCode).toBe(200);
+    expect(res.body.data.status).toBe('ACTIVE');
+  });
+
+  it('Invalid status rejected', async () => {
+    const res = await request(app).patch(`/api/academic-years/${ayIdTest}`).set('Authorization', `Bearer ${adminToken}`).send({
+      status: 'INVALID_STATUS'
+    });
+    expect(res.statusCode).toBe(400);
+  });
+
+  it('Non-ADMIN cannot update/delete academic years', async () => {
+    let res = await request(app).patch(`/api/academic-years/${ayIdTest}`).set('Authorization', `Bearer ${studentToken}`).send({
+      status: 'INACTIVE'
+    });
+    expect(res.statusCode).toBe(403);
+
+    res = await request(app).delete(`/api/academic-years/${ayIdTest}`).set('Authorization', `Bearer ${studentToken}`);
+    expect(res.statusCode).toBe(403);
+  });
+
+  it('DELETE returns 404 for nonexistent academic year', async () => {
+    const fakeId = new mongoose.Types.ObjectId();
+    const res = await request(app).delete(`/api/academic-years/${fakeId}`).set('Authorization', `Bearer ${adminToken}`);
+    expect(res.statusCode).toBe(404);
+  });
+
+  it('DELETE returns 409 when academic year is referenced by Semester', async () => {
+    const semRes = await request(app).post('/api/semesters').set('Authorization', `Bearer ${adminToken}`).send({
+      academicYearId: ayIdTest, semesterCode: 'TEST-SEM', year: 1
+    });
+    expect(semRes.statusCode).toBe(201);
+    semesterIdTest = semRes.body.data._id;
+
+    const res = await request(app).delete(`/api/academic-years/${ayIdTest}`).set('Authorization', `Bearer ${adminToken}`);
+    expect(res.statusCode).toBe(409);
+    expect(res.body.message).toContain('referenced by existing semesters');
+  });
+
+  it('ADMIN can delete an unused academic year', async () => {
+    // remove the semester we just created
+    await Semester.findByIdAndDelete(semesterIdTest);
+    
+    const res = await request(app).delete(`/api/academic-years/${ayIdTest}`).set('Authorization', `Bearer ${adminToken}`);
+    expect(res.statusCode).toBe(200);
+  });
+
+  it('DELETE returns 409 when academic year is referenced by CtpoAssignment', async () => {
+    const ayRes = await request(app).post('/api/academic-years').set('Authorization', `Bearer ${adminToken}`).send({
+      academicYear: '2098-2099', startDate: '2098-08-01', endDate: '2099-05-30'
+    });
+    const newAyId = ayRes.body.data._id;
+
+    const assign = await CtpoAssignment.create({
+      ctpoUserId: new mongoose.Types.ObjectId(),
+      branchId: csmBranchId,
+      academicYearId: newAyId,
+      semesterId: new mongoose.Types.ObjectId(),
+      status: 'ACTIVE'
+    });
+
+    const res = await request(app).delete(`/api/academic-years/${newAyId}`).set('Authorization', `Bearer ${adminToken}`);
+    expect(res.statusCode).toBe(409);
+    
+    await CtpoAssignment.findByIdAndDelete(assign._id);
+    await request(app).delete(`/api/academic-years/${newAyId}`).set('Authorization', `Bearer ${adminToken}`);
   });
 });

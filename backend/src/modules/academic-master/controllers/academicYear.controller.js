@@ -45,6 +45,28 @@ exports.updateAcademicYear = async (req, res, next) => {
     return sendSuccess(res, year);
   } catch (error) {
     if (error.code === 11000) return sendError(res, 'Academic year code already exists', 400);
+    if (error.name === 'ValidationError') return sendError(res, error.message, 400);
+    next(error);
+  }
+};
+
+exports.deleteAcademicYear = async (req, res, next) => {
+  try {
+    const year = await AcademicYearService.deleteAcademicYear(req.params.id);
+
+    if (!year) {
+      return sendError(res, 'Academic year not found', 404);
+    }
+
+    return sendSuccess(res, {
+      message: 'Academic year removed successfully',
+      id: req.params.id,
+    });
+  } catch (error) {
+    if (error.code === 'ACADEMIC_YEAR_IN_USE') {
+      return sendError(res, error.message, 409);
+    }
+
     next(error);
   }
 };

@@ -22,6 +22,13 @@ export const academicConfigService = {
     return response.data;
   },
 
+  async deleteAcademicYear(id) {
+    const response = await apiClient.delete(
+      `${getBase()}/academic-years/${id}`
+    );
+    return response.data;
+  },
+
   async getAllSemesters(filters) {
     const response = await apiClient.get(`${getBase()}/semesters`, {
       params: filters,

@@ -6,7 +6,7 @@ import {
   DataTable,
 } from "@/components/common";
 import { academicConfigService } from "@/services/academicConfigService";
-import { Plus, Loader2, Pencil } from "lucide-react";
+import { Plus, Loader2, Pencil, Trash2, ToggleRight, ToggleLeft } from "lucide-react";
 import { format } from "date-fns";
 import {
   Dialog,
@@ -28,6 +28,7 @@ export const AcademicYears = () => {
   const [isDialogOpen, setIsDialogOpen] = useState(false);
   const [isSaving, setIsSaving] = useState(false);
   const [saveError, setSaveError] = useState(null);
+  const [actionInProgress, setActionInProgress] = useState(null);
   // Track edit state
   const [editId, setEditId] = useState(null);
   const [formData, setFormData] = useState({
@@ -121,6 +122,52 @@ export const AcademicYears = () => {
     }
   };
 
+  const handleToggleStatus = async (year) => {
+    if (
+      !window.confirm(
+        `Are you sure you want to ${
+          year.status === "ACTIVE" ? "deactivate" : "activate"
+        } this academic year?`
+      )
+    ) {
+      return;
+    }
+    try {
+      setActionInProgress(year._id);
+      const newStatus = year.status === "ACTIVE" ? "INACTIVE" : "ACTIVE";
+      await academicConfigService.updateAcademicYear(year._id, {
+        status: newStatus,
+      });
+      await loadData();
+    } catch (err) {
+      alert(err.response?.data?.message || err.message || "Failed to update status");
+    } finally {
+      setActionInProgress(null);
+    }
+  };
+
+  const handleRemove = async (year) => {
+    if (
+      !window.confirm(
+        "Are you sure you want to remove this academic year? This action cannot be undone."
+      )
+    ) {
+      return;
+    }
+    
+    try {
+      setActionInProgress(year._id);
+      await academicConfigService.deleteAcademicYear(year._id);
+      await loadData();
+    } catch (err) {
+      alert(
+        err.response?.data?.message || err.message || "Failed to remove academic year"
+      );
+    } finally {
+      setActionInProgress(null);
+    }
+  };
+
   return (
     <>
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
@@ -173,12 +220,42 @@ export const AcademicYears = () => {
             {
               header: "Actions",
               cell: (row) => (
-                <button
-                  onClick={() => handleEdit(row)}
-                  className="flex items-center gap-1 text-sm text-primary hover:underline font-medium"
-                >
-                  <Pencil className="w-3.5 h-3.5" /> Edit
-                </button>
+                <div className="flex items-center gap-4">
+                  <button
+                    onClick={() => handleEdit(row)}
+                    disabled={actionInProgress === row._id}
+                    className="flex items-center gap-1 text-sm text-primary hover:underline font-medium disabled:opacity-50"
+                  >
+                    <Pencil className="w-3.5 h-3.5" /> Edit
+                  </button>
+                  <button
+                    onClick={() => handleToggleStatus(row)}
+                    disabled={actionInProgress === row._id}
+                    className="flex items-center gap-1 text-sm text-amber-600 hover:underline font-medium disabled:opacity-50"
+                  >
+                    {row.status === "ACTIVE" ? (
+                      <>
+                        <ToggleLeft className="w-3.5 h-3.5" /> Deactivate
+                      </>
+                    ) : (
+                      <>
+                        <ToggleRight className="w-3.5 h-3.5" /> Activate
+                      </>
+                    )}
+                  </button>
+                  <button
+                    onClick={() => handleRemove(row)}
+                    disabled={actionInProgress === row._id}
+                    className="flex items-center gap-1 text-sm text-red-600 hover:underline font-medium disabled:opacity-50"
+                  >
+                    {actionInProgress === row._id ? (
+                      <Loader2 className="w-3.5 h-3.5 animate-spin" />
+                    ) : (
+                      <Trash2 className="w-3.5 h-3.5" />
+                    )}
+                    Remove
+                  </button>
+                </div>
               ),
             },
           ]}

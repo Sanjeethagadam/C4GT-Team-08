@@ -12,6 +12,7 @@ router.route('/')
   .post(requireRole('ADMIN'), academicYearValidator, academicYearController.createAcademicYear);
 
 router.route('/:id')
-  .patch(requireRole('ADMIN'), academicYearController.updateAcademicYear);
+  .patch(requireRole('ADMIN'), academicYearController.updateAcademicYear)
+  .delete(requireRole('ADMIN'), academicYearController.deleteAcademicYear);
 
 module.exports = router;
