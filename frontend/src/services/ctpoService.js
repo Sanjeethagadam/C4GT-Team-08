@@ -86,10 +86,13 @@ export const ctpoService = {
     return response.data;
   },
 
-  exportData: async (endpoint, format) => {
+  exportData: async (endpoint, format, exportParams = {}) => {
+    const queryParams = new URLSearchParams(exportParams);
+    queryParams.set("format", format);
+
     if (format === "excel") {
       const response = await apiClient.get(
-        `/ctpo/exports/${endpoint}?format=excel`,
+        `/ctpo/exports/${endpoint}?${queryParams.toString()}`,
         { responseType: "blob" },
       );
       // When responseType is 'blob', Axios interceptor returns the Blob directly as response.data,
@@ -97,7 +100,7 @@ export const ctpoService = {
       return response;
     } else {
       const response = await apiClient.get(
-        `/ctpo/exports/${endpoint}?format=json`,
+        `/ctpo/exports/${endpoint}?${queryParams.toString()}`,
       );
       // For JSON, 'response' contains the inner data object because of interceptor.
       return response;

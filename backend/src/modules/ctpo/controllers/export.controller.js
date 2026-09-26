@@ -16,6 +16,13 @@ const checkScope = async (req, res) => {
   return assignment;
 };
 
+// Helper to calculate risk (same as Dashboard)
+const calculateRisk = (backlogCount) => {
+  if (backlogCount <= 1) return 'LOW';
+  if (backlogCount <= 4) return 'MEDIUM';
+  return 'HIGH'; // AT-RISK is logically MEDIUM + HIGH
+};
+
 // Common function to log export
 const logExport = async (req, exportType, format, assignment) => {
   await auditService.logAction({
@@ -34,16 +41,59 @@ exports.exportStudentRoster = async (req, res) => {
     const assignment = await checkScope(req, res);
     if (!assignment) return;
     
-    const students = await Student.find({ branchId: assignment.branchId, year: assignment.semesterId.year, status: 'ACTIVE' })
-      .populate('branchId', 'name code')
-      .lean();
+    const { search, risk, backlog } = req.query;
+    
+    let query = Student.find({ branchId: assignment.branchId, year: assignment.semesterId.year })
+      .populate('branchId', 'name code');
+      
+    if (search) {
+      query = query.or([
+        { name: { $regex: search, $options: 'i' } },
+        { rollNo: { $regex: search, $options: 'i' } }
+      ]);
+    }
+
+    let students = await query.lean();
+    
+    // If risk or backlog filters are present, we need active backlogs to calculate
+    if (risk || backlog) {
+      const studentIds = students.map(s => s._id);
+      const backlogs = await Backlog.find({
+        studentId: { $in: studentIds },
+        status: 'ACTIVE'
+      }).lean();
+      
+      const backlogMap = {};
+      backlogs.forEach(b => {
+        const sId = b.studentId.toString();
+        backlogMap[sId] = (backlogMap[sId] || 0) + 1;
+      });
+      
+      students = students.map(s => {
+        const bCount = backlogMap[s._id.toString()] || 0;
+        return { ...s, activeBacklogCount: bCount, riskLevel: calculateRisk(bCount) };
+      });
+      
+      if (risk) {
+        if (risk === 'AT-RISK') {
+          students = students.filter(s => s.riskLevel === 'MEDIUM' || s.riskLevel === 'HIGH');
+        } else {
+          students = students.filter(s => s.riskLevel === risk);
+        }
+      }
+      
+      if (backlog) {
+        if (backlog === 'WITH') students = students.filter(s => s.activeBacklogCount > 0);
+        else if (backlog === 'WITHOUT') students = students.filter(s => (s.activeBacklogCount || 0) === 0);
+      }
+    }
 
     const data = students.map(s => ({
       'Roll No': s.rollNo,
       'Name': s.name,
       'Branch': s.branchId?.name || s.branchId?.code,
       'Year': s.year,
-      'Current Semester': s.currentSemester
+      'Current Semester': s.currentSemester || s.semesterId?.semesterCode || "N/A"
     }));
 
     await logExport(req, 'Complete Student Roster', req.query.format || 'json', assignment);
@@ -69,7 +119,7 @@ exports.exportBacklogSummary = async (req, res) => {
     const assignment = await checkScope(req, res);
     if (!assignment) return;
     
-    const students = await Student.find({ branchId: assignment.branchId, year: assignment.semesterId.year, status: 'ACTIVE' }).lean();
+    const students = await Student.find({ branchId: assignment.branchId, year: assignment.semesterId.year }).lean();
     const studentIds = students.map(s => s._id);
 
     const backlogs = await Backlog.find({ studentId: { $in: studentIds }, status: 'ACTIVE' })
@@ -126,7 +176,7 @@ exports.exportRiskSummary = async (req, res) => {
     const assignment = await checkScope(req, res);
     if (!assignment) return;
     
-    const students = await Student.find({ branchId: assignment.branchId, year: assignment.semesterId.year, status: 'ACTIVE' }).lean();
+    const students = await Student.find({ branchId: assignment.branchId, year: assignment.semesterId.year }).lean();
     let low = 0, medium = 0, high = 0, atRisk = 0;
     
     students.forEach(s => {
@@ -176,7 +226,7 @@ exports.exportMarks = async (req, res) => {
       return res.status(400).json({ success: false, message: 'Invalid exam type' });
     }
 
-    const students = await Student.find({ branchId: assignment.branchId, year: assignment.semesterId.year, status: 'ACTIVE' }).lean();
+    const students = await Student.find({ branchId: assignment.branchId, year: assignment.semesterId.year }).lean();
     const studentIds = students.map(s => s._id);
 
     const marks = await Marks.find({ studentId: { $in: studentIds }, examType })

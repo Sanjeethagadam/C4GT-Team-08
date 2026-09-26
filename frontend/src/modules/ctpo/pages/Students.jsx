@@ -110,6 +110,11 @@ export const Students = () => {
             endpoint="students"
             filename="Student_Roster"
             title="Export"
+            params={{
+              ...(searchTerm ? { search: searchTerm } : {}),
+              ...(riskFilter !== "ALL" ? { risk: riskFilter } : {}),
+              ...(backlogFilter !== "ALL" ? { backlog: backlogFilter } : {})
+            }}
           />
         </div>
       </div>

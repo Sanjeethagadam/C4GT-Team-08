@@ -11,14 +11,14 @@ import { ctpoService } from "@/services/ctpoService";
 import jsPDF from "jspdf";
 import autoTable from "jspdf-autotable";
 
-export const ExportButton = ({ endpoint, filename, title }) => {
+export const ExportButton = ({ endpoint, filename, title, params = {} }) => {
   const [isExporting, setIsExporting] = useState(false);
 
   const handleExport = async (format) => {
     try {
       setIsExporting(true);
       if (format === "excel") {
-        const blob = await ctpoService.exportData(endpoint, "excel");
+        const blob = await ctpoService.exportData(endpoint, "excel", params);
         const url = window.URL.createObjectURL(new Blob([blob]));
         const link = document.createElement("a");
         link.href = url;
@@ -27,8 +27,8 @@ export const ExportButton = ({ endpoint, filename, title }) => {
         link.click();
         link.remove();
       } else if (format === "pdf") {
-        const response = await ctpoService.exportData(endpoint, "pdf");
-        const data = response.data;
+        const response = await ctpoService.exportData(endpoint, "pdf", params);
+        const data = response.data || response; // Interceptor may already return response.data
         if (!data || (Array.isArray(data) && data.length === 0)) {
           alert("No data available to export.");
           return;
@@ -44,7 +44,7 @@ export const ExportButton = ({ endpoint, filename, title }) => {
         if (Array.isArray(data)) {
           const keys = Object.keys(data[0]);
           const rows = data.map((item) =>
-            keys.map((k) => String(item[k] || "")),
+            keys.map((k) => (item[k] === null || item[k] === undefined ? "" : String(item[k]))),
           );
           autoTable(doc, {
             head: [keys],
@@ -62,7 +62,7 @@ export const ExportButton = ({ endpoint, filename, title }) => {
               head: [["Identity Field", "Value"]],
               body: Object.entries(data.identity).map(([k, v]) => [
                 k,
-                String(v || ""),
+                v === null || v === undefined ? "" : String(v),
               ]),
               startY: currentY,
               theme: "grid",
@@ -74,7 +74,7 @@ export const ExportButton = ({ endpoint, filename, title }) => {
             autoTable(doc, {
               head: [Object.keys(data.backlogs[0])],
               body: data.backlogs.map((b) =>
-                Object.values(b).map((v) => String(v || "")),
+                Object.values(b).map((v) => (v === null || v === undefined ? "" : String(v))),
               ),
               startY: currentY + 5,
               theme: "grid",
@@ -86,7 +86,7 @@ export const ExportButton = ({ endpoint, filename, title }) => {
             autoTable(doc, {
               head: [Object.keys(data.marks[0])],
               body: data.marks.map((m) =>
-                Object.values(m).map((v) => String(v || "")),
+                Object.values(m).map((v) => (v === null || v === undefined ? "" : String(v))),
               ),
               startY: currentY + 5,
               theme: "grid",
@@ -98,7 +98,7 @@ export const ExportButton = ({ endpoint, filename, title }) => {
             autoTable(doc, {
               head: [Object.keys(data.results[0])],
               body: data.results.map((r) =>
-                Object.values(r).map((v) => String(v || "")),
+                Object.values(r).map((v) => (v === null || v === undefined ? "" : String(v))),
               ),
               startY: currentY + 5,
               theme: "grid",
