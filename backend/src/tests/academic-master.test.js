@@ -326,7 +326,10 @@ describe('Academic Year Update/Delete', () => {
       branchId: csmBranchId,
       academicYearId: newAyId,
       semesterId: new mongoose.Types.ObjectId(),
-      status: 'ACTIVE'
+      status: 'ACTIVE',
+      assignedBy: new mongoose.Types.ObjectId(),
+      sectionId: new mongoose.Types.ObjectId(),
+      campusId: new mongoose.Types.ObjectId()
     });
 
     const res = await request(app).delete(`/api/academic-years/${newAyId}`).set('Authorization', `Bearer ${adminToken}`);
