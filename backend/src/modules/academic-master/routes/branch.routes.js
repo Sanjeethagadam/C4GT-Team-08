@@ -1,14 +1,24 @@
-const express = require("express");
+const express = require('express');
 const router = express.Router();
-const branchController = require("../controllers/branch.controller");
-const { authenticate, requireRole } = require("../../../middlewares/auth.middleware");
+const branchController = require('../controllers/branch.controller');
+const { body } = require('express-validator');
+const { protect } = require('../../../middlewares/auth.middleware');
+const { requireRole } = require('../../../middlewares/rbac.middleware');
 
-router.use(authenticate);
+const branchValidator = [
+  body('name').notEmpty().withMessage('Branch name is required'),
+  body('code').notEmpty().withMessage('Branch code is required'),
+  body('status').optional().isIn(['ACTIVE', 'INACTIVE']).withMessage('Invalid status'),
+];
 
-router.post("/", requireRole("ADMIN"), branchController.createBranch);
-router.get("/", branchController.getAllBranches);
-router.get("/:id", branchController.getBranchById);
-router.patch("/:id", requireRole("ADMIN"), branchController.updateBranch);
-router.delete("/:id", requireRole("ADMIN"), branchController.deleteBranch);
+router.use(protect);
+
+router.route('/')
+  .get(branchController.getBranches)
+  .post(requireRole('ADMIN'), branchValidator, branchController.createBranch);
+
+router.route('/:id')
+  .patch(requireRole('ADMIN'), branchValidator, branchController.updateBranch)
+  .delete(requireRole('ADMIN'), branchController.deleteBranch);
 
 module.exports = router;

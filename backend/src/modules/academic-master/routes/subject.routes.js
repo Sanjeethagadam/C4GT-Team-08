@@ -1,25 +1,18 @@
-const express = require("express");
-const {
-    createSubject,
-    createSubjects,
-    getAllSubjects,
-    getSubjectById,
-    updateSubject,
-    deleteSubject
-} = require("../controllers/subject.controller");
-const { authenticate, requireRole } = require("../../../middlewares/auth.middleware");
-
+const express = require('express');
 const router = express.Router();
+const subjectController = require('../controllers/subject.controller');
+const { subjectValidator } = require('../validators/subject.validator');
+const { protect } = require('../../../middlewares/auth.middleware');
+const { requireRole } = require('../../../middlewares/rbac.middleware');
 
-router.use(authenticate);
+router.use(protect);
 
-router.post("/", requireRole("ADMIN"), createSubject);
-router.post("/bulk", requireRole("ADMIN"), createSubjects);
+router.route('/')
+  .get(subjectController.getSubjects)
+  .post(requireRole('ADMIN'), subjectValidator, subjectController.createSubject);
 
-router.get("/", getAllSubjects);
-router.get("/:id", getSubjectById);
-
-router.patch("/:id", requireRole("ADMIN"), updateSubject);
-router.delete("/:id", requireRole("ADMIN"), deleteSubject);
+router.route('/:id')
+  .patch(requireRole('ADMIN'), subjectController.updateSubject)
+  .delete(requireRole('ADMIN'), subjectController.deleteSubject);
 
 module.exports = router;

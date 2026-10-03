@@ -1,130 +1,53 @@
-const subjectService = require("../services/subject.service");
+const SubjectService = require('../services/subject.service');
+const { sendSuccess, sendError } = require('../../../utils/response.util');
+const { validationResult } = require('express-validator');
 
-const createSubject = async (req, res) => {
-    try {
-        const subject = await subjectService.createSubject(req.body);
+exports.createSubject = async (req, res, next) => {
+  try {
+    const errors = validationResult(req);
+    if (!errors.isEmpty()) return sendError(res, 'Validation Error', 400, errors.array());
 
-        res.status(201).json({
-            success: true,
-            data: subject
-        });
-    } catch (error) {
-        res.status(400).json({
-            success: false,
-            message: error.message
-        });
-    }
-};
-const createSubjects = async (req, res) => {
-    try {
-        const subjects = await subjectService.createSubjects(req.body);
-
-        res.status(201).json({
-            success: true,
-            data: subjects
-        });
-    } catch (error) {
-        res.status(400).json({
-            success: false,
-            message: error.message,
-            errors: error.errors || null
-        });
-    }
+    const subject = await SubjectService.createSubject(req.body);
+    return sendSuccess(res, subject, 201);
+  } catch (error) {
+    if (error.code === 11000) return sendError(res, 'Subject code already exists', 400);
+    if (error.message === 'Semester not found') return sendError(res, error.message, 400);
+    next(error);
+  }
 };
 
-const getAllSubjects = async (req, res) => {
-    try {
-        const subjects = await subjectService.getAllSubjects();
-
-        res.status(200).json({
-            success: true,
-            data: subjects
-        });
-    } catch (error) {
-        res.status(500).json({
-            success: false,
-            message: error.message
-        });
-    }
+exports.getSubjects = async (req, res, next) => {
+  try {
+    const subjects = await SubjectService.getSubjects();
+    return sendSuccess(res, subjects);
+  } catch (error) {
+    next(error);
+  }
 };
 
-const getSubjectById = async (req, res) => {
-    try {
-        const subject = await subjectService.getSubjectById(req.params.id);
+exports.updateSubject = async (req, res, next) => {
+  try {
+    const errors = validationResult(req);
+    if (!errors.isEmpty()) return sendError(res, 'Validation Error', 400, errors.array());
 
-        if (!subject) {
-            return res.status(404).json({
-                success: false,
-                message: "Subject not found"
-            });
-        }
-
-        res.status(200).json({
-            success: true,
-            data: subject
-        });
-    } catch (error) {
-        res.status(400).json({
-            success: false,
-            message: error.message
-        });
-    }
+    const subject = await SubjectService.updateSubject(req.params.id, req.body);
+    if (!subject) return sendError(res, 'Subject not found', 404);
+    
+    return sendSuccess(res, subject);
+  } catch (error) {
+    if (error.code === 11000) return sendError(res, 'Subject code already exists', 400);
+    if (error.message === 'Semester not found') return sendError(res, error.message, 400);
+    next(error);
+  }
 };
 
-const updateSubject = async (req, res) => {
-    try {
-        const subject = await subjectService.updateSubject(
-            req.params.id,
-            req.body
-        );
-
-        if (!subject) {
-            return res.status(404).json({
-                success: false,
-                message: "Subject not found"
-            });
-        }
-
-        res.status(200).json({
-            success: true,
-            data: subject
-        });
-    } catch (error) {
-        res.status(400).json({
-            success: false,
-            message: error.message
-        });
-    }
-};
-
-const deleteSubject = async (req, res) => {
-    try {
-        const subject = await subjectService.deleteSubject(req.params.id);
-
-        if (!subject) {
-            return res.status(404).json({
-                success: false,
-                message: "Subject not found"
-            });
-        }
-
-        res.status(200).json({
-            success: true,
-            data: subject
-        });
-    } catch (error) {
-        res.status(400).json({
-            success: false,
-            message: error.message
-        });
-    }
-};
-
-module.exports = {
-    createSubject,
-    createSubjects,
-    getAllSubjects,
-    getSubjectById,
-    updateSubject,
-    deleteSubject
+exports.deleteSubject = async (req, res, next) => {
+  try {
+    const subject = await SubjectService.deleteSubject(req.params.id);
+    if (!subject) return sendError(res, 'Subject not found', 404);
+    
+    return sendSuccess(res, { message: 'Subject deleted successfully' });
+  } catch (error) {
+    next(error);
+  }
 };

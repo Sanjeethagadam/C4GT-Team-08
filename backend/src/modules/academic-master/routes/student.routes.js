@@ -1,29 +1,32 @@
-const express = require("express");
-const {
-    createStudent,
-    createStudents,
-    getAllStudents,
-    getStudentById,
-    updateStudent,
-    deleteStudent
-} = require("../controllers/student.controller");
-const {
-    authenticate,
-    requireRole,
-    enforceScope
-} = require("../../../middlewares/auth.middleware");
-
+const express = require('express');
 const router = express.Router();
+const studentController = require('../controllers/student.controller');
+const { body } = require('express-validator');
+const { protect } = require('../../../middlewares/auth.middleware');
+const { requireRole } = require('../../../middlewares/rbac.middleware');
 
-router.use(authenticate);
+const studentValidator = [
+  body('rollNo').notEmpty().withMessage('Roll number is required'),
+  body('name').notEmpty().withMessage('Name is required'),
+  body('campusId').isMongoId().withMessage('Invalid campus ID'),
+  body('branchId').isMongoId().withMessage('Invalid branch ID'),
+  body('year').isInt({ min: 1, max: 4 }).withMessage('Year must be between 1 and 4'),
+  body('semesterId').isMongoId().withMessage('Invalid semester ID'),
+  body('sectionId').optional().isMongoId().withMessage('Invalid section ID'),
+];
 
-router.post("/", requireRole("ADMIN", "CTPO"), createStudent);
-router.post("/bulk", requireRole("ADMIN", "CTPO"), createStudents);
+router.use(protect);
 
-router.get("/", enforceScope, getAllStudents);
-router.get("/:id", getStudentById);
+router.route('/')
+  .get(requireRole('ADMIN', 'CTPO', 'PRINCIPAL', 'HOD'), studentController.getStudents)
+  .post(requireRole('ADMIN'), studentValidator, studentController.createStudent);
 
-router.patch("/:id", requireRole("ADMIN", "CTPO"), updateStudent);
-router.delete("/:id", requireRole("ADMIN"), deleteStudent);
+router.route('/me')
+  .get(requireRole('STUDENT'), studentController.getMe);
+
+router.route('/:id')
+  .get(requireRole('ADMIN', 'CTPO', 'HOD'), studentController.getStudentById)
+  .patch(requireRole('ADMIN'), studentValidator, studentController.updateStudent)
+  .delete(requireRole('ADMIN'), studentController.deleteStudent);
 
 module.exports = router;

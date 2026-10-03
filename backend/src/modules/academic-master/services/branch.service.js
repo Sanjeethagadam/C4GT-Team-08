@@ -1,36 +1,22 @@
-const Branch = require("../models/Branch");
+const Branch = require('../models/Branch');
 
-const createBranch = async (data) => {
-    return await Branch.create(data);
-};
+class BranchService {
+  static async createBranch(data) {
+    const branch = new Branch(data);
+    return await branch.save();
+  }
 
-const getAllBranches = async () => {
+  static async getBranches() {
     return await Branch.find();
-};
+  }
 
-const getBranchById = async (id) => {
-    return await Branch.findById(id);
-};
+  static async updateBranch(id, data) {
+    return await Branch.findByIdAndUpdate(id, data, { new: true, runValidators: true });
+  }
 
-const updateBranch = async (id, data) => {
-    return await Branch.findByIdAndUpdate(
-        id,
-        data,
-        {
-            new: true,
-            runValidators: true
-        }
-    );
-};
-
-const deleteBranch = async (id) => {
+  static async deleteBranch(id) {
     return await Branch.findByIdAndDelete(id);
-};
+  }
+}
 
-module.exports = {
-    createBranch,
-    getAllBranches,
-    getBranchById,
-    updateBranch,
-    deleteBranch
-};
+module.exports = BranchService;

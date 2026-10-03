@@ -1,22 +1,24 @@
-const express = require("express");
-const {
-    createUser,
-    getAllUsers,
-    getUserById,
-    updateUser,
-    syncStudentUsers
-} = require("../controllers/user.controller");
-const { authenticate, requireRole } = require("../../../middlewares/auth.middleware");
-
+const express = require('express');
 const router = express.Router();
+const userController = require('../controllers/user.controller');
+const { body } = require('express-validator');
+const { protect } = require('../../../middlewares/auth.middleware');
+const { requireRole } = require('../../../middlewares/rbac.middleware');
 
-router.use(authenticate);
-router.use(requireRole("ADMIN"));
+const userValidator = [
+  body('username').notEmpty().withMessage('Username is required'),
+  body('password').notEmpty().withMessage('Password is required'),
+  body('role').isIn(['STUDENT', 'CTPO', 'HOD', 'PRINCIPAL', 'COORDINATOR', 'ADMIN']).withMessage('Invalid role'),
+];
 
-router.get("/", getAllUsers);
-router.post("/", createUser);
-router.get("/:id", getUserById);
-router.patch("/:id", updateUser);
-router.post("/sync-students", syncStudentUsers);
+router.use(protect);
+
+router.route('/')
+  .get(requireRole('ADMIN'), userController.getUsers)
+  .post(requireRole('ADMIN'), userValidator, userController.createUser);
+
+router.route('/:id')
+  .patch(requireRole('ADMIN'), userController.updateUser)
+  .delete(requireRole('ADMIN'), userController.deleteUser);
 
 module.exports = router;

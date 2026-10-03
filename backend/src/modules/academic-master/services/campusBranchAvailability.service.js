@@ -1,42 +1,41 @@
-const CampusBranchAvailability = require("../models/CampusBranchAvailability");
+const CampusBranchAvailability = require('../models/CampusBranchAvailability');
+const Campus = require('../models/Campus');
+const Branch = require('../models/Branch');
 
-const createAvailability = async (data) => {
-    return await CampusBranchAvailability.create(data);
-};
+class CampusBranchAvailabilityService {
+  static async createAvailability(data) {
+    const campus = await Campus.findById(data.campusId);
+    if (!campus) throw new Error('Campus not found');
+    const branch = await Branch.findById(data.branchId);
+    if (!branch) throw new Error('Branch not found');
 
-const getAllAvailability = async () => {
-    return await CampusBranchAvailability.find()
-        .populate("campusId")
-        .populate("branchId");
-};
+    const availability = new CampusBranchAvailability(data);
+    return await availability.save();
+  }
 
-const getAvailabilityById = async (id) => {
-    return await CampusBranchAvailability.findById(id)
-        .populate("campusId")
-        .populate("branchId");
-};
+  static async getAvailabilities() {
+    return await CampusBranchAvailability.find().populate('campusId branchId');
+  }
 
-const updateAvailability = async (id, data) => {
-    return await CampusBranchAvailability.findByIdAndUpdate(
-        id,
-        data,
-        {
-            new: true,
-            runValidators: true
-        }
-    )
-        .populate("campusId")
-        .populate("branchId");
-};
+  static async updateAvailability(id, data) {
+    if (data.campusId || data.branchId) {
+      if (data.campusId) {
+        const campus = await Campus.findById(data.campusId);
+        if (!campus) throw new Error('Campus not found');
+      }
+      if (data.branchId) {
+        const branch = await Branch.findById(data.branchId);
+        if (!branch) throw new Error('Branch not found');
+      }
+    }
+    return await CampusBranchAvailability.findByIdAndUpdate(id, data, { new: true, runValidators: true }).populate('campusId branchId');
+  }
 
-const deleteAvailability = async (id) => {
-    return await CampusBranchAvailability.findByIdAndDelete(id);
-};
+  static async deleteAvailability(id) {
+    const result = await CampusBranchAvailability.findByIdAndDelete(id);
+    if (!result) throw new Error('Availability not found');
+    return result;
+  }
+}
 
-module.exports = {
-    createAvailability,
-    getAllAvailability,
-    getAvailabilityById,
-    updateAvailability,
-    deleteAvailability
-};
+module.exports = CampusBranchAvailabilityService;

@@ -1,14 +1,18 @@
-const express = require("express");
+const express = require('express');
 const router = express.Router();
-const campusController = require("../controllers/campus.controller");
-const { authenticate, requireRole } = require("../../../middlewares/auth.middleware");
+const campusController = require('../controllers/campus.controller');
+const { campusValidator } = require('../validators/campus.validator');
+const { protect } = require('../../../middlewares/auth.middleware');
+const { requireRole } = require('../../../middlewares/rbac.middleware');
 
-router.use(authenticate);
+router.use(protect);
 
-router.post("/", requireRole("ADMIN"), campusController.createCampus);
-router.get("/", campusController.getAllCampuses);
-router.get("/:id", campusController.getCampusById);
-router.patch("/:id", requireRole("ADMIN"), campusController.updateCampus);
-router.delete("/:id", requireRole("ADMIN"), campusController.deleteCampus);
+router.route('/')
+  .get(campusController.getCampuses)
+  .post(requireRole('ADMIN'), campusValidator, campusController.createCampus);
+
+router.route('/:id')
+  .patch(requireRole('ADMIN'), campusValidator, campusController.updateCampus)
+  .delete(requireRole('ADMIN'), campusController.deleteCampus);
 
 module.exports = router;

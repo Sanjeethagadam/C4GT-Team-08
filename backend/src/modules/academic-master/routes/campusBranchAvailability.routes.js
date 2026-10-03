@@ -1,14 +1,18 @@
-const express = require("express");
+const express = require('express');
 const router = express.Router();
-const controller = require("../controllers/campusBranchAvailability.controller");
-const { authenticate, requireRole } = require("../../../middlewares/auth.middleware");
+const availabilityController = require('../controllers/campusBranchAvailability.controller');
+const { availabilityValidator } = require('../validators/campusBranchAvailability.validator');
+const { protect } = require('../../../middlewares/auth.middleware');
+const { requireRole } = require('../../../middlewares/rbac.middleware');
 
-router.use(authenticate);
+router.use(protect);
 
-router.post("/", requireRole("ADMIN"), controller.createAvailability);
-router.get("/", controller.getAllAvailability);
-router.get("/:id", controller.getAvailabilityById);
-router.patch("/:id", requireRole("ADMIN"), controller.updateAvailability);
-router.delete("/:id", requireRole("ADMIN"), controller.deleteAvailability);
+router.route('/')
+  .get(availabilityController.getAvailabilities)
+  .post(requireRole('ADMIN'), availabilityValidator, availabilityController.createAvailability);
+
+router.route('/:id')
+  .patch(requireRole('ADMIN'), availabilityController.updateAvailability)
+  .delete(requireRole('ADMIN'), availabilityController.deleteAvailability);
 
 module.exports = router;

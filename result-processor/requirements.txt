@@ -1,0 +1,6 @@
+# Result Processor Dependencies
+pdfplumber
+pandas
+PyMuPDF
+pytesseract
+Pillow

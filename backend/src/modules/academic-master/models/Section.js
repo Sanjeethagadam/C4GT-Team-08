@@ -1,28 +1,22 @@
-const mongoose = require("mongoose");
+const mongoose = require('mongoose');
 
-const sectionSchema = new mongoose.Schema(
-    {
-        branchId: {
-            type: mongoose.Schema.Types.ObjectId,
-            ref: "Branch",
-            required: true
-        },
+const sectionSchema = new mongoose.Schema({
+  branchId: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Branch',
+    required: true,
+  },
+  year: {
+    type: Number,
+    required: true,
+    enum: [1, 2, 3, 4],
+  },
+  sectionName: {
+    type: String, // e.g., "A", "B"
+    required: true,
+  }
+}, { timestamps: true });
 
-        year: {
-            type: Number,
-            required: true
-        },
+sectionSchema.index({ branchId: 1, year: 1, sectionName: 1 }, { unique: true });
 
-        sectionName: {
-            type: String,
-            required: true,
-            trim: true,
-            uppercase: true
-        }
-    },
-    {
-        timestamps: true
-    }
-);
-
-module.exports = mongoose.model("Section", sectionSchema);
+module.exports = mongoose.model('Section', sectionSchema);

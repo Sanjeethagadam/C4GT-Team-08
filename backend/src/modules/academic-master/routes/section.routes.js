@@ -1,14 +1,18 @@
-const express = require("express");
+const express = require('express');
 const router = express.Router();
-const sectionController = require("../controllers/section.controller");
-const { authenticate, requireRole } = require("../../../middlewares/auth.middleware");
+const sectionController = require('../controllers/section.controller');
+const { sectionValidator } = require('../validators/section.validator');
+const { protect } = require('../../../middlewares/auth.middleware');
+const { requireRole } = require('../../../middlewares/rbac.middleware');
 
-router.use(authenticate);
+router.use(protect);
 
-router.post("/", requireRole("ADMIN"), sectionController.createSection);
-router.get("/", sectionController.getAllSections);
-router.get("/:id", sectionController.getSectionById);
-router.patch("/:id", requireRole("ADMIN"), sectionController.updateSection);
-router.delete("/:id", requireRole("ADMIN"), sectionController.deleteSection);
+router.route('/')
+  .get(sectionController.getSections)
+  .post(requireRole('ADMIN'), sectionValidator, sectionController.createSection);
+
+router.route('/:id')
+  .patch(requireRole('ADMIN'), sectionController.updateSection)
+  .delete(requireRole('ADMIN'), sectionController.deleteSection);
 
 module.exports = router;

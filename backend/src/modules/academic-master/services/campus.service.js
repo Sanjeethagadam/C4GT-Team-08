@@ -1,36 +1,44 @@
-const Campus = require("../models/Campus");
+const Campus = require('../models/Campus');
 
-const createCampus = async (data) => {
-    return await Campus.create(data);
-};
+class CampusService {
+  static async createCampus(data) {
+    const campus = new Campus(data);
+    return await campus.save();
+  }
 
-const getAllCampuses = async () => {
+  static async getCampuses() {
     return await Campus.find();
-};
+  }
 
-const getCampusById = async (id) => {
+  static async getCampusById(id) {
     return await Campus.findById(id);
-};
+  }
 
-const updateCampus = async (id, data) => {
-    return await Campus.findByIdAndUpdate(
-        id,
-        data,
-        {
-            new: true,
-            runValidators: true
-        }
-    );
-};
+  static async updateCampus(id, data) {
+    return await Campus.findByIdAndUpdate(id, data, { new: true, runValidators: true });
+  }
 
-const deleteCampus = async (id) => {
-    return await Campus.findByIdAndDelete(id);
-};
+  static async deleteCampus(id) {
+    const Student = require('../models/Student');
+    const CampusBranchAvailability = require('../models/CampusBranchAvailability');
+    const CtpoAssignment = require('../../examination/models/CtpoAssignment');
 
-module.exports = {
-    createCampus,
-    getAllCampuses,
-    getCampusById,
-    updateCampus,
-    deleteCampus
-};
+    const [students, branchMappings, ctpoAssignments] = await Promise.all([
+      Student.countDocuments({ campusId: id }),
+      CampusBranchAvailability.countDocuments({ campusId: id }),
+      CtpoAssignment.countDocuments({ campusId: id })
+    ]);
+
+    const totalRefs = students + branchMappings + ctpoAssignments;
+
+    if (totalRefs > 0) {
+      // Soft delete
+      return await Campus.findByIdAndUpdate(id, { status: 'INACTIVE' }, { new: true });
+    } else {
+      // Hard delete
+      return await Campus.findByIdAndDelete(id);
+    }
+  }
+}
+
+module.exports = CampusService;

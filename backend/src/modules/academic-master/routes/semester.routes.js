@@ -1,14 +1,17 @@
-const express = require("express");
+const express = require('express');
 const router = express.Router();
-const semesterController = require("../controllers/semester.controller");
-const { authenticate, requireRole } = require("../../../middlewares/auth.middleware");
+const semesterController = require('../controllers/semester.controller');
+const { semesterValidator } = require('../validators/semester.validator');
+const { protect } = require('../../../middlewares/auth.middleware');
+const { requireRole } = require('../../../middlewares/rbac.middleware');
 
-router.use(authenticate);
+router.use(protect);
 
-router.post("/", requireRole("ADMIN"), semesterController.createSemester);
-router.get("/", semesterController.getAllSemesters);
-router.get("/:id", semesterController.getSemesterById);
-router.patch("/:id", requireRole("ADMIN"), semesterController.updateSemester);
-router.delete("/:id", requireRole("ADMIN"), semesterController.deleteSemester);
+router.route('/')
+  .get(semesterController.getSemesters)
+  .post(requireRole('ADMIN'), semesterValidator, semesterController.createSemester);
+
+router.route('/:id')
+  .patch(requireRole('ADMIN'), semesterController.updateSemester);
 
 module.exports = router;

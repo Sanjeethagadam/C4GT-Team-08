@@ -1,38 +1,26 @@
-const Semester = require("../models/Semester");
+const Semester = require('../models/Semester');
+const AcademicYear = require('../models/AcademicYear');
 
-const createSemester = async (data) => {
-    return await Semester.create(data);
-};
+class SemesterService {
+  static async createSemester(data) {
+    const ay = await AcademicYear.findById(data.academicYearId);
+    if (!ay) throw new Error('Academic year not found');
 
-const getAllSemesters = async () => {
-    return await Semester.find()
-        .populate("academicYearId");
-};
+    const semester = new Semester(data);
+    return await semester.save();
+  }
 
-const getSemesterById = async (id) => {
-    return await Semester.findById(id)
-        .populate("academicYearId");
-};
+  static async getSemesters() {
+    return await Semester.find().populate('academicYearId');
+  }
 
-const updateSemester = async (id, data) => {
-    return await Semester.findByIdAndUpdate(
-        id,
-        data,
-        {
-            new: true,
-            runValidators: true
-        }
-    ).populate("academicYearId");
-};
+  static async updateSemester(id, data) {
+    if (data.academicYearId) {
+      const ay = await AcademicYear.findById(data.academicYearId);
+      if (!ay) throw new Error('Academic year not found');
+    }
+    return await Semester.findByIdAndUpdate(id, data, { new: true, runValidators: true });
+  }
+}
 
-const deleteSemester = async (id) => {
-    return await Semester.findByIdAndDelete(id);
-};
-
-module.exports = {
-    createSemester,
-    getAllSemesters,
-    getSemesterById,
-    updateSemester,
-    deleteSemester
-};
+module.exports = SemesterService;

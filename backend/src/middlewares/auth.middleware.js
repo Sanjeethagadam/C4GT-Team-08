@@ -1,124 +1,69 @@
-const jwt = require("jsonwebtoken");
-const User = require("../modules/academic-master/models/User");
+const jwt = require('jsonwebtoken');
+const { sendError } = require('../utils/response.util');
+const CtpoAssignment = require('../modules/examination/models/CtpoAssignment');
 
-const authenticate = async (req, res, next) => {
+const protect = async (req, res, next) => {
+  let token;
+  if (
+    req.headers.authorization &&
+    req.headers.authorization.startsWith('Bearer')
+  ) {
     try {
-        const authHeader = req.headers.authorization;
-
-        if (!authHeader || !authHeader.startsWith("Bearer ")) {
-            return res.status(401).json({
-                success: false,
-                message: "Unauthorized: Missing or invalid Authorization header"
-            });
+      token = req.headers.authorization.split(' ')[1];
+      
+      const decoded = jwt.verify(token, process.env.JWT_SECRET);
+      
+      // We will attach decoded user info to req.user.
+      req.user = decoded;
+      
+      // --- ENFORCE CTPO SCOPE GLOBALLY ---
+      const isAuthEndpoint = (req.originalUrl || req.url || "").includes("/api/auth");
+      if (req.user.role === 'CTPO' && !isAuthEndpoint) {
+        const assignment = await CtpoAssignment.findOne({ ctpoUserId: req.user.id || req.user._id, status: 'ACTIVE' }).populate('semesterId');
+        if (!assignment) {
+          return sendError(res, 'Not authorized, CTPO assignment inactive or missing', 403);
         }
+        
+        req.ctpoAssignment = assignment;
+        const branchId = assignment.branchId.toString();
+        const year = assignment.semesterId.year;
+        const semesterId = assignment.semesterId._id.toString();
+        
+        // Force override queries
+        req.query.branchId = branchId;
+        req.query.year = year.toString();
+        req.query.semesterId = semesterId;
 
-        const token = authHeader.split(" ")[1];
-        const secret = process.env.JWT_SECRET || "academic_management_secret_key_2026";
-
-        let decoded;
-        try {
-            decoded = jwt.verify(token, secret);
-        } catch (err) {
-            return res.status(401).json({
-                success: false,
-                message: "Unauthorized: Invalid or expired token"
-            });
+        // Force override body fields
+        if (req.body && typeof req.body === 'object' && !Array.isArray(req.body)) {
+          req.body.branchId = branchId;
+          req.body.year = year;
+          req.body.semesterId = semesterId;
         }
+      }
 
-        const user = await User.findById(decoded.userId).select("-passwordHash");
-
-        if (!user) {
-            return res.status(401).json({
-                success: false,
-                message: "Unauthorized: User no longer exists"
-            });
+      // --- ACTIVE USERS TRACKING ---
+      // Update lastActiveAt if it's been more than 1 minute
+      const User = require('../modules/academic-master/models/User');
+      const userDoc = await User.findById(req.user.id || req.user._id);
+      if (userDoc) {
+        const now = new Date();
+        if (!userDoc.lastActiveAt || (now - userDoc.lastActiveAt) > 60 * 1000) {
+          userDoc.lastActiveAt = now;
+          await userDoc.save({ validateModifiedOnly: true });
         }
+      }
 
-        if (user.status !== "ACTIVE") {
-            return res.status(401).json({
-                success: false,
-                message: "Unauthorized: User account is inactive"
-            });
-        }
-
-        req.user = user;
-        next();
+      return next();
     } catch (error) {
-        return res.status(500).json({
-            success: false,
-            message: "Authentication error: " + error.message
-        });
+      console.error('Auth Middleware Error:', error);
+      return sendError(res, 'Not authorized, token failed', 401);
     }
+  }
+
+  if (!token) {
+    return sendError(res, 'Not authorized, no token', 401);
+  }
 };
 
-const requireRole = (...roles) => {
-    return (req, res, next) => {
-        if (!req.user) {
-            return res.status(401).json({
-                success: false,
-                message: "Unauthorized: Authentication required"
-            });
-        }
-
-        if (!roles.includes(req.user.role)) {
-            return res.status(403).json({
-                success: false,
-                message: `Forbidden: Access restricted to roles [${roles.join(", ")}]`
-            });
-        }
-
-        next();
-    };
-};
-
-const enforceScope = (req, res, next) => {
-    if (!req.user) {
-        return res.status(401).json({
-            success: false,
-            message: "Unauthorized: Authentication required"
-        });
-    }
-
-    const { role, scopeRef } = req.user;
-    req.scopeFilter = {};
-
-    if (role === "ADMIN") {
-        return next();
-    }
-
-    if (role === "PRINCIPAL") {
-        if (scopeRef && scopeRef.type === "CAMPUS" && scopeRef.refId) {
-            req.scopeFilter = { campusId: scopeRef.refId };
-        } else {
-            return res.status(403).json({
-                success: false,
-                message: "Forbidden: Principal user does not have a valid campus scope"
-            });
-        }
-    } else if (role === "HOD") {
-        // HOD has access to ALL BRANCHES, but ONLY YEAR 4
-        req.scopeFilter = { year: 4 };
-    } else if (role === "CTPO") {
-        if (scopeRef && scopeRef.type === "SECTION" && scopeRef.refId) {
-            req.scopeFilter = { sectionId: scopeRef.refId };
-        } else {
-            return res.status(403).json({
-                success: false,
-                message: "Forbidden: CTPO user does not have a valid section scope"
-            });
-        }
-    } else if (role === "COORDINATOR") {
-        // Coordinator has READ access to ALL SUBJECTS
-        req.scopeFilter = {};
-    } else if (role === "STUDENT") {
-        req.scopeFilter = { rollNo: req.user.username };
-    }
-
-    next();
-};
-
-module.exports = {
-    authenticate,
-    requireRole,
-    enforceScope
-};
+module.exports = { protect };

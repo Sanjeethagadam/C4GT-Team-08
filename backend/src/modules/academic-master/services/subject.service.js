@@ -1,41 +1,30 @@
-const Subject = require("../models/Subject");
+const Subject = require('../models/Subject');
+const Semester = require('../models/Semester');
 
-const createSubject = async (data) => {
-    return await Subject.create(data);
-};
+class SubjectService {
+  static async createSubject(data) {
+    const semester = await Semester.findById(data.semesterId);
+    if (!semester) throw new Error('Semester not found');
 
-const createSubjects = async (data) => {
-    return await Subject.insertMany(data);
-};
+    const subject = new Subject(data);
+    return await subject.save();
+  }
 
-const getAllSubjects = async () => {
-    return await Subject.find();
-};
+  static async getSubjects() {
+    return await Subject.find().populate('semesterId');
+  }
 
-const getSubjectById = async (id) => {
-    return await Subject.findById(id);
-};
+  static async updateSubject(id, data) {
+    if (data.semesterId) {
+      const semester = await Semester.findById(data.semesterId);
+      if (!semester) throw new Error('Semester not found');
+    }
+    return await Subject.findByIdAndUpdate(id, data, { new: true, runValidators: true });
+  }
 
-const updateSubject = async (id, data) => {
-    return await Subject.findByIdAndUpdate(
-        id,
-        data,
-        {
-            new: true,
-            runValidators: true
-        }
-    );
-};
-
-const deleteSubject = async (id) => {
+  static async deleteSubject(id) {
     return await Subject.findByIdAndDelete(id);
-};
+  }
+}
 
-module.exports = {
-    createSubject,
-    createSubjects,
-    getAllSubjects,
-    getSubjectById,
-    updateSubject,
-    deleteSubject
-};
+module.exports = SubjectService;

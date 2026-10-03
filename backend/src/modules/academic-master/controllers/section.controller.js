@@ -1,125 +1,53 @@
-const sectionService = require("../services/section.service");
+const SectionService = require('../services/section.service');
+const { sendSuccess, sendError } = require('../../../utils/response.util');
+const { validationResult } = require('express-validator');
 
-const createSection = async (req, res) => {
-    try {
-        const section = await sectionService.createSection(req.body);
+exports.createSection = async (req, res, next) => {
+  try {
+    const errors = validationResult(req);
+    if (!errors.isEmpty()) return sendError(res, 'Validation Error', 400, errors.array());
 
-        res.status(201).json({
-            success: true,
-            data: section
-        });
-    } catch (error) {
-        res.status(400).json({
-            success: false,
-            message: error.message,
-            errors: []
-        });
-    }
+    const section = await SectionService.createSection(req.body);
+    return sendSuccess(res, section, 201);
+  } catch (error) {
+    if (error.code === 11000) return sendError(res, 'Section already exists for this branch and year', 400);
+    if (error.message === 'Branch not found') return sendError(res, error.message, 400);
+    next(error);
+  }
 };
 
-const getAllSections = async (req, res) => {
-    try {
-        const sections = await sectionService.getAllSections();
-
-        res.json({
-            success: true,
-            data: sections
-        });
-    } catch (error) {
-        res.status(500).json({
-            success: false,
-            message: error.message,
-            errors: []
-        });
-    }
+exports.getSections = async (req, res, next) => {
+  try {
+    const sections = await SectionService.getSections();
+    return sendSuccess(res, sections);
+  } catch (error) {
+    next(error);
+  }
 };
 
-const getSectionById = async (req, res) => {
-    try {
-        const section = await sectionService.getSectionById(
-            req.params.id
-        );
+exports.updateSection = async (req, res, next) => {
+  try {
+    const errors = validationResult(req);
+    if (!errors.isEmpty()) return sendError(res, 'Validation Error', 400, errors.array());
 
-        if (!section) {
-            return res.status(404).json({
-                success: false,
-                message: "Section not found",
-                errors: []
-            });
-        }
-
-        res.json({
-            success: true,
-            data: section
-        });
-    } catch (error) {
-        res.status(400).json({
-            success: false,
-            message: error.message,
-            errors: []
-        });
-    }
+    const section = await SectionService.updateSection(req.params.id, req.body);
+    if (!section) return sendError(res, 'Section not found', 404);
+    
+    return sendSuccess(res, section);
+  } catch (error) {
+    if (error.code === 11000) return sendError(res, 'Section already exists for this branch and year', 400);
+    if (error.message === 'Branch not found') return sendError(res, error.message, 400);
+    next(error);
+  }
 };
 
-const updateSection = async (req, res) => {
-    try {
-        const section = await sectionService.updateSection(
-            req.params.id,
-            req.body
-        );
-
-        if (!section) {
-            return res.status(404).json({
-                success: false,
-                message: "Section not found",
-                errors: []
-            });
-        }
-
-        res.json({
-            success: true,
-            data: section
-        });
-    } catch (error) {
-        res.status(400).json({
-            success: false,
-            message: error.message,
-            errors: []
-        });
-    }
-};
-
-const deleteSection = async (req, res) => {
-    try {
-        const section = await sectionService.deleteSection(
-            req.params.id
-        );
-
-        if (!section) {
-            return res.status(404).json({
-                success: false,
-                message: "Section not found",
-                errors: []
-            });
-        }
-
-        res.json({
-            success: true,
-            data: section
-        });
-    } catch (error) {
-        res.status(400).json({
-            success: false,
-            message: error.message,
-            errors: []
-        });
-    }
-};
-
-module.exports = {
-    createSection,
-    getAllSections,
-    getSectionById,
-    updateSection,
-    deleteSection
+exports.deleteSection = async (req, res, next) => {
+  try {
+    const section = await SectionService.deleteSection(req.params.id);
+    if (!section) return sendError(res, 'Section not found', 404);
+    
+    return sendSuccess(res, { message: 'Section deleted successfully' });
+  } catch (error) {
+    next(error);
+  }
 };

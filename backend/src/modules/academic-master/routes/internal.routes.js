@@ -1,10 +1,10 @@
-const express = require("express");
-const { getInternalStudentById } = require("../controllers/internal.controller");
-const { authenticate } = require("../../../middlewares/auth.middleware");
-
+const express = require('express');
 const router = express.Router();
+const studentController = require('../controllers/student.controller');
+const { protect } = require('../../../middlewares/auth.middleware');
 
-router.use(authenticate);
-router.get("/students/:id", getInternalStudentById);
+router.use(protect);
+
+router.get('/students/:id', studentController.getInternalStudentById);
 
 module.exports = router;

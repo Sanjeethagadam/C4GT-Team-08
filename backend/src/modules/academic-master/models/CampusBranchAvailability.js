@@ -1,31 +1,23 @@
-const mongoose = require("mongoose");
+const mongoose = require('mongoose');
 
-const campusBranchAvailabilitySchema = new mongoose.Schema(
-    {
-        campusId: {
-            type: mongoose.Schema.Types.ObjectId,
-            ref: "Campus",
-            required: true
-        },
+const campusBranchAvailabilitySchema = new mongoose.Schema({
+  campusId: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Campus',
+    required: true,
+  },
+  branchId: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Branch',
+    required: true,
+  },
+  isAvailable: {
+    type: Boolean,
+    required: true,
+    default: true,
+  }
+}, { timestamps: true });
 
-        branchId: {
-            type: mongoose.Schema.Types.ObjectId,
-            ref: "Branch",
-            required: true
-        },
+campusBranchAvailabilitySchema.index({ campusId: 1, branchId: 1 }, { unique: true });
 
-        isAvailable: {
-            type: Boolean,
-            required: true,
-            default: true
-        }
-    },
-    {
-        timestamps: true
-    }
-);
-
-module.exports = mongoose.model(
-    "CampusBranchAvailability",
-    campusBranchAvailabilitySchema
-);
+module.exports = mongoose.model('CampusBranchAvailability', campusBranchAvailabilitySchema);

@@ -1,38 +1,30 @@
-const Section = require("../models/Section");
+const Section = require('../models/Section');
+const Branch = require('../models/Branch');
 
-const createSection = async (data) => {
-    return await Section.create(data);
-};
+class SectionService {
+  static async createSection(data) {
+    const branch = await Branch.findById(data.branchId);
+    if (!branch) throw new Error('Branch not found');
 
-const getAllSections = async () => {
-    return await Section.find()
-        .populate("branchId");
-};
+    const section = new Section(data);
+    return await section.save();
+  }
 
-const getSectionById = async (id) => {
-    return await Section.findById(id)
-        .populate("branchId");
-};
+  static async getSections() {
+    return await Section.find().populate('branchId');
+  }
 
-const updateSection = async (id, data) => {
-    return await Section.findByIdAndUpdate(
-        id,
-        data,
-        {
-            new: true,
-            runValidators: true
-        }
-    ).populate("branchId");
-};
+  static async updateSection(id, data) {
+    if (data.branchId) {
+      const branch = await Branch.findById(data.branchId);
+      if (!branch) throw new Error('Branch not found');
+    }
+    return await Section.findByIdAndUpdate(id, data, { new: true, runValidators: true });
+  }
 
-const deleteSection = async (id) => {
+  static async deleteSection(id) {
     return await Section.findByIdAndDelete(id);
-};
+  }
+}
 
-module.exports = {
-    createSection,
-    getAllSections,
-    getSectionById,
-    updateSection,
-    deleteSection
-};
+module.exports = SectionService;

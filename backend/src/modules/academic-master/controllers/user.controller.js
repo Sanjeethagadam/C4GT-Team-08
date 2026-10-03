@@ -1,104 +1,53 @@
-const userService = require("../services/user.service");
+const UserService = require('../services/user.service');
+const { sendSuccess, sendError } = require('../../../utils/response.util');
+const { validationResult } = require('express-validator');
 
-const createUser = async (req, res) => {
-    try {
-        const user = await userService.createUser(req.body);
+exports.createUser = async (req, res, next) => {
+  try {
+    const errors = validationResult(req);
+    if (!errors.isEmpty()) return sendError(res, 'Validation Error', 400, errors.array());
 
-        res.status(201).json({
-            success: true,
-            data: user
-        });
-    } catch (error) {
-        res.status(400).json({
-            success: false,
-            message: error.message
-        });
-    }
+    const user = await UserService.createUser(req.body);
+    const userObj = user.toObject();
+    delete userObj.passwordHash;
+    return sendSuccess(res, userObj, 201);
+  } catch (error) {
+    if (error.code === 11000) return sendError(res, 'Username must be unique', 400);
+    next(error);
+  }
 };
 
-const getAllUsers = async (req, res) => {
-    try {
-        const users = await userService.getAllUsers();
-
-        res.status(200).json({
-            success: true,
-            data: users
-        });
-    } catch (error) {
-        res.status(500).json({
-            success: false,
-            message: error.message
-        });
-    }
+exports.getUsers = async (req, res, next) => {
+  try {
+    const users = await UserService.getUsers();
+    return sendSuccess(res, users);
+  } catch (error) {
+    next(error);
+  }
 };
 
-const getUserById = async (req, res) => {
-    try {
-        const user = await userService.getUserById(req.params.id);
+exports.updateUser = async (req, res, next) => {
+  try {
+    const errors = validationResult(req);
+    if (!errors.isEmpty()) return sendError(res, 'Validation Error', 400, errors.array());
 
-        if (!user) {
-            return res.status(404).json({
-                success: false,
-                message: "User not found"
-            });
-        }
-
-        res.status(200).json({
-            success: true,
-            data: user
-        });
-    } catch (error) {
-        res.status(400).json({
-            success: false,
-            message: error.message
-        });
-    }
+    const user = await UserService.updateUser(req.params.id, req.body);
+    if (!user) return sendError(res, 'User not found', 404);
+    
+    return sendSuccess(res, user);
+  } catch (error) {
+    if (error.code === 11000) return sendError(res, 'Username must be unique', 400);
+    next(error);
+  }
 };
 
-const updateUser = async (req, res) => {
-    try {
-        const user = await userService.updateUser(req.params.id, req.body);
-
-        if (!user) {
-            return res.status(404).json({
-                success: false,
-                message: "User not found"
-            });
-        }
-
-        res.status(200).json({
-            success: true,
-            data: user
-        });
-    } catch (error) {
-        res.status(400).json({
-            success: false,
-            message: error.message
-        });
-    }
-};
-
-const syncStudentUsers = async (req, res) => {
-    try {
-        const result = await userService.syncStudentUsers();
-
-        res.status(200).json({
-            success: true,
-            message: `Student user sync completed. Created ${result.createdCount} users, skipped ${result.skippedCount} existing users.`,
-            data: result
-        });
-    } catch (error) {
-        res.status(500).json({
-            success: false,
-            message: error.message
-        });
-    }
-};
-
-module.exports = {
-    createUser,
-    getAllUsers,
-    getUserById,
-    updateUser,
-    syncStudentUsers
+exports.deleteUser = async (req, res, next) => {
+  try {
+    const user = await UserService.deleteUser(req.params.id);
+    if (!user) return sendError(res, 'User not found', 404);
+    
+    return sendSuccess(res, { message: 'User deleted successfully' });
+  } catch (error) {
+    next(error);
+  }
 };

@@ -1,78 +1,126 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
- 
+
 @layer base {
+  html {
+    font-size: 14.4px; /* 90% comfortable visual density across all rem measurements */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Academic Blue Design System */
+    /* Deep Navy: #021024 -> 215 89% 7% */
+    /* Primary Dark Blue: #052659 -> 216 89% 18% */
+    /* Secondary Blue: #5483B3 -> 210 40% 52% */
+    /* Soft Blue: #7DA0CA -> 213 44% 64% */
+    /* Light Blue: #C1E8FF -> 202 100% 88% */
+
+    --background: 204 60% 98%;
+    --foreground: 215 89% 7%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
- 
+    --card-foreground: 215 89% 7%;
+
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
- 
-    /* Indigo 600 */
-    --primary: 243 75% 59%;
-    --primary-foreground: 210 40% 98%;
- 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
- 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
- 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
- 
+    --popover-foreground: 215 89% 7%;
+
+    --primary: 216 89% 18%;
+    --primary-foreground: 202 100% 96%;
+
+    --secondary: 210 40% 52%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 202 60% 94%;
+    --muted-foreground: 215 35% 42%;
+
+    --accent: 202 100% 92%;
+    --accent-foreground: 216 89% 18%;
+
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 243 75% 59%; /* matching primary */
- 
-    --radius: 0.5rem;
+    --border: 213 44% 86%;
+    --input: 213 44% 86%;
+    --ring: 216 89% 18%;
+
+    --radius: 0.625rem;
+
+    /* Brand explicit tokens */
+    --brand-navy: 215 89% 7%;
+    --brand-dark: 216 89% 18%;
+    --brand-blue: 210 40% 52%;
+    --brand-soft: 213 44% 64%;
+    --brand-light: 202 100% 88%;
   }
- 
+
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
- 
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
- 
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
- 
-    /* Indigo 500 for dark mode */
-    --primary: 243 75% 66%;
-    --primary-foreground: 222.2 47.4% 11.2%;
- 
-    --secondary: 217.2 32.6% 17.5%;
+    --background: 215 89% 7%;
+    --foreground: 202 100% 96%;
+
+    --card: 216 89% 12%;
+    --card-foreground: 202 100% 96%;
+
+    --popover: 216 89% 12%;
+    --popover-foreground: 202 100% 96%;
+
+    --primary: 202 100% 88%;
+    --primary-foreground: 215 89% 7%;
+
+    --secondary: 210 40% 52%;
     --secondary-foreground: 210 40% 98%;
- 
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
- 
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
- 
+
+    --muted: 216 89% 16%;
+    --muted-foreground: 213 44% 64%;
+
+    --accent: 216 89% 22%;
+    --accent-foreground: 202 100% 96%;
+
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
- 
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 243 75% 66%; /* matching primary */
+
+    --border: 216 89% 22%;
+    --input: 216 89% 22%;
+    --ring: 210 40% 52%;
   }
 }
- 
+
 @layer base {
   * {
     @apply border-border;
   }
   body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
   }
+}
+
+@keyframes gentle-float {
+  0%, 100% {
+    transform: translateY(0px) scale(1);
+  }
+  50% {
+    transform: translateY(-4px) scale(1.015);
+  }
+}
+
+.animate-gentle-float {
+  animation: gentle-float 4.5s ease-in-out infinite;
+}
+
+@keyframes pop-in {
+  0% {
+    opacity: 0;
+    transform: scale(0.96) translateY(4px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.animate-pop-in {
+  animation: pop-in 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }

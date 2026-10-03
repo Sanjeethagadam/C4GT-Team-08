@@ -1,36 +1,18 @@
-const AcademicYear = require("../models/AcademicYear");
+const AcademicYear = require('../models/AcademicYear');
 
-const createAcademicYear = async (data) => {
-    return await AcademicYear.create(data);
-};
+class AcademicYearService {
+  static async createAcademicYear(data) {
+    const year = new AcademicYear(data);
+    return await year.save();
+  }
 
-const getAllAcademicYears = async () => {
-    return await AcademicYear.find();
-};
+  static async getAcademicYears() {
+    return await AcademicYear.find().sort({ startDate: -1 });
+  }
 
-const getAcademicYearById = async (id) => {
-    return await AcademicYear.findById(id);
-};
+  static async updateAcademicYear(id, data) {
+    return await AcademicYear.findByIdAndUpdate(id, data, { new: true, runValidators: true });
+  }
+}
 
-const updateAcademicYear = async (id, data) => {
-    return await AcademicYear.findByIdAndUpdate(
-        id,
-        data,
-        {
-            new: true,
-            runValidators: true
-        }
-    );
-};
-
-const deleteAcademicYear = async (id) => {
-    return await AcademicYear.findByIdAndDelete(id);
-};
-
-module.exports = {
-    createAcademicYear,
-    getAllAcademicYears,
-    getAcademicYearById,
-    updateAcademicYear,
-    deleteAcademicYear
-};
+module.exports = AcademicYearService;

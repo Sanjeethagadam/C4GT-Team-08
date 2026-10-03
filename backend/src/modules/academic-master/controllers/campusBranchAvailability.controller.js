@@ -1,126 +1,52 @@
-const availabilityService = require("../services/campusBranchAvailability.service");
+const CampusBranchAvailabilityService = require('../services/campusBranchAvailability.service');
+const { sendSuccess, sendError } = require('../../../utils/response.util');
+const { validationResult } = require('express-validator');
 
-const createAvailability = async (req, res) => {
-    try {
-        const availability =
-            await availabilityService.createAvailability(req.body);
+exports.createAvailability = async (req, res, next) => {
+  try {
+    const errors = validationResult(req);
+    if (!errors.isEmpty()) return sendError(res, 'Validation Error', 400, errors.array());
 
-        res.status(201).json({
-            success: true,
-            data: availability
-        });
-    } catch (error) {
-        res.status(400).json({
-            success: false,
-            message: error.message,
-            errors: []
-        });
-    }
+    const result = await CampusBranchAvailabilityService.createAvailability(req.body);
+    return sendSuccess(res, result, 201);
+  } catch (error) {
+    if (error.code === 11000) return sendError(res, 'Availability mapping already exists for this campus and branch', 400);
+    if (error.message.includes('not found')) return sendError(res, error.message, 400);
+    next(error);
+  }
 };
 
-const getAllAvailability = async (req, res) => {
-    try {
-        const availability =
-            await availabilityService.getAllAvailability();
-
-        res.json({
-            success: true,
-            data: availability
-        });
-    } catch (error) {
-        res.status(500).json({
-            success: false,
-            message: error.message,
-            errors: []
-        });
-    }
+exports.getAvailabilities = async (req, res, next) => {
+  try {
+    const results = await CampusBranchAvailabilityService.getAvailabilities();
+    return sendSuccess(res, results);
+  } catch (error) {
+    next(error);
+  }
 };
 
-const getAvailabilityById = async (req, res) => {
-    try {
-        const availability =
-            await availabilityService.getAvailabilityById(req.params.id);
+exports.updateAvailability = async (req, res, next) => {
+  try {
+    const errors = validationResult(req);
+    if (!errors.isEmpty()) return sendError(res, 'Validation Error', 400, errors.array());
 
-        if (!availability) {
-            return res.status(404).json({
-                success: false,
-                message: "Availability record not found",
-                errors: []
-            });
-        }
-
-        res.json({
-            success: true,
-            data: availability
-        });
-    } catch (error) {
-        res.status(400).json({
-            success: false,
-            message: error.message,
-            errors: []
-        });
-    }
+    const result = await CampusBranchAvailabilityService.updateAvailability(req.params.id, req.body);
+    if (!result) return sendError(res, 'Availability not found', 404);
+    
+    return sendSuccess(res, result);
+  } catch (error) {
+    if (error.code === 11000) return sendError(res, 'Availability mapping already exists for this campus and branch', 400);
+    if (error.message.includes('not found')) return sendError(res, error.message, 400);
+    next(error);
+  }
 };
 
-const updateAvailability = async (req, res) => {
-    try {
-        const availability =
-            await availabilityService.updateAvailability(
-                req.params.id,
-                req.body
-            );
-
-        if (!availability) {
-            return res.status(404).json({
-                success: false,
-                message: "Availability record not found",
-                errors: []
-            });
-        }
-
-        res.json({
-            success: true,
-            data: availability
-        });
-    } catch (error) {
-        res.status(400).json({
-            success: false,
-            message: error.message,
-            errors: []
-        });
-    }
-};
-
-const deleteAvailability = async (req, res) => {
-    try {
-        const availability =
-            await availabilityService.deleteAvailability(req.params.id);
-
-        if (!availability) {
-            return res.status(404).json({
-                success: false,
-                message: "Availability record not found",
-                errors: []
-            });
-        }
-
-        res.json({
-            success: true,
-            data: availability
-        });
-    } catch (error) {
-        res.status(400).json({
-            success: false,
-            message: error.message,
-            errors: []
-        });
-    }
-};
-
-module.exports = {
-    createAvailability,
-    getAllAvailability,
-    getAvailabilityById,
-    updateAvailability,
-    deleteAvailability
+exports.deleteAvailability = async (req, res, next) => {
+  try {
+    const result = await CampusBranchAvailabilityService.deleteAvailability(req.params.id);
+    return sendSuccess(res, result);
+  } catch (error) {
+    if (error.message.includes('not found')) return sendError(res, error.message, 404);
+    next(error);
+  }
 };

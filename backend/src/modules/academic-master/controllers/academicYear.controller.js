@@ -1,126 +1,50 @@
-const academicYearService = require("../services/academicYear.service");
+const AcademicYearService = require('../services/academicYear.service');
+const { sendSuccess, sendError } = require('../../../utils/response.util');
+const { validationResult } = require('express-validator');
 
-const createAcademicYear = async (req, res) => {
-    try {
-        const academicYear =
-            await academicYearService.createAcademicYear(req.body);
+exports.createAcademicYear = async (req, res, next) => {
+  try {
+    const errors = validationResult(req);
+    if (!errors.isEmpty()) return sendError(res, 'Validation Error', 400, errors.array());
 
-        res.status(201).json({
-            success: true,
-            data: academicYear
-        });
-    } catch (error) {
-        res.status(400).json({
-            success: false,
-            message: error.message,
-            errors: []
-        });
+    const { startDate, endDate } = req.body;
+    if (new Date(startDate) >= new Date(endDate)) {
+      return sendError(res, 'startDate must be before endDate', 400);
     }
+
+    const year = await AcademicYearService.createAcademicYear(req.body);
+    return sendSuccess(res, year, 201);
+  } catch (error) {
+    if (error.code === 11000) return sendError(res, 'Academic year code already exists', 400);
+    next(error);
+  }
 };
 
-const getAllAcademicYears = async (req, res) => {
-    try {
-        const academicYears =
-            await academicYearService.getAllAcademicYears();
-
-        res.json({
-            success: true,
-            data: academicYears
-        });
-    } catch (error) {
-        res.status(500).json({
-            success: false,
-            message: error.message,
-            errors: []
-        });
-    }
+exports.getAcademicYears = async (req, res, next) => {
+  try {
+    const years = await AcademicYearService.getAcademicYears();
+    return sendSuccess(res, years);
+  } catch (error) {
+    next(error);
+  }
 };
 
-const getAcademicYearById = async (req, res) => {
-    try {
-        const academicYear =
-            await academicYearService.getAcademicYearById(req.params.id);
+exports.updateAcademicYear = async (req, res, next) => {
+  try {
+    const errors = validationResult(req);
+    if (!errors.isEmpty()) return sendError(res, 'Validation Error', 400, errors.array());
 
-        if (!academicYear) {
-            return res.status(404).json({
-                success: false,
-                message: "Academic year not found",
-                errors: []
-            });
-        }
-
-        res.json({
-            success: true,
-            data: academicYear
-        });
-    } catch (error) {
-        res.status(400).json({
-            success: false,
-            message: error.message,
-            errors: []
-        });
+    const { startDate, endDate } = req.body;
+    if (startDate && endDate && new Date(startDate) >= new Date(endDate)) {
+      return sendError(res, 'startDate must be before endDate', 400);
     }
-};
 
-const updateAcademicYear = async (req, res) => {
-    try {
-        const academicYear =
-            await academicYearService.updateAcademicYear(
-                req.params.id,
-                req.body
-            );
-
-        if (!academicYear) {
-            return res.status(404).json({
-                success: false,
-                message: "Academic year not found",
-                errors: []
-            });
-        }
-
-        res.json({
-            success: true,
-            data: academicYear
-        });
-    } catch (error) {
-        res.status(400).json({
-            success: false,
-            message: error.message,
-            errors: []
-        });
-    }
-};
-
-const deleteAcademicYear = async (req, res) => {
-    try {
-        const academicYear =
-            await academicYearService.deleteAcademicYear(req.params.id);
-
-        if (!academicYear) {
-            return res.status(404).json({
-                success: false,
-                message: "Academic year not found",
-                errors: []
-            });
-        }
-
-        res.json({
-            success: true,
-            data: academicYear
-        });
-    } catch (error) {
-        res.status(400).json({
-            success: false,
-            message: error.message,
-            errors: []
-        });
-    }
-};
-
-module.exports = {
-    createAcademicYear,
-    getAllAcademicYears,
-    getAcademicYearById,
-    updateAcademicYear,
-    deleteAcademicYear
+    const year = await AcademicYearService.updateAcademicYear(req.params.id, req.body);
+    if (!year) return sendError(res, 'Academic year not found', 404);
+    
+    return sendSuccess(res, year);
+  } catch (error) {
+    if (error.code === 11000) return sendError(res, 'Academic year code already exists', 400);
+    next(error);
+  }
 };
